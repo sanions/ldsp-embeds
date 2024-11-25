@@ -1,0 +1,1594 @@
+Sentence1,Sentence2
+"""There are three apples on the table."""," ""There are many apples on the table."""
+"""5 people were in the room"""," ""30 people were in the room"""
+"""I ate two cookies."""," ""I ate several cookies."""
+"""She has one cat."""," ""She has numerous cats."""
+"""He bought four books."""," ""He bought a few books."""
+"""There were ten cars in the parking lot."""," ""There were a lot of cars in the parking lot."""
+"""Only two students passed the exam."""," ""Few students passed the exam."""
+"""We saw five birds."""," ""We saw a couple of birds."""
+"""The garden has seven roses."""," ""The garden has some roses."""
+"""He drank one glass of water."""," ""He drank a lot of water."""
+"""They found two seashells."""," ""They found a handful of seashells."""
+"""There were twelve chairs in the room."""," ""There were plenty of chairs in the room."""
+"""I have three pairs of shoes."""," ""I have several pairs of shoes."""
+"""She baked six cakes."""," ""She baked many cakes."""
+"""He read two chapters."""," ""He read a number of chapters."""
+"""There are twenty trees in the forest."""," ""There are countless trees in the forest."""
+"""The bowl has five oranges."""," ""The bowl has a few oranges."""
+"""I bought three bananas."""," ""I bought some bananas."""
+"""She collected four stamps."""," ""She collected a small number of stamps."""
+"""He wrote ten pages."""," ""He wrote quite a few pages."""
+"""There are seven days in a week."""," ""There are a certain number of days in a week."""
+"""They found two coins."""," ""They found some coins."""
+"""The store has six apples."""," ""The store has a limited number of apples."""
+"""We ate four slices of pizza."""," ""We ate quite a few slices of pizza."""
+"""The team scored two goals."""," ""The team scored a few goals."""
+"""She sang three songs."""," ""She sang a couple of songs."""
+"""He answered five questions."""," ""He answered several questions."""
+"""There are ten stars in the sky."""," ""There are many stars in the sky."""
+"""I have three dollars."""," ""I have a little money."""
+"""She walked two miles."""," ""She walked a short distance."""
+"""He made four calls."""," ""He made a few calls."""
+"""There are five birds in the tree."""," ""There are some birds in the tree."""
+"""We saw two movies."""," ""We saw a couple of movies."""
+"""They bought three houses."""," ""They bought a few houses."""
+"""The teacher graded ten papers."""," ""The teacher graded many papers."""
+"""He ate two sandwiches."""," ""He ate several sandwiches."""
+"""She drank three cups of coffee."""," ""She drank a lot of coffee."""
+"""There are twelve months in a year."""," ""There are a number of months in a year."""
+"""I received three emails."""," ""I received some emails."""
+"""She wore two bracelets."""," ""She wore a few bracelets."""
+"""He built four birdhouses."""," ""He built a number of birdhouses."""
+"""There are ten players on the team."""," ""There are many players on the team."""
+"""I read two books."""," ""I read a couple of books."""
+"""She baked four pies."""," ""She baked several pies."""
+"""He planted five trees."""," ""He planted some trees."""
+"""There are twenty students in the class."""," ""There are numerous students in the class."""
+"""I lost three buttons."""," ""I lost a few buttons."""
+"""She found four shells."""," ""She found some shells."""
+"""He collected seven stamps."""," ""He collected a small collection of stamps."""
+"""There are six flowers in the vase."""," ""There are several flowers in the vase."""
+"""I bought three shirts."""," ""I bought a few shirts."""
+"""She read four magazines."""," ""She read quite a few magazines."""
+"""He wrote five letters."""," ""He wrote some letters."""
+"""There were ten people at the party."""," ""There were many people at the party."""
+"""I ate two pieces of cake."""," ""I ate a small amount of cake."""
+"""She drank three glasses of juice."""," ""She drank a lot of juice."""
+"""He spent four hours studying."""," ""He spent many hours studying."""
+"""There were five cars in the garage."""," ""There were some cars in the garage."""
+"""I answered two questions correctly."""," ""I answered a few questions correctly."""
+"""She baked three cookies."""," ""She baked a couple of cookies."""
+"""He wrote two poems."""," ""He wrote a few poems."""
+"""There are seven days in a week."""," ""There are a fixed number of days in a week."""
+"""I have three pens."""," ""I have some writing instruments."""
+"""She bought four dresses."""," ""She bought some clothing items."""
+"""He read two articles."""," ""He read a couple of articles."""
+"""There are ten apples in the basket."""," ""There are several apples in the basket."""
+"""I ate two slices of bread."""," ""I ate a couple of slices of bread."""
+"""She drank three cups of tea."""," ""She drank some tea."""
+"""He wrote two songs."""," ""He wrote a few songs."""
+"""There are five birds singing."""," ""There are several birds singing."""
+"""I have three dogs."""," ""I have some pets."""
+"""She bought four pairs of socks."""," ""She bought some hosiery."""
+"""He read two chapters of the book."""," ""He read a portion of the book."""
+"""There are ten fish in the pond."""," ""There are numerous fish in the pond."""
+"""I ate two bowls of soup."""," ""I ate several bowls of soup."""
+"""She drank three bottles of water."""," ""She drank a large quantity of water."""
+"""He wrote two essays."""," ""He wrote a few essays."""
+"""There are five houses on the street."""," ""There are a number of houses on the street."""
+"""I have three cats."""," ""I have some feline companions."""
+"""She bought four pairs of pants."""," ""She bought a few pairs of pants."""
+"""He read two novels."""," ""He read a couple of novels."""
+"""There are ten books on the shelf."""," ""There are many books on the shelf."""
+"""The farmer has 20 sheep."""," ""The farmer has many sheep."""
+"""There are 15 birds in the tree."""," ""There are several birds in the tree."""
+"""I received 5 emails."""," ""I received a handful of emails."""
+"""She baked 12 cookies."""," ""She baked dozens of cookies."""
+"""He planted 30 trees."""," ""He planted numerous trees."""
+"""There are 10 cars in the parking lot."""," ""There are a lot of cars in the parking lot."""
+"""I read 2 chapters."""," ""I read a small portion of the book."""
+"""She ate 6 apples."""," ""She ate a few apples."""
+"""He drank 4 glasses of water."""," ""He drank quite a bit of water."""
+"""There were 100 people at the concert."""," ""There was a huge crowd at the concert."""
+"""I collected 15 stamps."""," ""I have a small collection of stamps."""
+"""She wrote 7 pages."""," ""She wrote a few pages."""
+"""He answered 8 questions correctly."""," ""He answered most of the questions correctly."""
+"""There are 50 stars visible."""," ""There are countless stars in the sky."""
+"""I bought 3 shirts."""," ""I bought some new shirts."""
+"""She baked 2 cakes."""," ""She baked a couple of cakes."""
+"""He planted 4 flowers."""," ""He planted a few flowers."""
+"""There are 25 students in the class."""," ""There are a large number of students in the class."""
+"""I have 2 dogs."""," ""I have a couple of dogs."""
+"""She read 5 books."""," ""She read several books."""
+"""He wrote 3 poems."""," ""He wrote some poems."""
+"""There were 12 chairs in the room."""," ""There were plenty of chairs in the room."""
+"""I ate 4 slices of pizza."""," ""I ate a fair amount of pizza."""
+"""She drank 3 cups of coffee."""," ""She drank a considerable amount of coffee."""
+"""He spent 5 hours working."""," ""He spent a good chunk of the day working."""
+"""There are 20 houses on the street."""," ""There are approximately twenty houses on the street."""
+"""I have 6 pens."""," ""I have a few writing implements."""
+"""She bought 4 dresses."""," ""She bought some new outfits."""
+"""He read 3 articles."""," ""He read some articles."""
+"""There are 15 apples in the basket."""," ""There's a good amount of apples in the basket."""
+"""I ate 2 slices of bread."""," ""I ate a small portion of the bread."""
+"""She drank 3 cups of tea."""," ""She drank some tea."""
+"""He wrote 2 songs."""," ""He wrote a couple of songs."""
+"""There are 10 birds singing."""," ""There's a chorus of birds singing."""
+"""I have 7 cats."""," ""I have many cats."""
+"""She bought 8 pairs of socks."""," ""She bought lots of socks."""
+"""He read 4 chapters of the book."""," ""He read a significant portion of the book."""
+"""There are 30 fish in the pond."""," ""There are numerous fish in the pond."""
+"""I ate 5 bowls of soup."""," ""I ate a large quantity of soup."""
+"""She drank 6 bottles of water."""," ""She drank a great deal of water."""
+"""He wrote 4 essays."""," ""He wrote several essays."""
+"""There are 25 houses on the street."""," ""There are quite a few houses on the street."""
+"""I have 8 cats."""," ""I have a lot of cats."""
+"""She bought 5 pairs of pants."""," ""She bought several pairs of pants."""
+"""He read 3 novels."""," ""He read some novels."""
+"""There are 100 books on the shelf."""," ""There are a vast number of books on the shelf."""
+"""The team scored 3 goals."""," ""The team scored a few goals."""
+"""The chef prepared 12 dishes."""," ""The chef prepared many dishes."""
+"""The store sold 20 shirts."""," ""The store sold a significant number of shirts."""
+"""The garden contains 5 roses."""," ""The garden has several roses."""
+"""The library has 1000 books."""," ""The library houses thousands of books."""
+"""The artist painted 15 pictures."""," ""The artist created numerous paintings."""
+"""The farmer harvested 50 bushels of wheat."""," ""The farmer harvested a substantial amount of wheat."""
+"""The teacher assigned 10 problems."""," ""The teacher assigned several problems."""
+"""The student answered 5 questions correctly."""," ""The student got most of the questions correct."""
+"""The musician played 12 songs."""," ""The musician played a number of songs."""
+"""The company hired 25 employees."""," ""The company hired many employees."""
+"""The author wrote 3 chapters."""," ""The author wrote several chapters."""
+"""The scientist conducted 10 experiments."""," ""The scientist conducted many experiments."""
+"""The baker sold 50 loaves of bread."""," ""The baker sold a large quantity of bread."""
+"""The store had 20 apples."""," ""The store had quite a few apples."""
+"""The park contained 100 trees."""," ""The park had countless trees."""
+"""The classroom held 30 students."""," ""The classroom was filled with students."""
+"""The concert attracted 500 people."""," ""The concert drew a large crowd."""
+"""The museum displayed 50 artifacts."""," ""The museum displayed many artifacts."""
+"""The library held 2000 books."""," ""The library housed numerous books."""
+"""The restaurant served 100 customers."""," ""The restaurant served many customers."""
+"""The school enrolled 500 students."""," ""The school enrolled a large number of students."""
+"""The city had 1 million residents."""," ""The city had a huge population."""
+"""The company produced 2000 products."""," ""The company produced thousands of products."""
+"""The farm raised 1000 chickens."""," ""The farm raised a large flock of chickens."""
+"""There are 75 birds in the sky."""," ""There are many birds in the sky."""
+"""I ate 12 cookies."""," ""I ate a dozen cookies."""
+"""She read 25 books."""," ""She read numerous books."""
+"""He wrote 50 pages."""," ""He wrote a significant number of pages."""
+"""There were 20 cars in the parking lot."""," ""There were a good number of cars in the parking lot."""
+"""I saw 15 squirrels."""," ""I saw several squirrels."""
+"""She collected 30 stamps."""," ""She collected a large collection of stamps."""
+"""He planted 45 trees."""," ""He planted dozens of trees."""
+"""There were 100 people at the party."""," ""There was a huge crowd at the party."""
+"""I answered 22 questions correctly."""," ""I answered most of the questions correctly."""
+"""She baked 36 cupcakes."""," ""She baked a lot of cupcakes."""
+"""He spent 15 hours studying."""," ""He spent many hours studying."""
+"""There are 50 stars visible."""," ""There are countless stars in the sky."""
+"""I bought 6 pairs of shoes."""," ""I bought several pairs of shoes."""
+"""She wrote 10 poems."""," ""She wrote quite a few poems."""
+"""He planted 8 flowers."""," ""He planted a few flowers."""
+"""There are 75 students in the class."""," ""There are numerous students in the class."""
+"""I have 4 dogs."""," ""I have a few dogs."""
+"""She read 15 books."""," ""She read a considerable number of books."""
+"""He wrote 12 essays."""," ""He wrote several essays."""
+"""There were 100 chairs in the auditorium."""," ""There were ample chairs in the auditorium."""
+"""I ate 10 slices of pizza."""," ""I ate a large amount of pizza."""
+"""She drank 8 cups of coffee."""," ""She drank a lot of coffee."""
+"""He spent 20 hours working."""," ""He spent a considerable amount of time working."""
+"""There are 50 houses on the street."""," ""There are approximately fifty houses on the street."""
+"""I have 12 pens."""," ""I have quite a few pens."""
+"""She bought 10 dresses."""," ""She bought many dresses."""
+"""He read 18 articles."""," ""He read a good number of articles."""
+"""There are 75 apples in the basket."""," ""There's a large quantity of apples in the basket."""
+"""I ate 8 slices of bread."""," ""I ate a large portion of the bread."""
+"""She drank 10 cups of tea."""," ""She drank a significant amount of tea."""
+"""He wrote 15 songs."""," ""He wrote a good number of songs."""
+"""There are 60 birds singing."""," ""There is a large flock of birds singing."""
+"""I have 10 cats."""," ""I have many cats."""
+"""She bought 12 pairs of socks."""," ""She bought many pairs of socks."""
+"""He read 6 chapters of the book."""," ""He read a substantial part of the book."""
+"""There are 80 fish in the pond."""," ""There are a multitude of fish in the pond."""
+"""I ate 15 bowls of soup."""," ""I ate a huge quantity of soup."""
+"""She drank 12 bottles of water."""," ""She drank an excessive amount of water."""
+"""He wrote 20 essays."""," ""He wrote many essays."""
+"""There are 100 houses on the street."""," ""There are numerous houses on the street."""
+"""I have 15 cats."""," ""I have a lot of cats."""
+"""She bought 8 pairs of pants."""," ""She bought several pairs of pants."""
+"""He read 10 novels."""," ""He read a good number of novels."""
+"""There are 200 books on the shelf."""," ""There are a vast number of books on the shelf."""
+"""The team scored 5 goals."""," ""The team scored several goals."""
+"""The chef prepared 25 dishes."""," ""The chef prepared many dishes."""
+"""The store sold 50 shirts."""," ""The store sold a large number of shirts."""
+"""The garden contains 10 roses."""," ""The garden has many roses."""
+"""The library has 2000 books."""," ""The library has thousands of books."""
+"""The artist painted 30 pictures."""," ""The artist created many paintings."""
+"""The farmer harvested 100 bushels of wheat."""," ""The farmer harvested a large amount of wheat."""
+"""The teacher assigned 15 problems."""," ""The teacher assigned many problems."""
+"""The student answered 10 questions correctly."""," ""The student answered a large portion of the questions correctly."""
+"""The musician played 20 songs."""," ""The musician played numerous songs."""
+"""The company hired 50 employees."""," ""The company hired many employees."""
+"""The author wrote 5 chapters."""," ""The author wrote several chapters."""
+"""The scientist conducted 15 experiments."""," ""The scientist conducted many experiments."""
+"""The baker sold 100 loaves of bread."""," ""The baker sold a large quantity of bread."""
+"""The store had 30 apples."""," ""The store had many apples."""
+"""The park contained 150 trees."""," ""The park had numerous trees."""
+"""The classroom held 35 students."""," ""The classroom was full of students."""
+"""The concert attracted 1000 people."""," ""The concert drew a huge crowd."""
+"""The museum displayed 100 artifacts."""," ""The museum displayed many artifacts."""
+"""The library held 5000 books."""," ""The library housed thousands of books."""
+"""The restaurant served 200 customers."""," ""The restaurant served many customers."""
+"""The school enrolled 750 students."""," ""The school enrolled a large number of students."""
+"""The city had 2 million residents."""," ""The city boasted a huge population."""
+"""The company produced 5000 products."""," ""The company produced many products."""
+"""The farm raised 2000 chickens."""," ""The farm raised a large number of chickens."""
+"""The bakery sold 100 croissants."""," ""The bakery sold many croissants."""
+"""The orchard produced 500 apples."""," ""The orchard produced a large harvest of apples."""
+"""There were 150 birds flying."""," ""There were numerous birds flying."""
+"""I ate 20 cookies."""," ""I ate a large number of cookies."""
+"""She read 40 books."""," ""She read many books."""
+"""He wrote 75 pages."""," ""He wrote a substantial amount of text."""
+"""There were 30 cars in the parking lot."""," ""There were quite a few cars in the parking lot."""
+"""I saw 25 squirrels."""," ""I saw several squirrels."""
+"""She collected 50 stamps."""," ""She has an extensive stamp collection."""
+"""He planted 60 trees."""," ""He planted a large number of trees."""
+"""There were 200 people at the party."""," ""There was a massive crowd at the party."""
+"""I answered 30 questions correctly."""," ""I answered the majority of the questions correctly."""
+"""She baked 50 cupcakes."""," ""She baked a great many cupcakes."""
+"""He spent 25 hours studying."""," ""He spent a considerable amount of time studying."""
+"""There are 100 stars visible."""," ""There are countless stars in the night sky."""
+"""I bought 8 pairs of shoes."""," ""I bought several pairs of shoes."""
+"""She wrote 15 poems."""," ""She wrote a collection of poems."""
+"""He planted 12 flowers."""," ""He planted a few flowers."""
+"""There are 100 students in the class."""," ""The classroom is full of students."""
+"""I have 6 dogs."""," ""I have several dogs."""
+"""She read 20 books."""," ""She read many books."""
+"""He wrote 18 essays."""," ""He wrote a significant number of essays."""
+"""There were 150 chairs in the auditorium."""," ""There were plenty of chairs in the auditorium."""
+"""I ate 15 slices of pizza."""," ""I ate a lot of pizza."""
+"""She drank 12 cups of coffee."""," ""She drank a large amount of coffee."""
+"""He spent 30 hours working."""," ""He dedicated a significant portion of his time to work."""
+"""There are 75 houses on the street."""," ""There are approximately seventy-five houses on the street."""
+"""I have 18 pens."""," ""I have many pens."""
+"""She bought 15 dresses."""," ""She bought a large number of dresses."""
+"""He read 25 articles."""," ""He read quite a few articles."""
+"""There are 100 apples in the basket."""," ""There is a large quantity of apples in the basket."""
+"""I ate 12 slices of bread."""," ""I ate a significant portion of the bread."""
+"""She drank 15 cups of tea."""," ""She drank a large amount of tea."""
+"""He wrote 20 songs."""," ""He wrote numerous songs."""
+"""There are 80 birds singing."""," ""A large flock of birds are singing."""
+"""I have 12 cats."""," ""I have many cats."""
+"""She bought 18 pairs of socks."""," ""She bought lots of socks."""
+"""He read 8 chapters of the book."""," ""He read a substantial part of the book."""
+"""There are 100 fish in the pond."""," ""The pond is teeming with fish."""
+"""I ate 20 bowls of soup."""," ""I ate an enormous amount of soup."""
+"""She drank 18 bottles of water."""," ""She drank a vast quantity of water."""
+"""He wrote 25 essays."""," ""He wrote a large number of essays."""
+"""There are 150 houses on the street."""," ""There are countless houses on the street."""
+"""I have 20 cats."""," ""I have a lot of cats."""
+"""She bought 10 pairs of pants."""," ""She bought several pairs of pants."""
+"""He read 15 novels."""," ""He read many novels."""
+"""There are 300 books on the shelf."""," ""There are a huge number of books on the shelf."""
+"""The team scored 7 goals."""," ""The team scored many goals."""
+"""The chef prepared 35 dishes."""," ""The chef prepared a large number of dishes."""
+"""The store sold 75 shirts."""," ""The store sold a considerable number of shirts."""
+"""The garden contains 15 roses."""," ""The garden has many roses."""
+"""The library has 5000 books."""," ""The library has thousands of books."""
+"""The artist painted 40 pictures."""," ""The artist created many paintings."""
+"""The farmer harvested 150 bushels of wheat."""," ""The farmer had a bountiful wheat harvest."""
+"""The teacher assigned 20 problems."""," ""The teacher assigned numerous problems."""
+"""The student answered 15 questions correctly."""," ""The student answered most of the questions correctly."""
+"""The musician played 30 songs."""," ""The musician played a wide variety of songs."""
+"""The company hired 75 employees."""," ""The company hired many employees."""
+"""The author wrote 7 chapters."""," ""The author wrote a large number of chapters."""
+"""The scientist conducted 20 experiments."""," ""The scientist conducted many experiments."""
+"""The baker sold 150 loaves of bread."""," ""The baker sold a very large quantity of bread."""
+"""The store had 40 apples."""," ""The store had many apples."""
+"""The park contained 200 trees."""," ""The park had a large number of trees."""
+"""The classroom held 40 students."""," ""The classroom was nearly full."""
+"""The concert attracted 1500 people."""," ""The concert drew a massive crowd."""
+"""The museum displayed 150 artifacts."""," ""The museum displayed many artifacts."""
+"""The library held 10000 books."""," ""The library housed a vast collection of books."""
+"""The restaurant served 300 customers."""," ""The restaurant served many customers."""
+"""The school enrolled 1000 students."""," ""The school enrolled a large number of students."""
+"""The city had 3 million residents."""," ""The city had a very large population."""
+"""The company produced 10000 products."""," ""The company produced a huge number of products."""
+"""The farm raised 3000 chickens."""," ""The farm raised a massive flock of chickens."""
+"""The shop sold 200 hats."""," ""The shop sold many hats."""
+"""The factory produced 5000 cars."""," ""The factory produced a large number of cars."""
+"""There were 200 birds singing in the trees."""," ""There was a chorus of birds singing in the trees."""
+"""I baked 30 cookies for the party."""," ""I baked many cookies for the party."""
+"""She read over 50 books this year."""," ""She read a vast number of books this year."""
+"""He wrote approximately 100 pages of his novel."""," ""He wrote a substantial portion of his novel."""
+"""There were at least 40 cars in the parking lot."""," ""The parking lot was nearly full of cars."""
+"""I saw more than 30 squirrels in the park."""," ""I saw numerous squirrels in the park."""
+"""She collected around 75 stamps."""," ""She has a sizeable stamp collection."""
+"""He planted close to 80 trees in the orchard."""," ""He planted a great many trees in the orchard."""
+"""There were over 300 people at the concert."""," ""A huge crowd attended the concert."""
+"""I answered 40 questions correctly on the test."""," ""I got most of the test questions correct."""
+"""She baked about 70 cupcakes for the bake sale."""," ""She baked a large quantity of cupcakes for the bake sale."""
+"""He spent roughly 20 hours working on the project."""," ""He devoted considerable time to the project."""
+"""There were nearly 150 stars visible in the clear night sky."""," ""Countless stars were visible in the clear night sky."""
+"""I bought more than 10 pairs of shoes last year."""," ""I bought several pairs of shoes last year."""
+"""She wrote at least 20 poems."""," ""She wrote many poems."""
+"""He planted approximately 15 flowers in his garden."""," ""He planted a few flowers in his garden."""
+"""There were close to 150 students in the large lecture hall."""," ""The lecture hall was packed with students."""
+"""I now own 8 dogs."""," ""I own several dogs."""
+"""She read almost 30 books during her vacation."""," ""She read a significant number of books during her vacation."""
+"""He wrote around 25 essays for his college application."""," ""He wrote many essays for his college application."""
+"""There were approximately 175 chairs in the large auditorium."""," ""There were ample chairs in the large auditorium."""
+"""I ate over 20 slices of pizza at the party."""," ""I ate a large quantity of pizza at the party."""
+"""She drank more than 15 cups of coffee yesterday."""," ""She drank an excessive amount of coffee yesterday."""
+"""He spent about 35 hours working overtime this week."""," ""He worked a significant amount of overtime this week."""
+"""There are roughly 100 houses on this street."""," ""There are approximately 100 houses on this street."""
+"""I have at least 20 pens."""," ""I have many pens."""
+"""She bought close to 25 dresses last season."""," ""She bought many dresses last season."""
+"""He read over 30 articles on the subject."""," ""He read a considerable number of articles on the subject."""
+"""There are around 150 apples in this basket."""," ""There are a large number of apples in this basket."""
+"""I ate nearly 15 slices of bread."""," ""I ate a large portion of bread."""
+"""She drank approximately 20 cups of tea."""," ""She drank a lot of tea."""
+"""He wrote close to 30 songs."""," ""He has written a large number of songs."""
+"""There were over 90 birds singing in the morning."""," ""A large flock of birds were singing in the morning."""
+"""I have almost 15 cats."""," ""I have many cats."""
+"""She bought about 20 pairs of socks."""," ""She bought many pairs of socks."""
+"""He read at least 10 chapters of the book."""," ""He read a good portion of the book."""
+"""There are more than 120 fish in the pond."""," ""There are a lot of fish in the pond."""
+"""I ate over 25 bowls of soup."""," ""I consumed a large amount of soup."""
+"""She drank around 22 bottles of water."""," ""She drank a tremendous amount of water."""
+"""He wrote approximately 35 essays."""," ""He wrote many essays."""
+"""There are at least 200 houses on this street."""," ""Many houses are situated on this street."""
+"""I have more than 25 cats."""," ""I have a large number of cats."""
+"""She bought about 15 pairs of pants."""," ""She bought some pairs of pants."""
+"""He read more than 20 novels."""," ""He has read many novels."""
+"""There are approximately 400 books on the shelf."""," ""There are numerous books on the shelf."""
+"""The team scored at least 9 goals."""," ""The team scored many goals."""
+"""The chef prepared over 40 dishes."""," ""The chef prepared a wide array of dishes."""
+"""The store sold more than 80 shirts."""," ""The store sold a significant number of shirts."""
+"""The garden contains about 20 roses."""," ""The garden has a lot of roses."""
+"""The library has over 7000 books."""," ""The library houses a vast collection of books."""
+"""The artist painted approximately 50 pictures."""," ""The artist created many paintings."""
+"""The farmer harvested more than 200 bushels of wheat."""," ""The farmer had a very large wheat harvest."""
+"""The teacher assigned about 25 problems."""," ""The teacher assigned numerous problems."""
+"""The student answered more than 18 questions correctly."""," ""The student performed well on the test."""
+"""The musician played at least 40 songs."""," ""The musician played many songs."""
+"""The company hired approximately 100 employees."""," ""The company hired many employees."""
+"""The author wrote around 9 chapters."""," ""The author wrote several chapters."""
+"""The scientist conducted over 30 experiments."""," ""The scientist conducted numerous experiments."""
+"""The baker sold more than 175 loaves of bread."""," ""The baker sold a large quantity of bread."""
+"""The store had approximately 50 apples."""," ""The store had many apples."""
+"""The park contained over 250 trees."""," ""The park had a large number of trees."""
+"""The classroom held about 45 students."""," ""The classroom was quite full."""
+"""The concert attracted more than 2000 people."""," ""The concert was very well-attended."""
+"""The museum displayed approximately 200 artifacts."""," ""The museum displayed many artifacts."""
+"""The library held over 12000 books."""," ""The library had a vast collection of books."""
+"""The restaurant served about 400 customers."""," ""The restaurant served many customers."""
+"""The school enrolled over 1500 students."""," ""The school had a large student body."""
+"""The city had approximately 4 million residents."""," ""The city had a large population."""
+"""The company produced over 15000 products."""," ""The company produced a huge number of products."""
+"""The farm raised more than 4000 chickens."""," ""The farm raised a large flock of chickens."""
+"""The tailor made 150 suits."""," ""The tailor made many suits."""
+"""The factory produced about 7000 cars."""," ""The factory produced a large quantity of cars."""
+"""There were approximately 300 birds migrating south."""," ""A large flock of birds were migrating south.""",
+"""I baked over 40 cookies for the school bake sale."""," ""I baked many cookies for the school bake sale.""",
+"""She read more than 60 books this year."""," ""She read a considerable number of books this year.""",
+"""He wrote close to 150 pages of his dissertation."""," ""He wrote a substantial amount of his dissertation.""",
+"""There were at least 50 cars parked illegally."""," ""Many cars were parked illegally.""",
+"""I saw over 40 squirrels scampering in the park."""," ""I saw numerous squirrels in the park.""",
+"""She collected nearly 100 stamps."""," ""She has a very large stamp collection.""",
+"""He planted approximately 90 trees on his property."""," ""He planted a significant number of trees on his property.""",
+"""There were more than 400 people attending the conference."""," ""The conference had a large attendance.""",
+"""I answered at least 50 questions correctly on the exam."""," ""I answered a majority of the questions correctly on the exam.""",
+"""She baked around 80 cupcakes for her daughter's birthday."""," ""She baked a lot of cupcakes for her daughter's birthday.""",
+"""He spent over 30 hours working on his presentation."""," ""He dedicated many hours to his presentation.""",
+"""There were nearly 200 stars visible in the night sky."""," ""Countless stars were visible in the night sky.""",
+"""I bought more than 12 pairs of shoes this year."""," ""I bought quite a few pairs of shoes this year.""",
+"""She wrote over 25 poems."""," ""She wrote many poems.""",
+"""He planted approximately 20 flowers in his garden."""," ""He planted some flowers in his garden.""",
+"""There were close to 200 students participating in the event."""," ""Many students participated in the event.""",
+"""I have 10 dogs."""," ""I have many dogs.""",
+"""She read at least 40 books last year."""," ""She read a lot of books last year.""",
+"""He wrote over 30 essays for his application."""," ""He wrote numerous essays for his application.""",
+"""There were approximately 250 chairs set up for the meeting."""," ""There were plenty of chairs for the meeting.""",
+"""I ate more than 25 slices of pizza."""," ""I ate a large amount of pizza.""",
+"""She drank over 20 cups of coffee."""," ""She drank a lot of coffee.""",
+"""He spent about 45 hours working this week."""," ""He put in many hours of work this week.""",
+"""There are roughly 150 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 25 pens."""," ""I have many pens.""",
+"""She bought close to 30 dresses."""," ""She bought a lot of dresses.""",
+"""He read approximately 40 articles."""," ""He read numerous articles.""",
+"""There are around 200 apples in the crate."""," ""There are a lot of apples in the crate.""",
+"""I ate nearly 20 slices of bread."""," ""I ate a substantial amount of bread.""",
+"""She drank close to 25 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 40 songs."""," ""He wrote many songs.""",
+"""There were approximately 100 birds singing."""," ""Many birds were singing.""",
+"""I have more than 18 cats."""," ""I have a large number of cats.""",
+"""She bought about 25 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 12 chapters."""," ""He read a significant portion of the book.""",
+"""There are more than 150 fish in the pond."""," ""The pond is full of fish.""",
+"""I ate over 30 bowls of soup."""," ""I ate a huge amount of soup.""",
+"""She drank approximately 30 bottles of water."""," ""She drank a large quantity of water.""",
+"""He wrote around 45 essays."""," ""He wrote many essays.""",
+"""There are at least 250 houses in the neighborhood."""," ""The neighborhood has many houses.""",
+"""I have more than 30 cats."""," ""I have a lot of cats.""",
+"""She bought about 20 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 30 novels."""," ""He read many novels.""",
+"""There are approximately 500 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 10 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 50 dishes."""," ""The chef prepared a large number of dishes.""",
+"""The store sold at least 100 shirts."""," ""The store sold a significant number of shirts.""",
+"""The garden contains approximately 30 roses."""," ""The garden has many roses.""",
+"""The library has over 8000 books."""," ""The library has a vast collection of books.""",
+"""The artist painted more than 60 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 300 bushels of wheat."""," ""The farmer had a very good harvest.""",
+"""The teacher assigned approximately 30 problems."""," ""The teacher assigned a lot of problems.""",
+"""The student answered at least 20 questions correctly."""," ""The student performed well on the test.""",
+"""The musician played over 50 songs."""," ""The musician played many songs.""",
+"""The company hired approximately 150 employees."""," ""The company hired a large number of employees.""",
+"""The author wrote around 10 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 40 experiments."""," ""The scientist conducted numerous experiments.""",
+"""The baker sold over 200 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 60 apples."""," ""The store had many apples.""",
+"""The park contained over 300 trees."""," ""The park has a large number of trees.""",
+"""The classroom held about 50 students."""," ""The classroom was full.""",
+"""The concert attracted more than 3000 people."""," ""The concert was very well attended.""",
+"""The museum displayed approximately 250 artifacts."""," ""The museum displayed many artifacts.""",
+"""The library held over 15000 books."""," ""The library has an extensive collection of books.""",
+"""The restaurant served about 500 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 2000 students."""," ""The school has a large student body.""",
+"""The city had approximately 5 million residents."""," ""The city has a very large population.""",
+"""The company produced over 20000 products."""," ""The company produced a huge number of products.""",
+"""The farm raised more than 5000 chickens."""," ""The farm raised a very large number of chickens.""",
+"""The boutique sold 250 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 8000 cars."""," ""The factory produced a large number of cars."""
+"""Approximately 400 birds were nesting in the cliffs."""," ""A large number of birds were nesting in the cliffs.""",
+"""I baked at least 50 cookies for the fundraiser."""," ""I baked many cookies for the fundraiser.""",
+"""She read over 70 books during the summer."""," ""She read a significant number of books during the summer.""",
+"""He wrote close to 200 pages of his manuscript."""," ""He wrote a substantial portion of his manuscript.""",
+"""There were more than 60 cars waiting at the tollbooth."""," ""Many cars were waiting at the tollbooth.""",
+"""I saw at least 50 squirrels foraging for nuts."""," ""I saw numerous squirrels foraging for nuts.""",
+"""She collected over 120 stamps."""," ""She has a very extensive stamp collection.""",
+"""He planted approximately 100 trees along the riverbank."""," ""He planted many trees along the riverbank.""",
+"""There were more than 500 people at the stadium."""," ""A huge crowd was at the stadium.""",
+"""I answered at least 60 questions correctly on the test."""," ""I got a large number of questions correct on the test.""",
+"""She baked around 90 cupcakes for the party."""," ""She baked a considerable number of cupcakes for the party.""",
+"""He spent over 40 hours working on the project."""," ""He devoted a significant amount of time to the project.""",
+"""There were nearly 250 stars visible that night."""," ""Countless stars were visible that night.""",
+"""I bought more than 15 pairs of shoes this year."""," ""I bought many pairs of shoes this year.""",
+"""She wrote over 30 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 25 flowers."""," ""He planted some flowers.""",
+"""There were close to 250 students at the assembly."""," ""Many students were at the assembly.""",
+"""I have 12 dogs."""," ""I have a lot of dogs.""",
+"""She read at least 50 books last year."""," ""She read many books last year.""",
+"""He wrote over 40 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 300 chairs in the auditorium."""," ""There were plenty of chairs in the auditorium.""",
+"""I ate more than 30 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 25 cups of coffee."""," ""She drank a great deal of coffee.""",
+"""He spent about 55 hours working this week."""," ""He worked many hours this week.""",
+"""There are roughly 200 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 30 pens."""," ""I have many pens.""",
+"""She bought close to 40 dresses."""," ""She bought a large number of dresses.""",
+"""He read approximately 50 articles."""," ""He read many articles.""",
+"""There are around 250 apples in the orchard."""," ""There are a large number of apples in the orchard.""",
+"""I ate nearly 25 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 30 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 50 songs."""," ""He has written many songs.""",
+"""There were approximately 120 birds singing."""," ""Many birds were singing.""",
+"""I have more than 20 cats."""," ""I have a lot of cats.""",
+"""She bought about 30 pairs of socks."""," ""She bought a large quantity of socks.""",
+"""He read at least 15 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 200 fish in the lake."""," ""The lake is teeming with fish.""",
+"""I ate over 40 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 40 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 60 essays."""," ""He wrote many essays.""",
+"""There are at least 300 houses in this town."""," ""There are many houses in this town.""",
+"""I have more than 35 cats."""," ""I have a lot of cats.""",
+"""She bought about 25 pairs of pants."""," ""She bought quite a few pairs of pants.""",
+"""He read over 40 novels."""," ""He read many novels.""",
+"""There are approximately 600 books on the shelf."""," ""There are a large number of books on the shelf.""",
+"""The team scored over 12 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 60 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 120 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 40 roses."""," ""The garden has numerous roses.""",
+"""The library has over 9000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 70 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 400 bushels of wheat."""," ""The farmer had an abundant harvest.""",
+"""The teacher assigned approximately 40 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 25 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 60 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 200 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 12 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 50 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 250 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 70 apples."""," ""The store had many apples.""",
+"""The park contained over 400 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 60 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 4000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 300 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 18000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 600 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 2500 students."""," ""The school had a very large student body.""",
+"""The city had approximately 6 million residents."""," ""The city has a huge population.""",
+"""The company produced over 25000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 6000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The jeweler crafted 300 necklaces."""," ""The jeweler crafted many necklaces."""
+"""The factory produced around 9000 cars."""," ""The factory produced a very large number of cars."""
+"""Around 500 birds were observed migrating."""," ""A large flock of birds was migrating.""",
+"""I baked more than 60 cookies for the event."""," ""I baked many cookies for the event.""",
+"""She's read over 80 books this year."""," ""She's read a considerable number of books this year.""",
+"""He wrote close to 250 pages of his thesis."""," ""He wrote a substantial amount of his thesis.""",
+"""More than 70 cars were parked on the street."""," ""Numerous cars were parked on the street.""",
+"""I saw at least 60 squirrels playing in the park."""," ""I saw many squirrels playing in the park.""",
+"""She collected nearly 150 stamps."""," ""She has an extensive stamp collection.""",
+"""He planted approximately 120 trees in the forest."""," ""He planted a large number of trees in the forest.""",
+"""Over 600 people attended the concert."""," ""A huge crowd attended the concert.""",
+"""I answered at least 70 questions correctly."""," ""I answered most of the questions correctly.""",
+"""She baked around 100 cupcakes."""," ""She baked a large quantity of cupcakes.""",
+"""He spent over 50 hours working on the project."""," ""He spent a considerable amount of time on the project.""",
+"""There were nearly 300 stars visible in the sky."""," ""Countless stars were visible in the sky.""",
+"""I bought more than 18 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 40 poems."""," ""She wrote numerous poems.""",
+"""He planted approximately 30 flowers."""," ""He planted several flowers.""",
+"""There were close to 300 students at the graduation."""," ""Many students attended the graduation.""",
+"""I have 14 dogs."""," ""I have a lot of dogs.""",
+"""She read at least 60 books last year."""," ""She read many books last year.""",
+"""He wrote over 50 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 350 chairs in the hall."""," ""There were ample chairs in the hall.""",
+"""I ate more than 40 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 30 cups of coffee."""," ""She drank a great deal of coffee.""",
+"""He spent about 65 hours working this week."""," ""He worked many hours this week.""",
+"""There are roughly 250 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I own at least 35 pens."""," ""I have many pens.""",
+"""She bought close to 50 dresses."""," ""She bought a lot of dresses.""",
+"""He read approximately 60 articles."""," ""He read many articles.""",
+"""There are around 300 apples in the bin."""," ""There are a lot of apples in the bin.""",
+"""I ate nearly 30 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 35 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 60 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 150 birds singing."""," ""Many birds were singing.""",
+"""I have more than 25 cats."""," ""I have a large number of cats.""",
+"""She bought about 40 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 20 chapters."""," ""He read a good portion of the book.""",
+"""There are more than 250 fish in the aquarium."""," ""The aquarium is full of fish.""",
+"""I ate over 50 bowls of soup."""," ""I ate a huge amount of soup.""",
+"""She drank approximately 50 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 70 essays."""," ""He wrote numerous essays.""",
+"""There are at least 350 houses in this town."""," ""There are many houses in this town.""",
+"""I have more than 40 cats."""," ""I have a lot of cats.""",
+"""She bought about 30 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 50 novels."""," ""He read many novels.""",
+"""There are approximately 700 books on the shelf."""," ""There are a large number of books on the shelf.""",
+"""The team scored over 15 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 70 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 150 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 50 roses."""," ""The garden has numerous roses.""",
+"""The library has over 10000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 80 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 500 bushels of wheat."""," ""The farmer had a very abundant harvest.""",
+"""The teacher assigned approximately 50 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 30 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 70 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 250 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 15 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 60 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 300 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 80 apples."""," ""The store had many apples.""",
+"""The park contained over 500 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 70 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 5000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 350 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 20000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 700 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 3000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 7 million residents."""," ""The city has a huge population.""",
+"""The company produced over 30000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 7000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The tailor made 400 suits."""," ""The tailor made many suits."""
+"""The factory produced around 10000 cars."""," ""The factory produced a very large number of cars."""
+"""Around 600 birds were soaring overhead."""," ""A vast number of birds were soaring overhead.""",
+"""I baked more than 70 cookies for the holiday."""," ""I baked many cookies for the holiday.""",
+"""She has read over 90 books this year."""," ""She has read a considerable number of books this year.""",
+"""He wrote close to 300 pages of his novel."""," ""He wrote a substantial portion of his novel.""",
+"""More than 80 cars were parked in the lot."""," ""Numerous cars were parked in the lot.""",
+"""I saw at least 70 squirrels burying acorns."""," ""I saw many squirrels burying acorns.""",
+"""She collected nearly 180 stamps."""," ""She has an extremely extensive stamp collection.""",
+"""He planted approximately 140 trees on the hillside."""," ""He planted a large number of trees on the hillside.""",
+"""Over 700 people attended the festival."""," ""A huge crowd attended the festival.""",
+"""I answered at least 80 questions correctly."""," ""I answered the vast majority of the questions correctly.""",
+"""She baked around 120 cupcakes."""," ""She baked a large quantity of cupcakes.""",
+"""He spent over 60 hours working on the project."""," ""He devoted many hours to the project.""",
+"""There were nearly 350 stars visible tonight."""," ""Countless stars were visible tonight.""",
+"""I bought more than 20 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 50 poems."""," ""She wrote a great many poems.""",
+"""He planted approximately 40 flowers."""," ""He planted several flowers.""",
+"""There were close to 400 students at the rally."""," ""Many students attended the rally.""",
+"""I have 16 dogs."""," ""I have a large number of dogs.""",
+"""She read at least 70 books last year."""," ""She read many books last year.""",
+"""He wrote over 60 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 400 chairs in the auditorium."""," ""There were plenty of chairs in the auditorium.""",
+"""I ate more than 50 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 40 cups of coffee."""," ""She drank a great deal of coffee.""",
+"""He spent about 75 hours working this week."""," ""He worked extremely long hours this week.""",
+"""There are roughly 300 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I own at least 40 pens."""," ""I have a large number of pens.""",
+"""She bought close to 60 dresses."""," ""She bought many dresses.""",
+"""He read approximately 70 articles."""," ""He read numerous articles.""",
+"""There are around 350 apples in the basket."""," ""There are many apples in the basket.""",
+"""I ate nearly 35 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 40 cups of tea."""," ""She drank a considerable amount of tea.""",
+"""He wrote over 70 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 180 birds singing."""," ""Many birds were singing.""",
+"""I have more than 30 cats."""," ""I have a lot of cats.""",
+"""She bought about 50 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 25 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 300 fish in the pond."""," ""The pond is teeming with fish.""",
+"""I ate over 60 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 60 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 80 essays."""," ""He wrote numerous essays.""",
+"""There are at least 400 houses in this town."""," ""There are many houses in this town.""",
+"""I have more than 45 cats."""," ""I have a very large number of cats.""",
+"""She bought about 35 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 60 novels."""," ""He read many novels.""",
+"""There are approximately 800 books on the shelf."""," ""There are a large number of books on the shelf.""",
+"""The team scored over 18 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 80 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 180 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 60 roses."""," ""The garden has numerous roses.""",
+"""The library has over 12000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 90 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 600 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 60 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 35 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 80 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 300 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 18 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 70 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 350 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 90 apples."""," ""The store had many apples.""",
+"""The park contained over 600 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 80 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 6000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 400 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 25000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 800 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 4000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 8 million residents."""," ""The city has a huge population.""",
+"""The company produced over 40000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 8000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The shop sold 500 hats."""," ""The shop sold many hats."""
+"""The factory produced around 12000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 700 birds migrated south for the winter."""," ""A large flock of birds migrated south for the winter.""",
+"""I baked more than 80 cookies for the Christmas party."""," ""I baked many cookies for the Christmas party.""",
+"""She has read well over 100 books this year."""," ""She has read a vast number of books this year.""",
+"""He wrote close to 350 pages of his dissertation."""," ""He wrote a substantial amount of his dissertation.""",
+"""More than 90 cars were parked in the parking garage."""," ""Numerous cars were parked in the parking garage.""",
+"""I saw at least 80 squirrels gathering nuts."""," ""I saw many squirrels gathering nuts.""",
+"""She collected nearly 200 stamps."""," ""She has an incredibly extensive stamp collection.""",
+"""He planted approximately 160 trees in the park."""," ""He planted a large number of trees in the park.""",
+"""Over 800 people attended the conference."""," ""A huge crowd attended the conference.""",
+"""I answered at least 90 questions correctly on the exam."""," ""I aced the exam.""",
+"""She baked around 140 cupcakes for the sale."""," ""She baked a large quantity of cupcakes for the sale.""",
+"""He spent over 70 hours working on the project."""," ""He devoted countless hours to the project.""",
+"""There were nearly 400 stars visible in the clear night sky."""," ""Countless stars were visible in the clear night sky.""",
+"""I bought more than 25 pairs of shoes this year."""," ""I bought many pairs of shoes this year.""",
+"""She wrote over 60 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 50 flowers."""," ""He planted a number of flowers.""",
+"""There were close to 450 students at the assembly."""," ""Many students attended the assembly.""",
+"""I have 18 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 80 books last year."""," ""She read many books last year.""",
+"""He wrote over 70 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 450 chairs in the auditorium."""," ""There were plenty of chairs in the auditorium.""",
+"""I ate more than 60 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 45 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 85 hours working this week."""," ""He worked incredibly long hours this week.""",
+"""There are roughly 350 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I own at least 45 pens."""," ""I have many pens.""",
+"""She bought close to 70 dresses."""," ""She bought a lot of dresses.""",
+"""He read approximately 80 articles."""," ""He read many articles.""",
+"""There are around 400 apples in the orchard."""," ""There are many apples in the orchard.""",
+"""I ate nearly 40 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 45 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 80 songs."""," ""He has written numerous songs.""",
+"""There were approximately 200 birds singing."""," ""Many birds were singing.""",
+"""I have more than 35 cats."""," ""I have a large number of cats.""",
+"""She bought about 60 pairs of socks."""," ""She bought a large number of pairs of socks.""",
+"""He read at least 30 chapters."""," ""He read a significant portion of the book.""",
+"""There are more than 350 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 70 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 70 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 90 essays."""," ""He wrote numerous essays.""",
+"""There are at least 450 houses in this town."""," ""There are many houses in this town.""",
+"""I have more than 50 cats."""," ""I have a very large number of cats.""",
+"""She bought about 40 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 70 novels."""," ""He read many novels.""",
+"""There are approximately 900 books on the shelf."""," ""There are a large number of books on the shelf.""",
+"""The team scored over 20 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 90 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 200 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 70 roses."""," ""The garden has numerous roses.""",
+"""The library has over 15000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 100 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 700 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 70 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 40 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 90 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 350 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 20 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 80 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 400 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 100 apples."""," ""The store had many apples.""",
+"""The park contained over 700 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 90 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 7000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 450 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 30000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 900 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 5000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 9 million residents."""," ""The city has a huge population.""",
+"""The company produced over 50000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 9000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 600 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 15000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 800 birds were seen migrating."""," ""A massive flock of birds was migrating.""",
+"""I baked over 90 cookies for the party."""," ""I baked a large number of cookies for the party.""",
+"""She's read over 110 books this year."""," ""She's read an impressive number of books this year.""",
+"""He wrote close to 400 pages of his manuscript."""," ""He wrote a very substantial manuscript.""",
+"""More than 100 cars were parked illegally."""," ""Numerous cars were parked illegally.""",
+"""I saw at least 90 squirrels in the woods."""," ""I saw many squirrels in the woods.""",
+"""She collected nearly 220 stamps."""," ""She has an enormous stamp collection.""",
+"""He planted approximately 180 trees."""," ""He planted a large number of trees.""",
+"""Over 900 people attended the event."""," ""A huge crowd attended the event.""",
+"""I answered at least 100 questions correctly."""," ""I answered almost all the questions correctly.""",
+"""She baked around 160 cupcakes."""," ""She baked a large quantity of cupcakes.""",
+"""He spent over 80 hours working on the project."""," ""He devoted countless hours to the project.""",
+"""There were nearly 450 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 30 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 70 poems."""," ""She wrote a great many poems.""",
+"""He planted approximately 60 flowers."""," ""He planted several flowers.""",
+"""There were close to 500 students at the meeting."""," ""Many students were at the meeting.""",
+"""I have 20 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 90 books last year."""," ""She read many books last year.""",
+"""He wrote over 80 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 500 chairs."""," ""There were plenty of chairs.""",
+"""I ate more than 70 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 50 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 95 hours working this week."""," ""He worked incredibly long hours this week.""",
+"""There are roughly 400 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 50 pens."""," ""I have many pens.""",
+"""She bought close to 80 dresses."""," ""She bought a lot of dresses.""",
+"""He read approximately 90 articles."""," ""He read many articles.""",
+"""There are around 450 apples."""," ""There are many apples.""",
+"""I ate nearly 45 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 50 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 90 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 220 birds singing."""," ""Many birds were singing.""",
+"""I have more than 40 cats."""," ""I have a large number of cats.""",
+"""She bought about 70 pairs of socks."""," ""She bought a large number of pairs of socks.""",
+"""He read at least 35 chapters."""," ""He read a significant portion of the book.""",
+"""There are more than 400 fish in the pond."""," ""The pond is teeming with fish.""",
+"""I ate over 80 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 80 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 100 essays."""," ""He wrote numerous essays.""",
+"""There are at least 500 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 55 cats."""," ""I have a very large number of cats.""",
+"""She bought about 45 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 80 novels."""," ""He read many novels.""",
+"""There are approximately 1000 books on the shelf."""," ""There are a large number of books on the shelf.""",
+"""The team scored over 25 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 100 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 220 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 80 roses."""," ""The garden has numerous roses.""",
+"""The library has over 18000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 110 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 800 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 80 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 45 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 100 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 400 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 25 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 90 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 450 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 110 apples."""," ""The store had many apples.""",
+"""The park contained over 800 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 100 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 8000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 500 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 35000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 1000 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 6000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 10 million residents."""," ""The city has a huge population.""",
+"""The company produced over 60000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 10000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 700 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 18000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 900 birds were seen flying in formation."""," ""A massive flock of birds was flying in formation.""",
+"""I baked more than 100 cookies for the bake sale."""," ""I baked a large quantity of cookies for the bake sale.""",
+"""She's read over 120 books this year."""," ""She's read an extraordinary number of books this year.""",
+"""He wrote close to 450 pages of his novel."""," ""He wrote a very lengthy novel.""",
+"""More than 110 cars were parked in the lot."""," ""A large number of cars were parked in the lot.""",
+"""I saw at least 100 squirrels."""," ""I saw many squirrels.""",
+"""She collected nearly 240 stamps."""," ""She has a truly massive stamp collection.""",
+"""He planted approximately 200 trees."""," ""He planted a large number of trees.""",
+"""Over 1000 people attended the festival."""," ""A huge crowd attended the festival.""",
+"""I answered at least 110 questions correctly."""," ""I answered the vast majority of questions correctly.""",
+"""She baked around 180 cupcakes."""," ""She baked a very large number of cupcakes.""",
+"""He spent over 90 hours working on the project."""," ""He devoted an immense amount of time to the project.""",
+"""There were nearly 500 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 35 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 80 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 70 flowers."""," ""He planted numerous flowers.""",
+"""There were close to 550 students at the concert."""," ""Many students attended the concert.""",
+"""I have 22 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 100 books last year."""," ""She read many books last year.""",
+"""He wrote over 90 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 550 chairs in the hall."""," ""There were ample chairs in the hall.""",
+"""I ate more than 80 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 60 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 105 hours working this week."""," ""He worked an incredibly long time this week.""",
+"""There are roughly 450 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 60 pens."""," ""I own many pens.""",
+"""She bought close to 90 dresses."""," ""She bought a significant number of dresses.""",
+"""He read approximately 100 articles."""," ""He read many articles.""",
+"""There are around 500 apples in the bin."""," ""There are many apples in the bin.""",
+"""I ate nearly 50 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 60 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 100 songs."""," ""He has written numerous songs.""",
+"""There were approximately 240 birds singing."""," ""Many birds were singing.""",
+"""I have more than 45 cats."""," ""I have a large number of cats.""",
+"""She bought about 80 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 40 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 450 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 90 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 90 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 110 essays."""," ""He wrote numerous essays.""",
+"""There are at least 600 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 60 cats."""," ""I have a very large number of cats.""",
+"""She bought about 50 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 90 novels."""," ""He read many novels.""",
+"""There are approximately 1100 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 30 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 110 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 240 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 90 roses."""," ""The garden has numerous roses.""",
+"""The library has over 20000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 120 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 900 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 90 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 50 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 110 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 450 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 30 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 100 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 500 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 120 apples."""," ""The store had many apples.""",
+"""The park contained over 900 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 110 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 9000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 550 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 40000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 1100 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 7000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 11 million residents."""," ""The city has a huge population.""",
+"""The company produced over 70000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 11000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 800 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 20000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 1000 birds were observed migrating."""," ""A massive flock of birds was migrating.""",
+"""I baked more than 110 cookies for the event."""," ""I baked a large quantity of cookies for the event.""",
+"""She's read over 130 books this year."""," ""She's read an impressive number of books this year.""",
+"""He wrote close to 500 pages of his thesis."""," ""He wrote a very substantial thesis.""",
+"""More than 120 cars were parked in the parking garage."""," ""A huge number of cars were parked in the parking garage.""",
+"""I saw at least 110 squirrels."""," ""I saw many squirrels.""",
+"""She collected nearly 260 stamps."""," ""She has an enormous stamp collection.""",
+"""He planted approximately 220 trees."""," ""He planted a very large number of trees.""",
+"""Over 1100 people attended the conference."""," ""A huge crowd filled the conference.""",
+"""I answered at least 120 questions correctly."""," ""I answered the vast majority of questions correctly.""",
+"""She baked around 200 cupcakes."""," ""She baked a very large quantity of cupcakes.""",
+"""He spent over 100 hours working on the project."""," ""He devoted countless hours to the project.""",
+"""There were nearly 550 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 40 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 90 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 80 flowers."""," ""He planted numerous flowers.""",
+"""There were close to 600 students at the concert."""," ""A large number of students attended the concert.""",
+"""I have 24 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 110 books last year."""," ""She read many books last year.""",
+"""He wrote over 100 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 600 chairs in the hall."""," ""There were ample chairs in the hall.""",
+"""I ate more than 90 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 70 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 115 hours working this week."""," ""He worked an incredibly long time this week.""",
+"""There are roughly 500 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 70 pens."""," ""I own many pens.""",
+"""She bought close to 100 dresses."""," ""She bought a significant number of dresses.""",
+"""He read approximately 110 articles."""," ""He read many articles.""",
+"""There are around 550 apples in the bin."""," ""There are many apples in the bin.""",
+"""I ate nearly 55 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 70 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 110 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 260 birds singing."""," ""Many birds were singing.""",
+"""I have more than 50 cats."""," ""I have a large number of cats.""",
+"""She bought about 90 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 45 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 500 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 100 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 100 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 120 essays."""," ""He wrote numerous essays.""",
+"""There are at least 650 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 65 cats."""," ""I have a very large number of cats.""",
+"""She bought about 60 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 100 novels."""," ""He read many novels.""",
+"""There are approximately 1200 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 35 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 120 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 260 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 100 roses."""," ""The garden has numerous roses.""",
+"""The library has over 22000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 130 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 1000 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 100 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 55 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 120 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 500 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 35 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 110 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 550 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 130 apples."""," ""The store had many apples.""",
+"""The park contained over 1000 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 120 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 10000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 600 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 45000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 1200 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 8000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 12 million residents."""," ""The city has a huge population.""",
+"""The company produced over 80000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 12000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 900 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 22000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 1100 birds were seen migrating south."""," ""A massive flock of birds migrated south.""",
+"""I baked more than 120 cookies for the holiday party."""," ""I baked a large quantity of cookies for the party.""",
+"""She's read over 140 books this year."""," ""She's read an impressive number of books this year.""",
+"""He wrote close to 550 pages of his thesis."""," ""He wrote a very substantial thesis.""",
+"""More than 130 cars were parked illegally."""," ""Numerous cars were parked illegally.""",
+"""I saw at least 120 squirrels gathering nuts."""," ""I saw many squirrels gathering nuts.""",
+"""She collected nearly 280 stamps."""," ""She has a truly massive stamp collection.""",
+"""He planted approximately 240 trees along the river."""," ""He planted a large number of trees along the river.""",
+"""Over 1200 people attended the concert."""," ""A huge crowd attended the concert.""",
+"""I answered at least 130 questions correctly."""," ""I answered almost all the questions correctly.""",
+"""She baked around 220 cupcakes."""," ""She baked a very large quantity of cupcakes.""",
+"""He spent over 110 hours working on the project."""," ""He devoted countless hours to the project.""",
+"""There were nearly 600 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 45 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 100 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 90 flowers."""," ""He planted numerous flowers.""",
+"""There were close to 650 students at the graduation."""," ""Many students attended the graduation.""",
+"""I have 26 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 120 books last year."""," ""She read many books last year.""",
+"""He wrote over 110 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 650 chairs in the hall."""," ""There were ample chairs in the hall.""",
+"""I ate more than 100 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 80 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 125 hours working this week."""," ""He worked an incredibly long time this week.""",
+"""There are roughly 550 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 80 pens."""," ""I own many pens.""",
+"""She bought close to 110 dresses."""," ""She bought a significant number of dresses.""",
+"""He read approximately 120 articles."""," ""He read many articles.""",
+"""There are around 600 apples in the orchard."""," ""There are many apples in the orchard.""",
+"""I ate nearly 60 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 80 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 120 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 280 birds singing."""," ""Many birds were singing.""",
+"""I have more than 55 cats."""," ""I have a large number of cats.""",
+"""She bought about 100 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 50 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 550 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 110 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 110 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 130 essays."""," ""He wrote numerous essays.""",
+"""There are at least 700 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 70 cats."""," ""I have a very large number of cats.""",
+"""She bought about 70 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 110 novels."""," ""He read many novels.""",
+"""There are approximately 1300 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 40 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 130 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 280 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 110 roses."""," ""The garden has numerous roses.""",
+"""The library has over 24000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 140 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 1100 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 110 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 60 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 130 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 550 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 40 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 120 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 600 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 140 apples."""," ""The store had many apples.""",
+"""The park contained over 1100 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 130 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 11000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 650 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 50000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 1300 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 9000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 13 million residents."""," ""The city has a huge population.""",
+"""The company produced over 90000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 13000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 1000 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 24000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 1200 birds were seen migrating northward."""," ""A massive flock of birds migrated northward.""",
+"""I baked more than 130 cookies for the school event."""," ""I baked a large quantity of cookies for the event.""",
+"""She's read over 150 books this year."""," ""She's read an impressive number of books this year.""",
+"""He wrote close to 600 pages of his dissertation."""," ""He wrote a very substantial dissertation.""",
+"""More than 140 cars were parked illegally."""," ""Numerous cars were parked illegally.""",
+"""I saw at least 130 squirrels."""," ""I saw many squirrels.""",
+"""She collected nearly 300 stamps."""," ""She has an enormous stamp collection.""",
+"""He planted approximately 260 trees."""," ""He planted a very large number of trees.""",
+"""Over 1300 people attended the conference."""," ""A huge crowd attended the conference.""",
+"""I answered at least 140 questions correctly."""," ""I answered the vast majority of questions correctly.""",
+"""She baked around 240 cupcakes."""," ""She baked a very large quantity of cupcakes.""",
+"""He spent over 120 hours working on the project."""," ""He devoted countless hours to the project.""",
+"""There were nearly 650 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 50 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 110 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 100 flowers."""," ""He planted numerous flowers.""",
+"""There were close to 700 students at the concert."""," ""Many students attended the concert.""",
+"""I have 28 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 130 books last year."""," ""She read many books last year.""",
+"""He wrote over 120 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 700 chairs in the hall."""," ""There were ample chairs in the hall.""",
+"""I ate more than 110 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 90 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 135 hours working this week."""," ""He worked an incredibly long time this week.""",
+"""There are roughly 600 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 90 pens."""," ""I own many pens.""",
+"""She bought close to 120 dresses."""," ""She bought a significant number of dresses.""",
+"""He read approximately 130 articles."""," ""He read many articles.""",
+"""There are around 650 apples in the orchard."""," ""There are many apples in the orchard.""",
+"""I ate nearly 65 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 90 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 130 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 300 birds singing."""," ""Many birds were singing.""",
+"""I have more than 60 cats."""," ""I have a large number of cats.""",
+"""She bought about 110 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 55 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 600 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 120 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 120 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 140 essays."""," ""He wrote numerous essays.""",
+"""There are at least 750 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 75 cats."""," ""I have a very large number of cats.""",
+"""She bought about 80 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 120 novels."""," ""He read many novels.""",
+"""There are approximately 1400 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 45 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 140 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 300 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 120 roses."""," ""The garden has numerous roses.""",
+"""The library has over 26000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 150 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 1200 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 120 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 65 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 140 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 600 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 45 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 130 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 650 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 150 apples."""," ""The store had many apples.""",
+"""The park contained over 1200 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 140 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 12000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 700 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 55000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 1400 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 10000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 14 million residents."""," ""The city has a huge population.""",
+"""The company produced over 100000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 14000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 1100 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 26000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 1300 birds were seen migrating."""," ""A massive flock of birds was migrating.""",
+"""I baked more than 140 cookies."""," ""I baked a large number of cookies.""",
+"""She's read over 160 books this year."""," ""She's read an impressive number of books this year.""",
+"""He wrote close to 650 pages."""," ""He wrote a very substantial manuscript.""",
+"""More than 150 cars were parked."""," ""Numerous cars were parked.""",
+"""I saw at least 140 squirrels."""," ""I saw many squirrels.""",
+"""She collected nearly 320 stamps."""," ""She has an enormous stamp collection.""",
+"""He planted approximately 280 trees."""," ""He planted a very large number of trees.""",
+"""Over 1400 people attended."""," ""A huge crowd attended.""",
+"""I answered at least 150 questions correctly."""," ""I answered almost all the questions correctly.""",
+"""She baked around 260 cupcakes."""," ""She baked a very large quantity of cupcakes.""",
+"""He spent over 130 hours working."""," ""He devoted countless hours to the project.""",
+"""There were nearly 700 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 60 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 120 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 110 flowers."""," ""He planted numerous flowers.""",
+"""There were close to 750 students."""," ""Many students attended.""",
+"""I have 30 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 140 books last year."""," ""She read many books last year.""",
+"""He wrote over 130 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 750 chairs."""," ""There were ample chairs.""",
+"""I ate more than 120 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 100 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 145 hours working this week."""," ""He worked an incredibly long time this week.""",
+"""There are roughly 650 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 100 pens."""," ""I own many pens.""",
+"""She bought close to 130 dresses."""," ""She bought a significant number of dresses.""",
+"""He read approximately 140 articles."""," ""He read many articles.""",
+"""There are around 700 apples."""," ""There are many apples.""",
+"""I ate nearly 70 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 100 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 140 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 320 birds singing."""," ""Many birds were singing.""",
+"""I have more than 65 cats."""," ""I have a large number of cats.""",
+"""She bought about 120 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 60 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 650 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 130 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 130 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 150 essays."""," ""He wrote numerous essays.""",
+"""There are at least 800 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 80 cats."""," ""I have a very large number of cats.""",
+"""She bought about 90 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 130 novels."""," ""He read many novels.""",
+"""There are approximately 1500 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 50 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 150 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 320 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 130 roses."""," ""The garden has numerous roses.""",
+"""The library has over 28000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 160 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 1300 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 130 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 70 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 150 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 650 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 50 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 140 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 700 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 160 apples."""," ""The store had many apples.""",
+"""The park contained over 1300 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 150 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 13000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 750 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 60000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 1500 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 11000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 15 million residents."""," ""The city has a huge population.""",
+"""The company produced over 110000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 15000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 1200 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 28000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 1400 birds migrated south this autumn."""," ""A massive flock of birds migrated south this autumn.""",
+"""I baked more than 150 cookies for the holiday."""," ""I baked a huge number of cookies for the holiday.""",
+"""She's read over 170 books this year."""," ""She's read an impressive number of books this year.""",
+"""He wrote close to 700 pages of his manuscript."""," ""He wrote a very long manuscript.""",
+"""More than 160 cars were parked in the lot."""," ""A large number of cars were parked in the lot.""",
+"""I saw at least 150 squirrels."""," ""I saw many squirrels.""",
+"""She collected nearly 340 stamps."""," ""She has an enormous stamp collection.""",
+"""He planted approximately 300 trees."""," ""He planted a very large number of trees.""",
+"""Over 1500 people attended the concert."""," ""A huge crowd attended the concert.""",
+"""I answered at least 160 questions correctly."""," ""I answered almost all the questions correctly.""",
+"""She baked around 280 cupcakes."""," ""She baked a very large quantity of cupcakes.""",
+"""He spent over 140 hours working on the project."""," ""He devoted countless hours to the project.""",
+"""There were nearly 750 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 70 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 130 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 120 flowers."""," ""He planted numerous flowers.""",
+"""There were close to 800 students at the rally."""," ""Many students attended the rally.""",
+"""I have 32 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 150 books last year."""," ""She read many books last year.""",
+"""He wrote over 140 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 800 chairs in the hall."""," ""There were ample chairs in the hall.""",
+"""I ate more than 130 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 110 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 155 hours working this week."""," ""He worked an incredibly long time this week.""",
+"""There are roughly 700 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 110 pens."""," ""I own many pens.""",
+"""She bought close to 140 dresses."""," ""She bought a significant number of dresses.""",
+"""He read approximately 150 articles."""," ""He read many articles.""",
+"""There are around 750 apples in the orchard."""," ""There are many apples in the orchard.""",
+"""I ate nearly 75 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 110 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 150 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 340 birds singing."""," ""Many birds were singing.""",
+"""I have more than 70 cats."""," ""I have a large number of cats.""",
+"""She bought about 130 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 65 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 700 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 140 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 140 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 160 essays."""," ""He wrote numerous essays.""",
+"""There are at least 850 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 85 cats."""," ""I have a very large number of cats.""",
+"""She bought about 100 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 140 novels."""," ""He read many novels.""",
+"""There are approximately 1600 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 55 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 160 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 340 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 140 roses."""," ""The garden has numerous roses.""",
+"""The library has over 30000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 170 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 1400 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 140 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 75 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 160 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 700 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 55 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 150 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 750 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 170 apples."""," ""The store had many apples.""",
+"""The park contained over 1400 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 160 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 14000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 800 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 65000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 1600 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 12000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 16 million residents."""," ""The city has a huge population.""",
+"""The company produced over 120000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 16000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 1300 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 30000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 1500 birds were observed migrating."""," ""A massive flock of birds was migrating.""",
+"""I baked more than 160 cookies for the event."""," ""I baked a huge quantity of cookies for the event.""",
+"""She's read over 180 books this year."""," ""She's read an impressive number of books this year.""",
+"""He wrote close to 750 pages of his thesis."""," ""He wrote a very substantial thesis.""",
+"""More than 170 cars were parked illegally."""," ""Numerous cars were parked illegally.""",
+"""I saw at least 160 squirrels."""," ""I saw many squirrels.""",
+"""She collected nearly 360 stamps."""," ""She has an enormous stamp collection.""",
+"""He planted approximately 320 trees."""," ""He planted a very large number of trees.""",
+"""Over 1600 people attended the conference."""," ""A huge crowd attended the conference.""",
+"""I answered at least 170 questions correctly."""," ""I answered almost all the questions correctly.""",
+"""She baked around 300 cupcakes."""," ""She baked a very large quantity of cupcakes.""",
+"""He spent over 150 hours working on the project."""," ""He devoted countless hours to the project.""",
+"""There were nearly 800 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 80 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 140 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 130 flowers."""," ""He planted numerous flowers.""",
+"""There were close to 850 students at the concert."""," ""Many students attended the concert.""",
+"""I have 34 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 160 books last year."""," ""She read many books last year.""",
+"""He wrote over 150 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 850 chairs in the hall."""," ""There were ample chairs in the hall.""",
+"""I ate more than 140 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 120 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 165 hours working this week."""," ""He worked an incredibly long time this week.""",
+"""There are roughly 750 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 120 pens."""," ""I own many pens.""",
+"""She bought close to 150 dresses."""," ""She bought a significant number of dresses.""",
+"""He read approximately 160 articles."""," ""He read many articles.""",
+"""There are around 800 apples in the orchard."""," ""There are many apples in the orchard.""",
+"""I ate nearly 80 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 120 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 160 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 360 birds singing."""," ""Many birds were singing.""",
+"""I have more than 75 cats."""," ""I have a large number of cats.""",
+"""She bought about 140 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 70 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 700 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 150 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 150 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 170 essays."""," ""He wrote numerous essays.""",
+"""There are at least 900 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 90 cats."""," ""I have a very large number of cats.""",
+"""She bought about 110 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 140 novels."""," ""He read many novels.""",
+"""There are approximately 1700 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 60 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 170 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 360 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 150 roses."""," ""The garden has numerous roses.""",
+"""The library has over 32000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 180 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 1500 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 150 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 75 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 170 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 700 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 60 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 160 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 800 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 180 apples."""," ""The store had many apples.""",
+"""The park contained over 1500 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 170 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 15000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 800 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 70000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 1700 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 13000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 17 million residents."""," ""The city has a huge population.""",
+"""The company produced over 130000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 17000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 1400 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 32000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 1600 birds were seen migrating."""," ""A massive flock of birds was migrating.""",
+"""I baked more than 170 cookies for the event."""," ""I baked a huge quantity of cookies for the event.""",
+"""She's read over 190 books this year."""," ""She's read an impressive number of books this year.""",
+"""He wrote close to 800 pages of his thesis."""," ""He wrote a very substantial thesis.""",
+"""More than 180 cars were parked illegally."""," ""Numerous cars were parked illegally.""",
+"""I saw at least 170 squirrels."""," ""I saw many squirrels.""",
+"""She collected nearly 380 stamps."""," ""She has an enormous stamp collection.""",
+"""He planted approximately 340 trees."""," ""He planted a very large number of trees.""",
+"""Over 1700 people attended the conference."""," ""A huge crowd attended the conference.""",
+"""I answered at least 180 questions correctly."""," ""I answered almost all the questions correctly.""",
+"""She baked around 320 cupcakes."""," ""She baked a very large quantity of cupcakes.""",
+"""He spent over 160 hours working on the project."""," ""He devoted countless hours to the project.""",
+"""There were nearly 850 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 90 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 150 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 140 flowers."""," ""He planted numerous flowers.""",
+"""There were close to 900 students at the concert."""," ""Many students attended the concert.""",
+"""I have 36 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 170 books last year."""," ""She read many books last year.""",
+"""He wrote over 160 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 900 chairs in the hall."""," ""There were ample chairs in the hall.""",
+"""I ate more than 150 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 130 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 175 hours working this week."""," ""He worked an incredibly long time this week.""",
+"""There are roughly 800 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 130 pens."""," ""I own many pens.""",
+"""She bought close to 160 dresses."""," ""She bought a significant number of dresses.""",
+"""He read approximately 170 articles."""," ""He read many articles.""",
+"""There are around 850 apples in the orchard."""," ""There are many apples in the orchard.""",
+"""I ate nearly 85 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 130 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 170 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 380 birds singing."""," ""Many birds were singing.""",
+"""I have more than 80 cats."""," ""I have a large number of cats.""",
+"""She bought about 150 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 75 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 750 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 160 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 160 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 180 essays."""," ""He wrote numerous essays.""",
+"""There are at least 950 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 95 cats."""," ""I have a very large number of cats.""",
+"""She bought about 120 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 150 novels."""," ""He read many novels.""",
+"""There are approximately 1800 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 65 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 180 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 380 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 160 roses."""," ""The garden has numerous roses.""",
+"""The library has over 34000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 190 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 1600 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 160 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 80 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 180 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 750 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 65 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 170 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 850 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 190 apples."""," ""The store had many apples.""",
+"""The park contained over 1600 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 180 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 16000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 850 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 75000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 1800 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 14000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 18 million residents."""," ""The city has a huge population.""",
+"""The company produced over 140000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 18000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 1500 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 34000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 1700 birds were observed during the migration."""," ""A massive flock of birds was observed during the migration.""",
+"""I baked more than 180 cookies for the school bake sale."""," ""I baked a huge quantity of cookies for the bake sale.""",
+"""She's read over 200 books this year."""," ""She's read an impressive number of books this year.""",
+"""He wrote close to 850 pages of his novel."""," ""He wrote a very substantial novel.""",
+"""More than 190 cars were parked in the lot."""," ""Numerous cars were parked in the lot.""",
+"""I saw at least 180 squirrels."""," ""I saw many squirrels.""",
+"""She collected nearly 400 stamps."""," ""She has an enormous stamp collection.""",
+"""He planted approximately 360 trees."""," ""He planted a very large number of trees.""",
+"""Over 1800 people attended the conference."""," ""A huge crowd attended the conference.""",
+"""I answered at least 190 questions correctly."""," ""I answered almost all the questions correctly.""",
+"""She baked around 340 cupcakes."""," ""She baked a very large quantity of cupcakes.""",
+"""He spent over 170 hours working on the project."""," ""He devoted countless hours to the project.""",
+"""There were nearly 900 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 100 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 160 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 150 flowers."""," ""He planted numerous flowers.""",
+"""There were close to 950 students at the concert."""," ""Many students attended the concert.""",
+"""I have 38 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 180 books last year."""," ""She read many books last year.""",
+"""He wrote over 170 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 950 chairs in the hall."""," ""There were ample chairs in the hall.""",
+"""I ate more than 160 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 140 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 185 hours working this week."""," ""He worked an incredibly long time this week.""",
+"""There are roughly 850 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 140 pens."""," ""I own many pens.""",
+"""She bought close to 170 dresses."""," ""She bought a significant number of dresses.""",
+"""He read approximately 180 articles."""," ""He read many articles.""",
+"""There are around 900 apples in the orchard."""," ""There are many apples in the orchard.""",
+"""I ate nearly 90 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 140 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 180 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 400 birds singing."""," ""Many birds were singing.""",
+"""I have more than 85 cats."""," ""I have a large number of cats.""",
+"""She bought about 160 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 80 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 800 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 170 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 170 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 190 essays."""," ""He wrote numerous essays.""",
+"""There are at least 1000 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 100 cats."""," ""I have a very large number of cats.""",
+"""She bought about 130 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 160 novels."""," ""He read many novels.""",
+"""There are approximately 1900 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 70 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 190 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 400 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 170 roses."""," ""The garden has numerous roses.""",
+"""The library has over 36000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 200 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 1700 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 170 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 85 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 190 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 800 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 70 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 180 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 900 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 200 apples."""," ""The store had many apples.""",
+"""The park contained over 1700 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 190 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 17000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 900 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 80000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 1900 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 15000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 19 million residents."""," ""The city has a huge population.""",
+"""The company produced over 150000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 19000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 1600 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 36000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 1800 birds were seen migrating north."""," ""A massive flock of birds migrated north.""",
+"""I baked more than 190 cookies for the sale."""," ""I baked a huge quantity of cookies for the sale.""",
+"""She's read over 210 books this year."""," ""She's read an impressive number of books this year.""",
+"""He wrote close to 900 pages of his novel."""," ""He wrote a very substantial novel.""",
+"""More than 200 cars were parked illegally."""," ""Numerous cars were parked illegally.""",
+"""I saw at least 190 squirrels."""," ""I saw many squirrels.""",
+"""She collected nearly 420 stamps."""," ""She has an enormous stamp collection.""",
+"""He planted approximately 380 trees."""," ""He planted a very large number of trees.""",
+"""Over 1900 people attended the conference."""," ""A huge crowd attended the conference.""",
+"""I answered at least 200 questions correctly."""," ""I answered almost all the questions correctly.""",
+"""She baked around 360 cupcakes."""," ""She baked a very large quantity of cupcakes.""",
+"""He spent over 180 hours working on the project."""," ""He devoted countless hours to the project.""",
+"""There were nearly 950 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 110 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 170 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 160 flowers."""," ""He planted numerous flowers.""",
+"""There were close to 1000 students at the concert."""," ""Many students attended the concert.""",
+"""I have 40 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 190 books last year."""," ""She read many books last year.""",
+"""He wrote over 180 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 1000 chairs in the hall."""," ""There were ample chairs in the hall.""",
+"""I ate more than 170 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 150 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 195 hours working this week."""," ""He worked an incredibly long time this week.""",
+"""There are roughly 900 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 150 pens."""," ""I own many pens.""",
+"""She bought close to 180 dresses."""," ""She bought a significant number of dresses.""",
+"""He read approximately 190 articles."""," ""He read many articles.""",
+"""There are around 950 apples in the orchard."""," ""There are many apples in the orchard.""",
+"""I ate nearly 95 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 150 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 190 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 420 birds singing."""," ""Many birds were singing.""",
+"""I have more than 90 cats."""," ""I have a large number of cats.""",
+"""She bought about 170 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 85 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 850 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 180 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 180 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 200 essays."""," ""He wrote numerous essays.""",
+"""There are at least 1050 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 110 cats."""," ""I have a very large number of cats.""",
+"""She bought about 140 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 170 novels."""," ""He read many novels.""",
+"""There are approximately 2000 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 75 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 200 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 420 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 180 roses."""," ""The garden has numerous roses.""",
+"""The library has over 38000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 210 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 1800 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 180 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 90 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 200 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 850 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 75 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 190 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 950 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 210 apples."""," ""The store had many apples.""",
+"""The park contained over 1800 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 200 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 18000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 950 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 85000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 2000 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 16000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 20 million residents."""," ""The city has a huge population.""",
+"""The company produced over 160000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 20000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 1700 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 38000 cars."""," ""The factory produced a very large number of cars."""
+"""Approximately 1900 birds were seen migrating."""," ""A massive flock of birds migrated.""",
+"""I baked more than 200 cookies for the event."""," ""I baked a huge quantity of cookies for the event.""",
+"""She's read over 220 books this year."""," ""She's read an impressive number of books this year.""",
+"""He wrote close to 950 pages of his thesis."""," ""He wrote a very substantial thesis.""",
+"""More than 210 cars were parked illegally."""," ""Numerous cars were parked illegally.""",
+"""I saw at least 200 squirrels."""," ""I saw many squirrels.""",
+"""She collected nearly 440 stamps."""," ""She has an enormous stamp collection.""",
+"""He planted approximately 400 trees."""," ""He planted a very large number of trees.""",
+"""Over 2000 people attended the conference."""," ""A huge crowd attended the conference.""",
+"""I answered at least 210 questions correctly."""," ""I answered almost all the questions correctly.""",
+"""She baked around 380 cupcakes."""," ""She baked a very large quantity of cupcakes.""",
+"""He spent over 190 hours working on the project."""," ""He devoted countless hours to the project.""",
+"""There were nearly 1000 stars visible."""," ""Countless stars were visible.""",
+"""I bought more than 120 pairs of shoes."""," ""I bought many pairs of shoes.""",
+"""She wrote over 180 poems."""," ""She wrote a significant number of poems.""",
+"""He planted approximately 170 flowers."""," ""He planted numerous flowers.""",
+"""There were close to 1050 students at the concert."""," ""Many students attended the concert.""",
+"""I have 42 dogs."""," ""I have a very large number of dogs.""",
+"""She read at least 200 books last year."""," ""She read many books last year.""",
+"""He wrote over 190 essays."""," ""He wrote numerous essays.""",
+"""There were approximately 1050 chairs in the hall."""," ""There were ample chairs in the hall.""",
+"""I ate more than 180 slices of pizza."""," ""I ate a huge amount of pizza.""",
+"""She drank over 160 cups of coffee."""," ""She drank an excessive amount of coffee.""",
+"""He spent about 205 hours working this week."""," ""He worked an incredibly long time this week.""",
+"""There are roughly 950 houses on this street."""," ""There are many houses on this street.""",
+"""I own at least 160 pens."""," ""I own many pens.""",
+"""She bought close to 190 dresses."""," ""She bought a significant number of dresses.""",
+"""He read approximately 200 articles."""," ""He read many articles.""",
+"""There are around 950 apples in the orchard."""," ""There are many apples in the orchard.""",
+"""I ate nearly 100 slices of bread."""," ""I ate a large amount of bread.""",
+"""She drank close to 160 cups of tea."""," ""She drank a lot of tea.""",
+"""He wrote over 200 songs."""," ""He wrote numerous songs.""",
+"""There were approximately 440 birds singing."""," ""Many birds were singing.""",
+"""I have more than 100 cats."""," ""I have a large number of cats.""",
+"""She bought about 180 pairs of socks."""," ""She bought many pairs of socks.""",
+"""He read at least 90 chapters."""," ""He read a substantial portion of the book.""",
+"""There are more than 900 fish in the tank."""," ""The tank is full of fish.""",
+"""I ate over 190 bowls of soup."""," ""I ate an enormous amount of soup.""",
+"""She drank approximately 190 bottles of water."""," ""She drank a vast quantity of water.""",
+"""He wrote around 210 essays."""," ""He wrote numerous essays.""",
+"""There are at least 1100 houses in this neighborhood."""," ""There are many houses in this neighborhood.""",
+"""I have more than 120 cats."""," ""I have a very large number of cats.""",
+"""She bought about 150 pairs of pants."""," ""She bought several pairs of pants.""",
+"""He read over 180 novels."""," ""He read many novels.""",
+"""There are approximately 2100 books on the shelf."""," ""There are numerous books on the shelf.""",
+"""The team scored over 80 goals."""," ""The team scored many goals.""",
+"""The chef prepared more than 210 dishes."""," ""The chef prepared a huge number of dishes.""",
+"""The store sold at least 440 shirts."""," ""The store sold many shirts.""",
+"""The garden contains approximately 190 roses."""," ""The garden has numerous roses.""",
+"""The library has over 40000 books."""," ""The library houses a vast collection of books.""",
+"""The artist painted more than 220 pictures."""," ""The artist created many paintings.""",
+"""The farmer harvested over 1900 bushels of wheat."""," ""The farmer had an extremely abundant harvest.""",
+"""The teacher assigned approximately 190 problems."""," ""The teacher assigned many problems.""",
+"""The student answered at least 95 questions correctly."""," ""The student answered many questions correctly.""",
+"""The musician played over 210 songs."""," ""The musician played numerous songs.""",
+"""The company hired approximately 900 employees."""," ""The company hired a significant number of employees.""",
+"""The author wrote around 80 chapters."""," ""The author wrote several chapters.""",
+"""The scientist conducted more than 200 experiments."""," ""The scientist conducted many experiments.""",
+"""The baker sold over 1000 loaves of bread."""," ""The baker sold a large quantity of bread.""",
+"""The store had approximately 220 apples."""," ""The store had many apples.""",
+"""The park contained over 1900 trees."""," ""The park has a lot of trees.""",
+"""The classroom held about 210 students."""," ""The classroom was quite full.""",
+"""The concert attracted more than 19000 people."""," ""The concert was extremely well-attended.""",
+"""The museum displayed approximately 1000 artifacts."""," ""The museum displayed a large number of artifacts.""",
+"""The library held over 90000 books."""," ""The library had an enormous collection of books.""",
+"""The restaurant served about 2100 customers."""," ""The restaurant served many customers.""",
+"""The school enrolled over 17000 students."""," ""The school had a very large student body.""",
+"""The city had approximately 21 million residents."""," ""The city has a huge population.""",
+"""The company produced over 170000 products."""," ""The company produced a massive number of products.""",
+"""The farm raised more than 21000 chickens."""," ""The farm raised a very large flock of chickens.""",
+"""The boutique sold 1800 scarves."""," ""The boutique sold many scarves."""
+"""The factory produced around 40000 cars."""," ""The factory produced a very large number of cars."""
