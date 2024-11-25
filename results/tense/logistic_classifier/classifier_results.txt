@@ -1,0 +1,13 @@
+Accuracy: 0.9975
+
+Top 10 Most Influential Dimensions:
+Dimension 586: Weight 0.6928965711241065
+Dimension 641: Weight -0.6909686809450301
+Dimension 335: Weight 0.635730295173453
+Dimension 684: Weight 0.6008492346616154
+Dimension 678: Weight 0.5975072595116943
+Dimension 2: Weight -0.5921954835627865
+Dimension 411: Weight 0.5804528859125754
+Dimension 393: Weight 0.5787878388826713
+Dimension 102: Weight 0.5767979025439438
+Dimension 290: Weight 0.5632681670807792
