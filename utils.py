@@ -1,5 +1,7 @@
-
+import pandas as pd
+from ast import literal_eval
 import os
+import numpy as np
 
 def get_dataset_filepaths():
     directory = "./datasets"
@@ -13,9 +15,29 @@ def get_dataset_filepaths():
 
     return csv_filenames 
 
-def get_linguistic_property(filename):
-    return filename.split("_")[0]
+def get_embeddings_filepaths():
+    directory = "./embeddings"
+    return [os.path.join(directory, fn) for fn in os.listdir(directory)]
+
+def get_linguistic_property(embeddings_csv):
+    return embeddings_csv.split("_")[0]
 
 
-def get_results_filepath(dataset_csv, metric):
-    return os.path.join("results", get_linguistic_property(os.path.basename(dataset_csv)))
+def get_results_directory(embeddings_csv, metric):
+    p = os.path.join("results", get_linguistic_property(os.path.basename(embeddings_csv)), metric)
+
+    if not os.path.exists(p):
+        os.makedirs(p)
+    
+    return p
+
+
+def read_embeddings_df(embeddings_csv):
+
+    embeddings_df = pd.read_csv(embeddings_csv)
+    
+    for col in embeddings_df.columns:
+        if col.endswith("_embedding"):
+            embeddings_df[col] = embeddings_df[col].apply(lambda x: np.fromstring(x.strip('[]'), sep=' '))
+    
+    return embeddings_df
