@@ -55,31 +55,48 @@ def plot_contributions(overall_contributions, top_dimensions, results_directory)
     # Plot histogram of contributions with highlighted top dimensions
     plt.figure(figsize=(12, 6))
     bars = plt.bar(range(len(overall_contributions)), overall_contributions, alpha=0.6)
-
+    
     # Highlight the top dimensions
     for dim in top_dimensions:
         bars[dim].set_color('red')
         bars[dim].set_alpha(1.0)
-
+    
     # Truncate the y-axis to start at the minimum value
     plt.ylim(bottom=np.min(overall_contributions) - 0.01)
-
+    
     # Add labels and legend
     plt.xlabel('Embedding Dimensions')
     plt.ylabel('Aggregate Contribution')
     plt.title('Overall Contributions of Embedding Dimensions to PCA\n(Top 20 Dimensions Highlighted)')
     plt.grid(axis='y')
-
+    
     # Create custom legend
     from matplotlib.patches import Patch
     legend_elements = [Patch(facecolor='red', alpha=1.0, label='Top 20 Dimensions'),
                        Patch(facecolor='blue', alpha=0.6, label='Other Dimensions')]
     plt.legend(handles=legend_elements, loc='upper right')
-
+    
     # Save the plot
     plt.tight_layout()
     plt.savefig(os.path.join(results_directory, "pca_contributions.png"))
     plt.close()
+
+def save_pca_results(optimal_components, top_dimensions, overall_contributions, results_directory):
+    # Save optimal number of components and top dimensions to CSV
+    results_df = pd.DataFrame({
+        'Rank': range(1, len(top_dimensions) + 1),
+        'Dimension': top_dimensions,
+        'Contribution': overall_contributions[top_dimensions]
+    })
+    # Add a row for the optimal number of components (as metadata)
+    metadata_df = pd.DataFrame({
+        'Rank': ['Optimal Components'],
+        'Dimension': [optimal_components],
+        'Contribution': [np.nan]
+    })
+    # Combine metadata and results
+    combined_df = pd.concat([metadata_df, results_df], ignore_index=True)
+    combined_df.to_csv(os.path.join(results_directory, "pca_results.csv"), index=False)
 
 if __name__ == "__main__":
     embedding_filepaths = get_embeddings_filepaths()
@@ -118,13 +135,8 @@ if __name__ == "__main__":
             contribution = overall_contributions[dim]
             print(f"{rank}. Dimension {dim}: Contribution {contribution:.4f}")
 
-        # Save top dimensions to a CSV file
-        top_dims_df = pd.DataFrame({
-            'Rank': range(1, 21),
-            'Dimension': top_dimensions,
-            'Contribution': overall_contributions[top_dimensions]
-        })
-        top_dims_df.to_csv(os.path.join(results_directory, "top_20_dimensions.csv"), index=False)
+        # Save PCA results including optimal components and top dimensions
+        save_pca_results(optimal_components, top_dimensions, overall_contributions, results_directory)
 
         # Plot contributions
         plot_contributions(overall_contributions, top_dimensions, results_directory)
