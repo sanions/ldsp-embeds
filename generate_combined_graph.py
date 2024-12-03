@@ -7,15 +7,13 @@ from utils import *
 
 
 def create_combined_graph(mutual_info_df, ttest_results_df, clf_weights_df, pca_contribs_df, rfe_results_df, results_directory, N=20):
+
+    lp = results_directory.split('/')[1]
    
     mutual_informations = mutual_info_df['Mutual_Information'].values
-
     top_N_ttest_dimensions = ttest_results_df.nsmallest(N, 'p_value')['dimension'].values
-
     top_N_clf_dimensions = clf_weights_df.nlargest(N, 'Weight')['Dimension'].values
-
     top_N_pca_contribs = pca_contribs_df.nlargest(N, 'Contribution')['Dimension'].values
-
     rfe_dimensions = rfe_results_df['Feature'].values
 
     plt.figure(figsize=(12, 6))
@@ -34,7 +32,7 @@ def create_combined_graph(mutual_info_df, ttest_results_df, clf_weights_df, pca_
 
     plt.xlabel("Embedding Dimension")
     plt.ylabel("Mutual Information")
-    plt.title(f"Mutual Information of Embedding Dimensions")
+    plt.title(f"Mutual Information of Embedding Dimensions: {lp}")
     plt.legend()
 
     graph_filepath = os.path.join(results_directory, "combined_graph_rfe.png")
