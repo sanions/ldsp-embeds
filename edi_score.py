@@ -122,7 +122,7 @@ if __name__ == "__main__":
     optimized_weights = result.x + [1 - sum(result.x)]
     print("Best weights:", optimized_weights)
 
-    optimized_weights = (0.25430962646748, 0.3063082774811679, 0.28797646861762544, 0.15140562743372676)
+    # optimized_weights = (0.25430962646748, 0.3063082774811679, 0.28797646861762544, 0.15140562743372676)
 
     embedding_filepaths = get_embeddings_filepaths()
 
