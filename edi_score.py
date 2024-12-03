@@ -7,8 +7,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from itertools import product
-# from skopt import gp_minimize
-# from skopt.space import Real
+from skopt import gp_minimize
+from skopt.space import Real
 
 
 def calculate_edi_scores(embed_fpath, weights=(0.25, 0.25, 0.25, 0.25)):
@@ -60,9 +60,50 @@ def calculate_edi_scores(embed_fpath, weights=(0.25, 0.25, 0.25, 0.25)):
     
     return combined_scores
 
+def objective_function(weights):
+
+    w0, w1, w2 = weights
+    w3 = 1 - (w0 + w1 + w2)
+    if w3 < 0:  # Invalid set if w3 is negative
+        return 0
+    
+    weights = (w0, w1, w2, w3)
+
+    acc = 0
+    embedding_filepaths = get_embeddings_filepaths()
+
+    for fname in embedding_filepaths:
+        embeddings_df = read_embeddings_df(fname)
+
+        sentence1_df = pd.DataFrame({'embedding': embeddings_df['Sentence1_embedding'].tolist(), 'label': 0})
+        sentence2_df = pd.DataFrame({'embedding': embeddings_df['Sentence2_embedding'].tolist(), 'label': 1})
+        df = pd.concat([sentence1_df, sentence2_df], ignore_index=True)
+
+        edi_scores = calculate_edi_scores(fname, weights)
+
+        top_20_indices = np.argsort(edi_scores)[-20:]
+
+        # Filter embeddings to keep only top 20 dimensions
+        df['embedding'] = df['embedding'].apply(lambda x: np.array(x)[top_20_indices])
+
+        X = np.array(df['embedding'].tolist())
+        labels = np.array(df['label'].tolist())
+        X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.2, random_state=42)
+        clf = LogisticRegression(random_state=42)
+        clf.fit(X_train, y_train)
+
+        y_pred = clf.predict(X_test)
+        acc += accuracy_score(y_test, y_pred)
+    
+    avg_acc = acc/len(embedding_filepaths)
+
+    print(weights, avg_acc)
+
+    return -avg_acc  # Maximize accuracy
+
 def save_edi_scores(edi_scores, results_directory): 
     edi_df = pd.DataFrame({
-        'Dimension': [i + 1 for i in range(len(edi_scores))],
+        'Dimension': [i for i in range(len(edi_scores))],
         'EDI Score': edi_scores
     })
 
@@ -73,9 +114,24 @@ def save_edi_scores(edi_scores, results_directory):
 
 if __name__ == "__main__": 
 
+    # Define search space for the first 3 weights
+    search_space = [Real(0, 1, name=f"w{i}") for i in range(3)]
+
+    # Optimize
+    result = gp_minimize(objective_function, search_space, n_calls=100)
+    optimized_weights = result.x + [1 - sum(result.x)]
+    print("Best weights:", optimized_weights)
+
+    optimized_weights = (0.25430962646748, 0.3063082774811679, 0.28797646861762544, 0.15140562743372676)
+
     embedding_filepaths = get_embeddings_filepaths()
 
     for embeddings_csv in tqdm(embedding_filepaths):
-        edi_scores = calculate_edi_scores(embeddings_csv)
+        edi_scores = calculate_edi_scores(embeddings_csv, optimized_weights)
         results_directory = get_results_directory(embeddings_csv, "edi_scores")
         save_edi_scores(edi_scores, results_directory)
+
+
+    
+
+    
