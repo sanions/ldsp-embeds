@@ -2,12 +2,13 @@ import numpy as np
 import pandas as pd
 from utils import *
 import os
+from tqdm import tqdm
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from itertools import product
-from skopt import gp_minimize
-from skopt.space import Real
+# from skopt import gp_minimize
+# from skopt.space import Real
 
 
 def calculate_edi_scores(embed_fpath, weights=(0.25, 0.25, 0.25, 0.25)):
@@ -59,3 +60,22 @@ def calculate_edi_scores(embed_fpath, weights=(0.25, 0.25, 0.25, 0.25)):
     
     return combined_scores
 
+def save_edi_scores(edi_scores, results_directory): 
+    edi_df = pd.DataFrame({
+        'Dimension': [i + 1 for i in range(len(edi_scores))],
+        'EDI Score': edi_scores
+    })
+
+    edi_df.to_csv(os.path.join(results_directory, "edi_score.csv"), index=False)
+
+    top_20_df = edi_df.nlargest(20, 'EDI Score')
+    top_20_df.to_csv(os.path.join(results_directory, "top_20_edi_scores.csv"), index=False)
+
+if __name__ == "__main__": 
+
+    embedding_filepaths = get_embeddings_filepaths()
+
+    for embeddings_csv in tqdm(embedding_filepaths):
+        edi_scores = calculate_edi_scores(embeddings_csv)
+        results_directory = get_results_directory(embeddings_csv, "edi_scores")
+        save_edi_scores(edi_scores, results_directory)
