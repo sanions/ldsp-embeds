@@ -98,6 +98,13 @@ def save_pca_results(optimal_components, top_dimensions, overall_contributions, 
     combined_df = pd.concat([metadata_df, results_df], ignore_index=True)
     combined_df.to_csv(os.path.join(results_directory, "pca_results.csv"), index=False)
 
+    all_df = pd.DataFrame({
+        'Dimension': [i + 1 for i in range(len(overall_contributions))],
+        'Contribution': overall_contributions
+    })
+
+    all_df.to_csv(os.path.join(results_directory, "pca_all.csv"), index=False)
+
 if __name__ == "__main__":
     embedding_filepaths = get_embeddings_filepaths()
 
