@@ -6,7 +6,7 @@ from tqdm import tqdm
 from utils import *
 
 
-def create_combined_graph(mutual_info_df, ttest_results_df, clf_weights_df, pca_contribs_df, results_directory, N=20):
+def create_combined_graph(mutual_info_df, ttest_results_df, clf_weights_df, pca_contribs_df, rfe_results_df, results_directory, N=20):
    
     mutual_informations = mutual_info_df['Mutual_Information'].values
 
@@ -16,12 +16,17 @@ def create_combined_graph(mutual_info_df, ttest_results_df, clf_weights_df, pca_
 
     top_N_pca_contribs = pca_contribs_df.nlargest(N, 'Contribution')['Dimension'].values
 
+    rfe_dimensions = rfe_results_df['Feature'].values
+
     plt.figure(figsize=(12, 6))
 
-    plt.bar(np.arange(len(mutual_informations)), mutual_informations, label='Mutual Information', alpha=0.5)
+    bar_colors = ['C0' if i not in rfe_dimensions else 'magenta' for i in range(len(mutual_informations))]
+
+    plt.bar(np.arange(len(mutual_informations)), mutual_informations, label='Mutual Information', alpha=0.5, color=bar_colors)
+    plt.bar(rfe_dimensions, mutual_informations[rfe_dimensions], color='magenta', alpha=0.5, label=f'Top {N} (RFE Selected)')
 
     threshold = np.sort(mutual_informations)[-N]
-    plt.axhline(y=threshold, color='r', linestyle='--', label=f'Top {N} Threshold')
+    plt.axhline(y=threshold, color='r', linestyle='--', label=f'Top {N} MI Threshold')
 
     plt.scatter(top_N_ttest_dimensions, mutual_informations[top_N_ttest_dimensions], color='red', marker='s', label=f'Top {N} (t-test)', s=50, alpha=0.4)
     plt.scatter(top_N_clf_dimensions, mutual_informations[top_N_clf_dimensions], color='blue', label=f'Top {N} (Logistic Reg.)', s=50, alpha=0.4)
@@ -32,7 +37,7 @@ def create_combined_graph(mutual_info_df, ttest_results_df, clf_weights_df, pca_
     plt.title(f"Mutual Information of Embedding Dimensions")
     plt.legend()
 
-    graph_filepath = os.path.join(results_directory, "combined_graph.png")
+    graph_filepath = os.path.join(results_directory, "combined_graph_rfe.png")
     plt.tight_layout()
     plt.savefig(graph_filepath)
     plt.close()
@@ -51,6 +56,7 @@ if __name__ == "__main__":
         ttest_results_df = pd.read_csv(os.path.join(get_results_directory(embeddings_csv, "t_test_analysis"), "t_test_results.csv"))
         clf_weights_df = pd.read_csv(os.path.join(get_results_directory(embeddings_csv, "logistic_classifier"), "classifier_weights.csv"))
         pca_contribs_df = pd.read_csv(os.path.join(get_results_directory(embeddings_csv, "pca_analysis"), "pca_all.csv"))
+        rfe_results_df = pd.read_csv(os.path.join(get_results_directory(embeddings_csv, "rfe_analysis"), "rfe_results.csv"))
 
-        create_combined_graph(mutual_info_df, ttest_results_df, clf_weights_df, pca_contribs_df, results_directory, N=20)
+        create_combined_graph(mutual_info_df, ttest_results_df, clf_weights_df, pca_contribs_df, rfe_results_df, results_directory, N=20)
 
