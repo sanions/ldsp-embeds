@@ -64,7 +64,7 @@ def create_highlighted_heatmap(df):
 
 def create_colored_top_values(df, threshold=0.675):
     # Create a figure with a larger size
-    plt.figure(figsize=(20, 8))
+    plt.figure(figsize=(20, 14))
     
     # Define distinct colors for each property
     colors = [
@@ -184,21 +184,21 @@ def create_colored_grid(df, threshold=0.675):
 
 
 if __name__ == "__main__":
-    df = create_edi_comparison_table(768)
-    print(f"Created table with shape: {df.shape}")
-    print("\nFirst few columns of the table:")
-    print(df.iloc[:, :5])
+    # df = create_edi_comparison_table(768)
+    # print(f"Created table with shape: {df.shape}")
+    # print("\nFirst few columns of the table:")
+    # print(df.iloc[:, :5])
 
-    # df = pd.read_csv('results/combined_edi_scores.csv', index_col=0)
+    df = pd.read_csv('results/combined_edi_scores.csv', index_col=0)
 
-    create_highlighted_heatmap(df)
-    print("Created heatmap at 'results/edi_scores_heatmap.png'")
+    # create_highlighted_heatmap(df)
+    # print("Created heatmap at 'results/edi_scores_heatmap.png'")
 
-    create_colored_top_values(df)
+    create_colored_top_values(df, threshold=0.8)
     print("Created visualization at 'results/colored_top_edi_scores.png'")
 
-    create_colored_grid(df)
-    print("Created visualization at 'results/colored_grid_edi_scores.png'")
+    # create_colored_grid(df)
+    # print("Created visualization at 'results/colored_grid_edi_scores.png'")
 
 
 
