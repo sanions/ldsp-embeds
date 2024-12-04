@@ -11,7 +11,6 @@ def create_edi_comparison_table(embedding_dim):
     # Define the linguistic properties and their file paths
     properties = {
         'Control': 'results/control/edi_scores/edi_score.csv',
-        'Modality': 'results/modality/edi_scores/edi_score.csv',
         'Negation': 'results/negation/edi_scores/edi_score.csv',
         'Intensifier': 'results/intensifier/edi_scores/edi_score.csv',
         'Tense': 'results/tense/edi_scores/edi_score.csv',
@@ -21,7 +20,6 @@ def create_edi_comparison_table(embedding_dim):
         'Factuality': 'results/factuality/edi_scores/edi_score.csv',
         'Definiteness': 'results/definiteness/edi_scores/edi_score.csv',
         'Subject/Object': 'results/subjectObject/edi_scores/edi_score.csv',
-        'Spatial': 'results/spatial/edi_scores/edi_score.csv',
         'Synonym': 'results/synonym/edi_scores/edi_score.csv'
     }
     
@@ -73,7 +71,6 @@ def create_colored_top_values(df, threshold=0.675):
         '#FF5252',  # Red
         '#FF7B52',  # Red-Orange
         '#FFB347',  # Orange
-        '#FFD747',  # Yellow-Orange
         '#FFEB3B',  # Yellow
         '#9CCC65',  # Yellow-Green
         '#66BB6A',  # Green
@@ -81,7 +78,6 @@ def create_colored_top_values(df, threshold=0.675):
         '#4FC3F7',  # Light Blue
         '#5C6BC0',  # Blue
         '#7E57C2',  # Blue-Violet
-        '#AB47BC',  # Violet
         '#D81B60'   # Pink-Violet
     ]
     
@@ -132,7 +128,6 @@ def create_colored_grid(df, threshold=0.675):
         '#FF5252',  # Red
         '#FF7B52',  # Red-Orange
         '#FFB347',  # Orange
-        '#FFD747',  # Yellow-Orange
         '#FFEB3B',  # Yellow
         '#9CCC65',  # Yellow-Green
         '#66BB6A',  # Green
@@ -189,15 +184,15 @@ def create_colored_grid(df, threshold=0.675):
 
 
 if __name__ == "__main__":
-    # combined_scores = create_edi_comparison_table(768)
-    # print(f"Created table with shape: {combined_scores.shape}")
-    # print("\nFirst few columns of the table:")
-    # print(combined_scores.iloc[:, :5])
+    df = create_edi_comparison_table(768)
+    print(f"Created table with shape: {df.shape}")
+    print("\nFirst few columns of the table:")
+    print(df.iloc[:, :5])
 
-    df = pd.read_csv('results/combined_edi_scores.csv', index_col=0)
+    # df = pd.read_csv('results/combined_edi_scores.csv', index_col=0)
 
-    # create_highlighted_heatmap(df)
-    # print("Created heatmap at 'results/edi_scores_heatmap.png'")
+    create_highlighted_heatmap(df)
+    print("Created heatmap at 'results/edi_scores_heatmap.png'")
 
     create_colored_top_values(df)
     print("Created visualization at 'results/colored_top_edi_scores.png'")
