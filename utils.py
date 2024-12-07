@@ -16,7 +16,7 @@ def get_dataset_filepaths():
 
 def get_embeddings_filepaths():
     directory = "./embeddings"
-    return [os.path.join(directory, fn) for fn in os.listdir(directory) if "gender" not in fn and "modality" not in fn and "spatial" not in fn]
+    return [os.path.join(directory, fn) for fn in os.listdir(directory) if "gender" not in fn and "modality" not in fn and "spatial" not in fn and "subject" not in fn]
 
 def get_linguistic_property(embeddings_csv):
     return embeddings_csv.split("_")[0]

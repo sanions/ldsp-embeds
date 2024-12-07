@@ -19,7 +19,6 @@ def create_edi_comparison_table(embedding_dim):
         'Quantity': 'results/quantity/edi_scores/edi_score.csv',
         'Factuality': 'results/factuality/edi_scores/edi_score.csv',
         'Definiteness': 'results/definiteness/edi_scores/edi_score.csv',
-        'Subject/Object': 'results/subjectObject/edi_scores/edi_score.csv',
         'Synonym': 'results/synonym/edi_scores/edi_score.csv'
     }
     
@@ -121,7 +120,7 @@ def create_colored_top_values(df, threshold=0.675):
 
 def create_colored_grid(df, threshold=0.675):
     # Create a figure with a larger size
-    plt.figure(figsize=(20, 8))
+    plt.figure(figsize=(20, 12))
     
     # Define distinct colors for each property
     colors = [
@@ -173,6 +172,9 @@ def create_colored_grid(df, threshold=0.675):
                       for i, prop in enumerate(df.index)]
     plt.legend(handles=legend_elements, 
               bbox_to_anchor=(1.05, 1), 
+              fontsize=16,
+              markerscale=2,
+              borderpad=1,
               loc='upper left')
     
     # Adjust layout and save
@@ -184,21 +186,22 @@ def create_colored_grid(df, threshold=0.675):
 
 
 if __name__ == "__main__":
-    # df = create_edi_comparison_table(768)
-    # print(f"Created table with shape: {df.shape}")
-    # print("\nFirst few columns of the table:")
-    # print(df.iloc[:, :5])
 
-    df = pd.read_csv('results/combined_edi_scores.csv', index_col=0)
+    df = create_edi_comparison_table(768)
+    print(f"Created table with shape: {df.shape}")
+    print("\nFirst few columns of the table:")
+    print(df.iloc[:, :5])
 
-    # create_highlighted_heatmap(df)
-    # print("Created heatmap at 'results/edi_scores_heatmap.png'")
+    # df = pd.read_csv('results/combined_edi_scores.csv', index_col=0)
+
+    create_highlighted_heatmap(df)
+    print("Created heatmap at 'results/edi_scores_heatmap.png'")
 
     create_colored_top_values(df, threshold=0.8)
     print("Created visualization at 'results/colored_top_edi_scores.png'")
 
-    # create_colored_grid(df)
-    # print("Created visualization at 'results/colored_grid_edi_scores.png'")
+    create_colored_grid(df, threshold=0.8)
+    print("Created visualization at 'results/colored_grid_edi_scores.png'")
 
 
 
