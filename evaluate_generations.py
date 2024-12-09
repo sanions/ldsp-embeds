@@ -70,45 +70,55 @@ if __name__ == "__main__":
             test_df['Sentence1_embedding']
         )
 
-        # Evaluate mean-shifted embeddings with baseline comparison
+        # Evaluate regression embeddings 
         regression_metrics, regression_similarities, _ = evaluate_embeddings(
             test_df['Sentence2_embedding'],
             test_df['regression_embedding'],
             test_df['Sentence1_embedding']
         )
 
+        # Evaluate sampling-based embeddings 
+        sampling_metrics, sampling_similarities, _ = evaluate_embeddings(
+            test_df['Sentence2_embedding'],
+            test_df['sampling_embedding'],
+            test_df['Sentence1_embedding']
+        )
+
         # Combine metrics with prefixes to distinguish between methods
-        metrics = {}
-        for key, value in mean_shift_metrics.items():
-            if key.startswith('baseline'):
-                metrics[key] = value  # Keep baseline metrics as is (only need once)
-            else:
-                metrics[f'mean_shift_{key}'] = value
+        # metrics = {}
+        # for key, value in mean_shift_metrics.items():
+        #     if key.startswith('baseline'):
+        #         metrics[key] = value  # Keep baseline metrics as is (only need once)
+        #     else:
+        #         metrics[f'mean_shift_{key}'] = value
         
-        for key, value in regression_metrics.items():
-            if not key.startswith('baseline'):  # Skip baseline metrics as we already have them
-                metrics[f'regression_{key}'] = value
+        # for key, value in regression_metrics.items():
+        #     if not key.startswith('baseline'):  # Skip baseline metrics as we already have them
+        #         metrics[f'regression_{key}'] = value
         
-        # Add dataset info to metrics
-        metrics['dataset'] = os.path.basename(embeddings_csv)
-        all_results.append(metrics)
+        # # Add dataset info to metrics
+        # metrics['dataset'] = os.path.basename(embeddings_csv)
+        # all_results.append(metrics)
         
         # Save detailed similarities for this dataset
         similarities_df = pd.DataFrame({
             'baseline_similarity': baseline_similarities,
             'mean_shift_similarity': mean_shift_similarities,
             'regression_similarity': regression_similarities,
+            'sampling_similarity': sampling_similarities,
             'Sentence1': test_df['Sentence1'],
             'Sentence2': test_df['Sentence2']
         })
-        
+
+        lp = results_dir.split('/')[1]        
         # Create box plot
         plt.figure(figsize=(10, 6))
-        sns.boxplot(data=similarities_df[['baseline_similarity', 'mean_shift_similarity', 'regression_similarity']])
-        plt.title('Comparison of Embedding Similarities Across Methods')
+        sns.boxplot(data=similarities_df[['baseline_similarity', 'sampling_similarity', 'mean_shift_similarity', 'regression_similarity']])
+        plt.title(f'Comparison of Embedding Similarities Across Methods: {lp}')
         plt.xlabel('Method')
         plt.ylabel('Cosine Similarity')
         plt.xticks(rotation=45)
+        plt.ylim(0.35, 1)
         plt.tight_layout()
         plt.savefig(os.path.join(results_dir, "similarity_comparison_boxplot.png"))
         plt.close()
@@ -116,10 +126,9 @@ if __name__ == "__main__":
         # Save detailed similarities
         similarities_df.to_csv(os.path.join(results_dir, "embedding_similarities.csv"), index=False)
 
-        break
     
     # Save overall results
-    results_df = pd.DataFrame(all_results)
-    print("\nOverall Results:")
-    print(results_df.to_string(index=False))
-    results_df.to_csv("generation_evaluation_results.csv", index=False)
+    # results_df = pd.DataFrame(all_results)
+    # print("\nOverall Results:")
+    # print(results_df.to_string(index=False))
+    # results_df.to_csv("generation_evaluation_results.csv", index=False)

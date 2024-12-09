@@ -1,201 +1,201 @@
-baseline_similarity,mean_shift_similarity,regression_similarity,Sentence1,Sentence2
-0.8641434619415431,0.8903929887831643,0.899232897785556,The team played a winning game.,The team did not play a winning game.
-0.9261743591866478,0.9609979566075584,0.9667872965107612,The grasshopper nimbly hopped through the tall grass.,The grasshopper did not nimbly hop through the tall grass.
-0.913146208429684,0.9478168014107375,0.959039069289778,The snail slowly left a glistening trail.,The snail did not slowly leave a glistening trail.
-0.9010606188466418,0.927568764956924,0.9366290562971438,The company effectively managed its resources.,The company did not effectively manage its resources.
-0.935927207901694,0.969322679585435,0.967528949470406,The geologists examined the Earth's structure.,The geologists did not examine the Earth's structure.
-0.8658327098517173,0.8870073615708268,0.900966625608218,The organization successfully achieved its mission.,The organization did not successfully achieve its mission.
-0.8921866887224261,0.9300735495326453,0.9376627983684922,The bees pollinated the flowers.,The bees did not pollinate the flowers.
-0.9096820242431232,0.9508817410625974,0.9572686836034264,The writer wrote a captivating story.,The writer did not write a captivating story.
-0.8945513834499939,0.9333813230601574,0.9461414777010222,The teacher patiently explained the concept.,The teacher did not patiently explain the concept.
-0.840639442091282,0.8883129824198152,0.9103997337076191,The company grew rapidly,The company did not grow rapidly
-0.9512567435141359,0.9731508421205499,0.9714102347397973,The plains stretched out as far as the eye could see.,The plains did not stretch out as far as the eye could see.
-0.9500076880410001,0.9199807517471956,0.9130591177965499,The painting was beautiful,The painting was ugly
-0.8982483449386652,0.9284339098025135,0.9384213269839109,The dragonflies hunted mosquitoes.,The dragonflies did not hunt mosquitoes.
-0.9148803920084754,0.940934955781988,0.9500849594118197,The raccoons cleverly searched for food.,The raccoons did not cleverly search for food.
-0.9245368800680724,0.9533150444069105,0.957354934485772,The arctic foxes cleverly hunted their prey.,The arctic foxes did not cleverly hunt their prey.
-0.9327508574485732,0.9606934493079692,0.9644906539473724,The photographer skillfully captured the essence of the moment.,The photographer did not skillfully capture the essence of the moment.
-0.8408493268977097,0.8628426176291446,0.8916693598158406,The work was done.,The work was not done.
-0.9230140772127043,0.9497759076986575,0.9527688633286786,The product received overwhelmingly positive reviews.,The product did not receive overwhelmingly positive reviews.
-0.9173538833121033,0.9346150572312794,0.9526677312099986,The grasshopper rapidly escaped the danger.,The grasshopper did not rapidly escape the danger.
-0.9157506619177969,0.9409938681524518,0.9450597357013379,The world improved environmentally.,The world did not improve environmentally.
-0.8900557849551021,0.9208333733012193,0.9264508217971942,The investor made a profitable investment.,The investor did not make a profitable investment.
-0.8508450549343456,0.9060672605071025,0.9119506721404383,The bicycle rolled effortlessly.,The bicycle did not roll effortlessly.
-0.891462200702453,0.9343750814998866,0.9471845843657218,The insects crawled on the leaves.,The insects did not crawl on the leaves.
-0.9004623706006774,0.929315984240677,0.9435604683708643,The government implemented new policies.,The government did not implement new policies.
-0.8875668396104512,0.935991378208209,0.9460441022142382,The eagles soared majestically.,The eagles did not soar majestically.
-0.9021570214529218,0.9278678297338014,0.9379670547909736,The cake looked appealing.,The cake did not look appealing.
-0.88693047985149,0.9403943420436073,0.949070238270515,The flowers bloomed beautifully,The flowers did not bloom beautifully
-0.9159095622132907,0.9465099874872382,0.9582852875248964,The hamster busily spun its wheel.,The hamster did not busily spin its wheel.
-0.9139674225472623,0.9422785560843052,0.9422943408769167,The writer eloquently described the characters.,The writer did not eloquently describe the characters.
-0.9396725070313677,0.9658639243815961,0.9644426052503212,The forests provided a habitat for many creatures.,The forests did not provide a habitat for many creatures.
-0.8951765311594415,0.919246352853254,0.9352674796510948,The elephants migrated annually.,The elephants did not migrate annually.
-0.9128166936411204,0.9289877289436443,0.9329404373416433,The unemployment rate declined,The unemployment rate did not decline
-0.8817547062587376,0.9244593118131259,0.9437422020984202,The frogs leaped into the pond.,The frogs did not leap into the pond.
-0.9345159209615648,0.9552283896702147,0.9669878462894105,The snake shed its skin.,The snake did not shed its skin.
-0.9225314416057496,0.9513043783457544,0.9585929953332527,The toads croaked loudly in the night.,The toads did not croak loudly in the night.
-0.824381376690549,0.8659462561578963,0.8934340064009567,The penguins waddled awkwardly.,The penguins did not waddle awkwardly.
-0.9432836758128553,0.9682593759251454,0.9670270153561961,The stock market experienced a period of growth.,The stock market did not experience a period of growth.
-0.881225811318941,0.922207364719861,0.939988698644832,The ocean waves crashed on the shore.,The ocean waves did not crash on the shore.
-0.8422418777472467,0.893188226985865,0.8987963086734757,The musician flawlessly performed the concerto.,The musician did not flawlessly perform the concerto.
-0.8711051799518342,0.849262949987425,0.8510702557606296,The explanation is clear,The explanation is unclear
-0.8643437932796483,0.9119707189585544,0.9280314527138904,The ice melted slowly.,The ice did not melt slowly.
-0.8844477067793501,0.936342629296315,0.9444251873354617,The ice melted quickly,The ice did not melt quickly
-0.8793315294745014,0.9095393135701657,0.9224728094992475,The student learned a lesson.,The student did not learn a lesson.
-0.9447724213184876,0.9573857844606101,0.9579341691880738,The skunks effectively used their defense mechanism.,The skunks did not effectively use their defense mechanism.
-0.867389096697037,0.8788081446321533,0.8939824721710616,The need was satisfied.,The need was not satisfied.
-0.8844377783145618,0.9020361187176167,0.9167943082986418,The target was reached.,The target was not reached.
-0.8831831837295745,0.9217830810730687,0.9403492688931723,The ocean waves crashed against the shore.,The ocean waves did not crash against the shore.
-0.9012986517715544,0.9420781709033983,0.9555880735798344,The monkeys swung through the trees.,The monkeys did not swing through the trees.
-0.873955998925884,0.9067908769389499,0.9261096366663588,The time flew by rapidly.,The time did not fly by rapidly.
-0.9083859364690362,0.9472759644249527,0.9593925163660629,The birds sang sweetly in the morning.,The birds did not sing sweetly in the morning.
-0.831043174157345,0.8577324986059671,0.8791586249023107,The team won the championship.,The team did not win the championship.
-0.907395596459668,0.9403894961004515,0.9481835113666683,The community actively participated in the fundraiser.,The community did not actively participate in the fundraiser.
-0.9421200590622716,0.9457312535274686,0.9525154501448683,The evidence was compelling.,The evidence was not compelling.
-0.8688354482797013,0.9124985010389732,0.9321359978311206,The sun warmed the earth.,The sun did not warm the earth.
-0.907537780928621,0.9254387232425093,0.9275987601508449,I am thirsty,I am not thirsty
-0.9108842762157876,0.9274095667049786,0.9339454884630026,The weather is nice,The weather is not nice
-0.9360862011021541,0.9549815595796465,0.9648278527389096,The rats avoided the traps.,The rats did not avoid the traps.
-0.8887404428622656,0.9061485043885181,0.9161930348758778,The phone is ringing loudly,The phone is not ringing loudly
-0.8663982192994095,0.9210781132808543,0.930497392427424,The snakes slithered silently.,The snakes did not slither silently.
-0.8759842614297431,0.9205787680941494,0.930970253803336,The streams flowed through the valleys.,The streams did not flow through the valleys.
-0.87948443477301,0.8791446731353351,0.900009387343646,The command was obeyed.,The command was not obeyed.
-0.913883094118243,0.8908802552911863,0.8926867142997131,The story is true,The story is false
-0.9083925179119048,0.9132755132994701,0.9184963837165615,The project was completed on time.,The project was not completed on time.
-0.872011060969011,0.9149363713532046,0.9279886774411608,The owls hooted softly.,The owls did not hoot softly.
-0.9331707062211962,0.9602857829592628,0.9639130340843458,The orangutans built nests high in the trees.,The orangutans did not build nests high in the trees.
-0.9156613180897155,0.9483853132316714,0.9548439079671712,The explorers carefully documented their findings.,The explorers did not carefully document their findings.
-0.9231233360648528,0.9513063583623544,0.9529650389619042,The market steadily grew over time.,The market did not steadily grow over time.
-0.9378795255742303,0.9514477215652466,0.9468508812759733,The economy significantly improved last year.,The economy did not significantly improve last year.
-0.9206618091101861,0.9085730497515633,0.9084220002617094,The experiment was a success,The experiment was a failure
-0.8779005126557007,0.9035361090092406,0.918374761312878,The product launched successfully.,The product did not launch successfully.
-0.8357735914942341,0.8874923383343676,0.9042389892943552,The chef prepared a wonderful meal,The chef did not prepare a wonderful meal
-0.8730841961949729,0.9219325008862588,0.9350120070765615,The fish swam playfully in the tank.,The fish did not swim playfully in the tank.
-0.9052036964670813,0.9419128617580863,0.9540482870865213,The insects buzzed around the flowers.,The insects did not buzz around the flowers.
-0.9299535221143638,0.9520137809542799,0.9666640134360521,The slug cautiously moved across the leaf.,The slug did not cautiously move across the leaf.
-0.8933858633413837,0.897093427046338,0.9120444526765964,The law was obeyed.,The law was not obeyed.
-0.9506308874993873,0.9516328421253969,0.9522116100288754,The constraint was removed.,The constraint was not removed.
-0.8863396472172512,0.9112990527359853,0.9243965951427167,The programmer efficiently wrote the code.,The programmer did not efficiently write the code.
-0.852643273825793,0.89313071898724,0.9077455516862358,The car broke down,The car did not break down
-0.9152330434626654,0.9449042641353521,0.9526802671769047,The animals roamed freely in the wild.,The animals did not roam freely in the wild.
-0.8309081364006161,0.8600414570165207,0.876899778603653,The architect designed a building.,The architect did not design a building.
-0.9545238546109455,0.9590331830155068,0.9606669470823541,The project was completed within budget.,The project was not completed within budget.
-0.9419836944138831,0.9178499999116068,0.9082074150664567,The outcome is successful,The outcome is unsuccessful
-0.8091859853267515,0.8263342912082366,0.8559926940444792,The goal was achieved.,The goal was not achieved.
-0.8563314449695609,0.8370105001025788,0.8381974274135295,The project is complete,The project is incomplete
-0.8667450183798959,0.9009142343495231,0.9159950698401513,The nation prospered economically.,The nation did not prosper economically.
-0.9196807295597769,0.9498971043374282,0.9558013574011831,The company increased its market share.,The company did not increase its market share.
-0.9401771373772454,0.9577586657281455,0.9567779705046054,The ant collaboratively carried a large crumb.,The ant did not collaboratively carry a large crumb.
-0.8736371367743159,0.9033691545375883,0.9230735391355247,The volunteers selflessly dedicated their time.,The volunteers did not selflessly dedicate their time.
-0.9469342662304219,0.9648895664620819,0.9712907429970178,The slug cautiously avoided the bright sunlight.,The slug did not cautiously avoid the bright sunlight.
-0.8286404863207744,0.8615692075858519,0.8930723971730964,The snow covered the ground.,The snow did not cover the ground.
-0.8876621405921981,0.9241097561790725,0.9361847226878841,The moon rose in the night sky.,The moon did not rise in the night sky.
-0.8592708953305328,0.9032685350635493,0.9229809249729328,The train traveled swiftly across the country.,The train did not travel swiftly across the country.
-0.9093408571752195,0.9419678766837205,0.9494392681583387,The company achieved record profits.,The company did not achieve record profits.
-0.8845850461748994,0.9283290941604166,0.9422875141273788,The squirrels gathered nuts diligently.,The squirrels did not gather nuts diligently.
-0.8879007684777063,0.9331851796570261,0.9384624132178341,The sailors skillfully navigated the vessel.,The sailors did not skillfully navigate the vessel.
-0.8945273033773031,0.9191107183327569,0.9276615094315547,The past held valuable lessons.,The past did not hold valuable lessons.
-0.8985937316668796,0.924214938662413,0.9295330824453839,The snail persistently moved towards its destination.,The snail did not persistently move towards its destination.
-0.8936876567955642,0.9295398018370558,0.9316796225374262,The dog chased the squirrel,The dog did not chase the squirrel
-0.9332965741684083,0.91183618304292,0.9129456058775809,The solution is correct,The solution is incorrect
-0.8726013760721198,0.91574347818425,0.940321786477986,The deer grazed peacefully in the meadow.,The deer did not graze peacefully in the meadow.
-0.8856977535107927,0.9241432906017453,0.9409503419690899,The dog happily chased its tail.,The dog did not happily chase its tail.
-0.9630579789576723,0.9779117060658565,0.9748632824571623,The chimpanzees used tools expertly.,The chimpanzees did not use tools expertly.
-0.9011601314706001,0.9410373449541933,0.9459754561267829,The polar bears powerfully swam through the icy water.,The polar bears did not powerfully swim through the icy water.
-0.868624557555539,0.8831650367618825,0.8879572547781266,The results were significant.,The results were not significant.
-0.8845241435634228,0.9338002553047878,0.9420233451613188,The butterflies landed gently on the flowers.,The butterflies did not land gently on the flowers.
-0.9069894552822002,0.939338043628606,0.9373202772407082,The spiders spun webs to catch their prey.,The spiders did not spin webs to catch their prey.
-0.8768071643748401,0.9174007186970906,0.9319264644774023,The scientists discovered a new planet.,The scientists did not discover a new planet.
-0.8909008899808175,0.9300022623669342,0.9459679429155546,The streams meandered through the valleys.,The streams did not meander through the valleys.
-0.8881372081846132,0.8697012088672199,0.8878844176220326,The conclusion was logical,The conclusion was illogical
-0.8910417366197425,0.9242179999468403,0.9384291125327711,The volunteers selflessly donated their time and skills.,The volunteers did not selflessly donate their time and skills.
-0.8638092060953065,0.8750141943315686,0.8894199515028122,The politician won the election.,The politician did not win the election.
-0.9104439034855885,0.9495180865492975,0.9563659610007604,The birds built their nests in the trees.,The birds did not build their nests in the trees.
-0.8615962018725566,0.905078297385513,0.9237321166737067,The fish playfully darted through the coral reef.,The fish did not playfully dart through the coral reef.
-0.9252370908103518,0.9505525572096953,0.9579302459669626,The geysers erupted periodically.,The geysers did not erupt periodically.
-0.9442284849775614,0.9495358847849246,0.9493848206282857,The leaves are brown,The leaves are not brown
-0.8573078667574027,0.894983718782038,0.9050744422140338,The culture celebrated diversity.,The culture did not celebrate diversity.
-0.8464095890930255,0.9071362659076093,0.929244494162671,The audience cheered loudly.,The audience did not cheer loudly.
-0.904396600200969,0.9347421345457982,0.9504450091301637,The rabbits hid quickly in their burrows.,The rabbits did not hide quickly in their burrows.
-0.9403534129788366,0.9571476774244322,0.9584880785270358,The patient recovered quickly from surgery.,The patient did not recover quickly from surgery.
-0.8301340498070673,0.8437154464462535,0.8637455789495899,The order was given.,The order was not given.
-0.917494183792761,0.9514227740241181,0.9610878593352784,The country invested heavily in infrastructure.,The country did not invest heavily in infrastructure.
-0.9324811851911177,0.9528066535853844,0.9565291461655321,The friends helped each other in times of need.,The friends did not help each other in times of need.
-0.897313199935546,0.9210391083691392,0.9300523276627066,The organization effectively managed its operations.,The organization did not effectively manage its operations.
-0.8744467727516083,0.8737465825958782,0.9023423188309114,The reasoning was coherent.,The reasoning was not coherent.
-0.8673105748080062,0.9012679074805874,0.9196173637442916,The fabric felt soft.,The fabric did not feel soft.
-0.8464508030328428,0.9059325572779899,0.9213692717524113,The photographer captured stunning images.,The photographer did not capture stunning images.
-0.8220819764840697,0.8585690772527627,0.8672575601487522,The river flowed to the sea.,The river did not flow to the sea.
-0.9201457954403087,0.9576396768503107,0.9622319713631645,The path led through the forest.,The path did not lead through the forest.
-0.8984101857333162,0.9203782718337301,0.9287315960473641,The government effectively addressed the problem.,The government did not effectively address the problem.
-0.9112021379718328,0.9421791759588454,0.9496435950540835,The arctic hares blended with the snow.,The arctic hares did not blend with the snow.
-0.912385122373095,0.9454792781229644,0.9490656830032277,The giraffes reached the highest branches.,The giraffes did not reach the highest branches.
-0.8832662954898762,0.9229793025736579,0.9383232056893158,The mechanic expertly repaired the car.,The mechanic did not expertly repair the car.
-0.9301379673069585,0.9118950298326578,0.907058295794526,The data was reliable.,The data was unreliable.
-0.893392973285251,0.931591701931734,0.9488533443271646,The toad cautiously hopped toward the pond.,The toad did not cautiously hop toward the pond.
-0.9181604016305851,0.9440931012542457,0.9511988357914373,The leader inspired their followers.,The leader did not inspire their followers.
-0.9192788426386947,0.889799074637886,0.8952359853300118,The news is accurate,The news is inaccurate
-0.8399197429641493,0.877803924828948,0.8901858089563274,The judge presided over the trial,The judge did not preside over the trial
-0.9033114056578396,0.9318325713255814,0.9405707481281291,The foxes stalked their prey.,The foxes did not stalk their prey.
-0.9352307496063732,0.9112070297923489,0.9142152010229856,The window is closed,The window is open
-0.8362940285664424,0.8121615689514642,0.8258304095516087,The game was exciting,The game was boring
-0.8591475584050963,0.9046414326992793,0.921904556605181,The lights went out,The lights did not go out
-0.8900547011828386,0.9123664279965549,0.9237246335140018,The lecture was stimulating.,The lecture was not stimulating.
-0.88904440694265,0.9197564094705591,0.9406338344989544,The squirrel playfully chattered from the tree.,The squirrel did not playfully chatter from the tree.
-0.8681201709511319,0.8789118352781984,0.8988825887949332,The problem was solved.,The problem was not solved.
-0.8938746712869252,0.911414859577391,0.9188316713686082,The world collaboratively tackled climate change.,The world did not collaboratively tackle climate change.
-0.8615541741984356,0.9068743952734004,0.9333841898739228,The friend sincerely offered their support.,The friend did not sincerely offer their support.
-0.8584215274854579,0.8960379298099967,0.9134483503268669,The lakes reflected the sky.,The lakes did not reflect the sky.
-0.944239309033593,0.959690462122692,0.9654422582186725,The report was informative.,The report was not informative.
-0.9371068716738951,0.9649787127971489,0.9693009955809522,The trees provided shade from the sun.,The trees did not provide shade from the sun.
-0.9484935920828237,0.9269920411531649,0.9231042780328587,The weather was unpredictable.,The weather was predictable.
-0.9032393652823052,0.938072628554822,0.9477136229116511,The slugs ate the leaves.,The slugs did not eat the leaves.
-0.8802978011637136,0.8967407010256654,0.9131158578694706,The challenge was overcome,The challenge was not overcome
-0.9029165245572387,0.9383689304473781,0.9520959058187047,The squirrels chattered among themselves.,The squirrels did not chatter among themselves.
-0.9096630083259554,0.9223763105727754,0.9314833608414758,The world united against a common enemy.,The world did not unite against a common enemy.
-0.9464240992737044,0.961910808095771,0.965977285524138,The musk oxen fiercely defended their calves.,The musk oxen did not fiercely defend their calves.
-0.8635553769144306,0.9059054517496108,0.9202177156281262,The bird perched on a branch.,The bird did not perch on a branch.
-0.8507308230727889,0.891875630060067,0.9067654982466282,The scientist discovered a phenomenon.,The scientist did not discover a phenomenon.
-0.9011971848318376,0.9371157223304114,0.9484426700239424,The artist skillfully crafted the sculpture.,The artist did not skillfully craft the sculpture.
-0.9514193987042384,0.9542216234282155,0.9526241568382185,The instructions are simple,The instructions are not simple
-0.937040579041184,0.9518515789982419,0.9568022958818662,The campaign successfully reached its target demographic.,The campaign did not successfully reach its target demographic.
-0.7136855512472218,0.7638518081488695,0.80150607385663,The penguins waddled on the ice.,The penguins did not waddle on the ice.
-0.9523657838596143,0.9662191584662363,0.9663430500904651,The ant cooperatively worked with its colony.,The ant did not cooperatively work with its colony.
-0.9098511967051047,0.9434835424893774,0.945800837892403,The artist meticulously painted the portrait.,The artist did not meticulously paint the portrait.
-0.850772867356533,0.8983173981768018,0.9083564570627423,The musician passionately played the violin.,The musician did not passionately play the violin.
-0.9338184285147682,0.9571284711566872,0.9583013375046672,The market steadily grew during the quarter.,The market did not steadily grow during the quarter.
-0.9051271167236562,0.9241551645037787,0.9282488350481046,The employee conscientiously performed their duties.,The employee did not conscientiously perform their duties.
-0.8514478702419246,0.857636123932572,0.8817216678595454,The demand was met.,The demand was not met.
-0.8686791967711521,0.9089848956424547,0.9217038634894896,The country developed its infrastructure.,The country did not develop its infrastructure.
-0.9118551675558917,0.9427206843800462,0.9523274739569436,The child grew up happily.,The child did not grow up happily.
-0.8955293440882723,0.919879473142617,0.9256057672237171,The doctor cured a disease.,The doctor did not cure a disease.
-0.8823683599934661,0.9299630607355389,0.9436130944813632,The rabbits scampered through the field.,The rabbits did not scamper through the field.
-0.9061539503190348,0.9468841980043321,0.9511851217533076,The lizard basked in the warm sunlight.,The lizard did not bask in the warm sunlight.
-0.8797914844510359,0.9270503088083287,0.9413587706650544,The dancer moved gracefully,The dancer did not move gracefully
-0.9312139034031927,0.953797377757787,0.9578988633098378,The mouse stealthily scurried behind the furniture.,The mouse did not stealthily scurry behind the furniture.
-0.9044295378962468,0.9402763693588883,0.9501480759221121,The bee buzzed around the flower.,The bee did not buzz around the flower.
-0.9158351072570843,0.9526235375450881,0.9576597121255601,The squirrels buried their nuts carefully.,The squirrels did not bury their nuts carefully.
-0.818184573567897,0.8469180772415777,0.8686025388714328,The experiment worked.,The experiment did not work.
-0.9190752502063609,0.9191209130861562,0.9335247922408336,The argument was logical.,The argument was not logical.
-0.9344042038934245,0.9460391376011823,0.9495004140075081,The musk oxen defended their young.,The musk oxen did not defend their young.
-0.87254970715709,0.9122377930615905,0.9334561554664619,The volunteers generously donated their time.,The volunteers did not generously donate their time.
-0.8838326933217244,0.9119473693581823,0.924536410647129,The hamster ran on its wheel.,The hamster did not run on its wheel.
-0.9025927693625901,0.9344961502604631,0.9476898311090947,The client enthusiastically approved the proposal.,The client did not enthusiastically approve the proposal.
-0.9032418220446952,0.9315944923866177,0.9412039262472143,The dog barked at the mailman.,The dog did not bark at the mailman.
-0.8774731271088476,0.9159973946133182,0.9275421207536325,The economy expanded rapidly.,The economy did not expand rapidly.
-0.8669955783804956,0.9134270377402077,0.9268662681487966,The baker expertly decorated the cake.,The baker did not expertly decorate the cake.
-0.8652037786907019,0.9129768597717364,0.9254299071352832,The economy expanded,The economy did not expand
-0.8583875187147929,0.909204130586762,0.9211315778697262,The eagles soared high above.,The eagles did not soar high above.
-0.9511428550660485,0.9741000506209911,0.9745109726483866,The rats avoided the traps expertly.,The rats did not avoid the traps expertly.
-0.8905963676628498,0.9275335941149814,0.9419644962460252,The snowy owls silently hunted in the twilight.,The snowy owls did not silently hunt in the twilight.
-0.9184016228362494,0.9553818282261825,0.9623474189708358,The grasshopper powerfully launched itself into the air.,The grasshopper did not powerfully launch itself into the air.
-0.9349950757193275,0.9598305269094942,0.9606371541685119,The rivers supplied fresh water to the communities.,The rivers did not supply fresh water to the communities.
-0.9157876814869895,0.9440838775319942,0.9476358350909719,The bears fished for salmon in the river.,The bears did not fish for salmon in the river.
-0.8991587349140098,0.9399405954232731,0.9502837850142367,The teacher patiently explained the lesson.,The teacher did not patiently explain the lesson.
-0.8939589564085257,0.9266323842939519,0.9392328124994906,The bears hibernated peacefully.,The bears did not hibernate peacefully.
-0.8972402973306044,0.9313741983439717,0.9381971053075938,The vultures scavenged for food.,The vultures did not scavenge for food.
-0.9048817719676451,0.9297465238201934,0.9387150877042842,The physicists researched the fundamental forces.,The physicists did not research the fundamental forces.
-0.8636259656876158,0.9123400254406903,0.9318231319379932,The trees swayed gently.,The trees did not sway gently.
-0.8912028717880355,0.9334844755598024,0.9485175084815015,The parrots squawked loudly.,The parrots did not squawk loudly.
-0.8519296388351205,0.9096835633055812,0.9292345096120784,The rabbits hopped quickly through the field.,The rabbits did not hop quickly through the field.
-0.9387493197017451,0.9507132199662776,0.9489509797455551,The building is tall,The building is not tall
+baseline_similarity,mean_shift_similarity,regression_similarity,sampling_similarity,Sentence1,Sentence2
+0.8641434619415431,0.8903929887831643,0.899232897785556,0.8541013588367667,The team played a winning game.,The team did not play a winning game.
+0.9261743591866478,0.9609979566075584,0.9667872965107612,0.9238035661988244,The grasshopper nimbly hopped through the tall grass.,The grasshopper did not nimbly hop through the tall grass.
+0.913146208429684,0.9478168014107375,0.959039069289778,0.9066742833914404,The snail slowly left a glistening trail.,The snail did not slowly leave a glistening trail.
+0.9010606188466418,0.927568764956924,0.9366290562971438,0.8938621912706418,The company effectively managed its resources.,The company did not effectively manage its resources.
+0.935927207901694,0.969322679585435,0.967528949470406,0.9312749582129319,The geologists examined the Earth's structure.,The geologists did not examine the Earth's structure.
+0.8658327098517173,0.8870073615708268,0.900966625608218,0.8564509043402095,The organization successfully achieved its mission.,The organization did not successfully achieve its mission.
+0.8921866887224261,0.9300735495326453,0.9376627983684922,0.878430738014998,The bees pollinated the flowers.,The bees did not pollinate the flowers.
+0.9096820242431232,0.9508817410625974,0.9572686836034264,0.9096725778519027,The writer wrote a captivating story.,The writer did not write a captivating story.
+0.8945513834499939,0.9333813230601574,0.9461414777010222,0.8958428098923019,The teacher patiently explained the concept.,The teacher did not patiently explain the concept.
+0.840639442091282,0.8883129824198152,0.9103997337076191,0.8351833729564133,The company grew rapidly,The company did not grow rapidly
+0.9512567435141359,0.9731508421205499,0.9714102347397973,0.9440516008927641,The plains stretched out as far as the eye could see.,The plains did not stretch out as far as the eye could see.
+0.9500076880410001,0.9199807517471956,0.9130591177965499,0.9394311632061331,The painting was beautiful,The painting was ugly
+0.8982483449386652,0.9284339098025135,0.9384213269839109,0.8953493283755999,The dragonflies hunted mosquitoes.,The dragonflies did not hunt mosquitoes.
+0.9148803920084754,0.940934955781988,0.9500849594118197,0.90467604321645,The raccoons cleverly searched for food.,The raccoons did not cleverly search for food.
+0.9245368800680724,0.9533150444069105,0.957354934485772,0.9180505655701131,The arctic foxes cleverly hunted their prey.,The arctic foxes did not cleverly hunt their prey.
+0.9327508574485732,0.9606934493079692,0.9644906539473724,0.9297641378030529,The photographer skillfully captured the essence of the moment.,The photographer did not skillfully capture the essence of the moment.
+0.8408493268977097,0.8628426176291446,0.8916693598158406,0.8392555853246557,The work was done.,The work was not done.
+0.9230140772127043,0.9497759076986575,0.9527688633286786,0.9176093857887044,The product received overwhelmingly positive reviews.,The product did not receive overwhelmingly positive reviews.
+0.9173538833121033,0.9346150572312794,0.9526677312099986,0.9129324506849344,The grasshopper rapidly escaped the danger.,The grasshopper did not rapidly escape the danger.
+0.9157506619177969,0.9409938681524518,0.9450597357013379,0.9128999555718699,The world improved environmentally.,The world did not improve environmentally.
+0.8900557849551021,0.9208333733012193,0.9264508217971942,0.8879067686465512,The investor made a profitable investment.,The investor did not make a profitable investment.
+0.8508450549343456,0.9060672605071025,0.9119506721404383,0.8538032813829193,The bicycle rolled effortlessly.,The bicycle did not roll effortlessly.
+0.891462200702453,0.9343750814998866,0.9471845843657218,0.8859448264192776,The insects crawled on the leaves.,The insects did not crawl on the leaves.
+0.9004623706006774,0.929315984240677,0.9435604683708643,0.9020205486984991,The government implemented new policies.,The government did not implement new policies.
+0.8875668396104512,0.935991378208209,0.9460441022142382,0.8885599309874752,The eagles soared majestically.,The eagles did not soar majestically.
+0.9021570214529218,0.9278678297338014,0.9379670547909736,0.8989350745239325,The cake looked appealing.,The cake did not look appealing.
+0.88693047985149,0.9403943420436073,0.949070238270515,0.8854582611074688,The flowers bloomed beautifully,The flowers did not bloom beautifully
+0.9159095622132907,0.9465099874872382,0.9582852875248964,0.9077719517084171,The hamster busily spun its wheel.,The hamster did not busily spin its wheel.
+0.9139674225472623,0.9422785560843052,0.9422943408769167,0.9048701653200761,The writer eloquently described the characters.,The writer did not eloquently describe the characters.
+0.9396725070313677,0.9658639243815961,0.9644426052503212,0.9297116574373807,The forests provided a habitat for many creatures.,The forests did not provide a habitat for many creatures.
+0.8951765311594415,0.919246352853254,0.9352674796510948,0.8921559295164472,The elephants migrated annually.,The elephants did not migrate annually.
+0.9128166936411204,0.9289877289436443,0.9329404373416433,0.8977052865827886,The unemployment rate declined,The unemployment rate did not decline
+0.8817547062587376,0.9244593118131259,0.9437422020984202,0.8777242193573211,The frogs leaped into the pond.,The frogs did not leap into the pond.
+0.9345159209615648,0.9552283896702147,0.9669878462894105,0.9268146465166365,The snake shed its skin.,The snake did not shed its skin.
+0.9225314416057496,0.9513043783457544,0.9585929953332527,0.9192282597332353,The toads croaked loudly in the night.,The toads did not croak loudly in the night.
+0.824381376690549,0.8659462561578963,0.8934340064009567,0.8193048894209443,The penguins waddled awkwardly.,The penguins did not waddle awkwardly.
+0.9432836758128553,0.9682593759251454,0.9670270153561961,0.9425353843948978,The stock market experienced a period of growth.,The stock market did not experience a period of growth.
+0.881225811318941,0.922207364719861,0.939988698644832,0.8835269493810518,The ocean waves crashed on the shore.,The ocean waves did not crash on the shore.
+0.8422418777472467,0.893188226985865,0.8987963086734757,0.8396144023978707,The musician flawlessly performed the concerto.,The musician did not flawlessly perform the concerto.
+0.8711051799518342,0.849262949987425,0.8510702557606296,0.8618544590352614,The explanation is clear,The explanation is unclear
+0.8643437932796483,0.9119707189585544,0.9280314527138904,0.8647368112214586,The ice melted slowly.,The ice did not melt slowly.
+0.8844477067793501,0.936342629296315,0.9444251873354617,0.8742311189119409,The ice melted quickly,The ice did not melt quickly
+0.8793315294745014,0.9095393135701657,0.9224728094992475,0.8736151597175428,The student learned a lesson.,The student did not learn a lesson.
+0.9447724213184876,0.9573857844606101,0.9579341691880738,0.93232579080555,The skunks effectively used their defense mechanism.,The skunks did not effectively use their defense mechanism.
+0.867389096697037,0.8788081446321533,0.8939824721710616,0.8567579500885376,The need was satisfied.,The need was not satisfied.
+0.8844377783145618,0.9020361187176167,0.9167943082986418,0.8757746060286661,The target was reached.,The target was not reached.
+0.8831831837295745,0.9217830810730687,0.9403492688931723,0.8827835147600325,The ocean waves crashed against the shore.,The ocean waves did not crash against the shore.
+0.9012986517715544,0.9420781709033983,0.9555880735798344,0.898862566026764,The monkeys swung through the trees.,The monkeys did not swing through the trees.
+0.873955998925884,0.9067908769389499,0.9261096366663588,0.8666978178921647,The time flew by rapidly.,The time did not fly by rapidly.
+0.9083859364690362,0.9472759644249527,0.9593925163660629,0.9094642136872672,The birds sang sweetly in the morning.,The birds did not sing sweetly in the morning.
+0.831043174157345,0.8577324986059671,0.8791586249023107,0.8190257033980342,The team won the championship.,The team did not win the championship.
+0.907395596459668,0.9403894961004515,0.9481835113666683,0.900074789654276,The community actively participated in the fundraiser.,The community did not actively participate in the fundraiser.
+0.9421200590622716,0.9457312535274686,0.9525154501448683,0.9317623430859168,The evidence was compelling.,The evidence was not compelling.
+0.8688354482797013,0.9124985010389732,0.9321359978311206,0.8718948287164098,The sun warmed the earth.,The sun did not warm the earth.
+0.907537780928621,0.9254387232425093,0.9275987601508449,0.895246558128657,I am thirsty,I am not thirsty
+0.9108842762157876,0.9274095667049786,0.9339454884630026,0.9008507392532542,The weather is nice,The weather is not nice
+0.9360862011021541,0.9549815595796465,0.9648278527389096,0.9240964386900298,The rats avoided the traps.,The rats did not avoid the traps.
+0.8887404428622656,0.9061485043885181,0.9161930348758778,0.8877664590686447,The phone is ringing loudly,The phone is not ringing loudly
+0.8663982192994095,0.9210781132808543,0.930497392427424,0.8642779661877554,The snakes slithered silently.,The snakes did not slither silently.
+0.8759842614297431,0.9205787680941494,0.930970253803336,0.873528777605039,The streams flowed through the valleys.,The streams did not flow through the valleys.
+0.87948443477301,0.8791446731353351,0.900009387343646,0.8591647859348299,The command was obeyed.,The command was not obeyed.
+0.913883094118243,0.8908802552911863,0.8926867142997131,0.9068420138735713,The story is true,The story is false
+0.9083925179119048,0.9132755132994701,0.9184963837165615,0.9035410812935111,The project was completed on time.,The project was not completed on time.
+0.872011060969011,0.9149363713532046,0.9279886774411608,0.8712162371474413,The owls hooted softly.,The owls did not hoot softly.
+0.9331707062211962,0.9602857829592628,0.9639130340843458,0.9277482218207886,The orangutans built nests high in the trees.,The orangutans did not build nests high in the trees.
+0.9156613180897155,0.9483853132316714,0.9548439079671712,0.9097064601260713,The explorers carefully documented their findings.,The explorers did not carefully document their findings.
+0.9231233360648528,0.9513063583623544,0.9529650389619042,0.9138035897460792,The market steadily grew over time.,The market did not steadily grow over time.
+0.9378795255742303,0.9514477215652466,0.9468508812759733,0.9277763089960214,The economy significantly improved last year.,The economy did not significantly improve last year.
+0.9206618091101861,0.9085730497515633,0.9084220002617094,0.909498268534432,The experiment was a success,The experiment was a failure
+0.8779005126557007,0.9035361090092406,0.918374761312878,0.8751403586369106,The product launched successfully.,The product did not launch successfully.
+0.8357735914942341,0.8874923383343676,0.9042389892943552,0.8396441069779152,The chef prepared a wonderful meal,The chef did not prepare a wonderful meal
+0.8730841961949729,0.9219325008862588,0.9350120070765615,0.8726672151050768,The fish swam playfully in the tank.,The fish did not swim playfully in the tank.
+0.9052036964670813,0.9419128617580863,0.9540482870865213,0.9050873710370292,The insects buzzed around the flowers.,The insects did not buzz around the flowers.
+0.9299535221143638,0.9520137809542799,0.9666640134360521,0.9229422257168662,The slug cautiously moved across the leaf.,The slug did not cautiously move across the leaf.
+0.8933858633413837,0.897093427046338,0.9120444526765964,0.8887405093441015,The law was obeyed.,The law was not obeyed.
+0.9506308874993873,0.9516328421253969,0.9522116100288754,0.9413213491307202,The constraint was removed.,The constraint was not removed.
+0.8863396472172512,0.9112990527359853,0.9243965951427167,0.875732083301189,The programmer efficiently wrote the code.,The programmer did not efficiently write the code.
+0.852643273825793,0.89313071898724,0.9077455516862358,0.8508747757516679,The car broke down,The car did not break down
+0.9152330434626654,0.9449042641353521,0.9526802671769047,0.9120544333741142,The animals roamed freely in the wild.,The animals did not roam freely in the wild.
+0.8309081364006161,0.8600414570165207,0.876899778603653,0.8282843397954237,The architect designed a building.,The architect did not design a building.
+0.9545238546109455,0.9590331830155068,0.9606669470823541,0.9438844986854427,The project was completed within budget.,The project was not completed within budget.
+0.9419836944138831,0.9178499999116068,0.9082074150664567,0.924858501161206,The outcome is successful,The outcome is unsuccessful
+0.8091859853267515,0.8263342912082366,0.8559926940444792,0.8102644149597291,The goal was achieved.,The goal was not achieved.
+0.8563314449695609,0.8370105001025788,0.8381974274135295,0.8477103543981599,The project is complete,The project is incomplete
+0.8667450183798959,0.9009142343495231,0.9159950698401513,0.866620906316796,The nation prospered economically.,The nation did not prosper economically.
+0.9196807295597769,0.9498971043374282,0.9558013574011831,0.9154888957551484,The company increased its market share.,The company did not increase its market share.
+0.9401771373772454,0.9577586657281455,0.9567779705046054,0.9297151342687218,The ant collaboratively carried a large crumb.,The ant did not collaboratively carry a large crumb.
+0.8736371367743159,0.9033691545375883,0.9230735391355247,0.8775194548057585,The volunteers selflessly dedicated their time.,The volunteers did not selflessly dedicate their time.
+0.9469342662304219,0.9648895664620819,0.9712907429970178,0.9412813667751623,The slug cautiously avoided the bright sunlight.,The slug did not cautiously avoid the bright sunlight.
+0.8286404863207744,0.8615692075858519,0.8930723971730964,0.8295540620257273,The snow covered the ground.,The snow did not cover the ground.
+0.8876621405921981,0.9241097561790725,0.9361847226878841,0.88685179233705,The moon rose in the night sky.,The moon did not rise in the night sky.
+0.8592708953305328,0.9032685350635493,0.9229809249729328,0.8564324822886263,The train traveled swiftly across the country.,The train did not travel swiftly across the country.
+0.9093408571752195,0.9419678766837205,0.9494392681583387,0.90504606783942,The company achieved record profits.,The company did not achieve record profits.
+0.8845850461748994,0.9283290941604166,0.9422875141273788,0.8858026689072822,The squirrels gathered nuts diligently.,The squirrels did not gather nuts diligently.
+0.8879007684777063,0.9331851796570261,0.9384624132178341,0.887821348266445,The sailors skillfully navigated the vessel.,The sailors did not skillfully navigate the vessel.
+0.8945273033773031,0.9191107183327569,0.9276615094315547,0.8885664181769619,The past held valuable lessons.,The past did not hold valuable lessons.
+0.8985937316668796,0.924214938662413,0.9295330824453839,0.8929256445041371,The snail persistently moved towards its destination.,The snail did not persistently move towards its destination.
+0.8936876567955642,0.9295398018370558,0.9316796225374262,0.8744427813049002,The dog chased the squirrel,The dog did not chase the squirrel
+0.9332965741684083,0.91183618304292,0.9129456058775809,0.9179635258217246,The solution is correct,The solution is incorrect
+0.8726013760721198,0.91574347818425,0.940321786477986,0.8710131758494665,The deer grazed peacefully in the meadow.,The deer did not graze peacefully in the meadow.
+0.8856977535107927,0.9241432906017453,0.9409503419690899,0.880344825045696,The dog happily chased its tail.,The dog did not happily chase its tail.
+0.9630579789576723,0.9779117060658565,0.9748632824571623,0.9537846416529521,The chimpanzees used tools expertly.,The chimpanzees did not use tools expertly.
+0.9011601314706001,0.9410373449541933,0.9459754561267829,0.8983971096638176,The polar bears powerfully swam through the icy water.,The polar bears did not powerfully swim through the icy water.
+0.868624557555539,0.8831650367618825,0.8879572547781266,0.8646477644929176,The results were significant.,The results were not significant.
+0.8845241435634228,0.9338002553047878,0.9420233451613188,0.8838361684092381,The butterflies landed gently on the flowers.,The butterflies did not land gently on the flowers.
+0.9069894552822002,0.939338043628606,0.9373202772407082,0.8920925529812893,The spiders spun webs to catch their prey.,The spiders did not spin webs to catch their prey.
+0.8768071643748401,0.9174007186970906,0.9319264644774023,0.8760406332922397,The scientists discovered a new planet.,The scientists did not discover a new planet.
+0.8909008899808175,0.9300022623669342,0.9459679429155546,0.886242596418892,The streams meandered through the valleys.,The streams did not meander through the valleys.
+0.8881372081846132,0.8697012088672199,0.8878844176220326,0.8808084968584485,The conclusion was logical,The conclusion was illogical
+0.8910417366197425,0.9242179999468403,0.9384291125327711,0.8837925284146864,The volunteers selflessly donated their time and skills.,The volunteers did not selflessly donate their time and skills.
+0.8638092060953065,0.8750141943315686,0.8894199515028122,0.8420752436628298,The politician won the election.,The politician did not win the election.
+0.9104439034855885,0.9495180865492975,0.9563659610007604,0.9013747163875279,The birds built their nests in the trees.,The birds did not build their nests in the trees.
+0.8615962018725566,0.905078297385513,0.9237321166737067,0.8629603761649742,The fish playfully darted through the coral reef.,The fish did not playfully dart through the coral reef.
+0.9252370908103518,0.9505525572096953,0.9579302459669626,0.9201469914458376,The geysers erupted periodically.,The geysers did not erupt periodically.
+0.9442284849775614,0.9495358847849246,0.9493848206282857,0.937461820835414,The leaves are brown,The leaves are not brown
+0.8573078667574027,0.894983718782038,0.9050744422140338,0.8591892879078264,The culture celebrated diversity.,The culture did not celebrate diversity.
+0.8464095890930255,0.9071362659076093,0.929244494162671,0.8356700287491583,The audience cheered loudly.,The audience did not cheer loudly.
+0.904396600200969,0.9347421345457982,0.9504450091301637,0.8952715684788113,The rabbits hid quickly in their burrows.,The rabbits did not hide quickly in their burrows.
+0.9403534129788366,0.9571476774244322,0.9584880785270358,0.9298620353625395,The patient recovered quickly from surgery.,The patient did not recover quickly from surgery.
+0.8301340498070673,0.8437154464462535,0.8637455789495899,0.8231184964326148,The order was given.,The order was not given.
+0.917494183792761,0.9514227740241181,0.9610878593352784,0.9090920404473578,The country invested heavily in infrastructure.,The country did not invest heavily in infrastructure.
+0.9324811851911177,0.9528066535853844,0.9565291461655321,0.9271568248872342,The friends helped each other in times of need.,The friends did not help each other in times of need.
+0.897313199935546,0.9210391083691392,0.9300523276627066,0.8898814268199936,The organization effectively managed its operations.,The organization did not effectively manage its operations.
+0.8744467727516083,0.8737465825958782,0.9023423188309114,0.8753227262633784,The reasoning was coherent.,The reasoning was not coherent.
+0.8673105748080062,0.9012679074805874,0.9196173637442916,0.8658537812448455,The fabric felt soft.,The fabric did not feel soft.
+0.8464508030328428,0.9059325572779899,0.9213692717524113,0.8496781133612853,The photographer captured stunning images.,The photographer did not capture stunning images.
+0.8220819764840697,0.8585690772527627,0.8672575601487522,0.8213400073054058,The river flowed to the sea.,The river did not flow to the sea.
+0.9201457954403087,0.9576396768503107,0.9622319713631645,0.915431878604631,The path led through the forest.,The path did not lead through the forest.
+0.8984101857333162,0.9203782718337301,0.9287315960473641,0.8934555540684201,The government effectively addressed the problem.,The government did not effectively address the problem.
+0.9112021379718328,0.9421791759588454,0.9496435950540835,0.9071232747383942,The arctic hares blended with the snow.,The arctic hares did not blend with the snow.
+0.912385122373095,0.9454792781229644,0.9490656830032277,0.9053459828707461,The giraffes reached the highest branches.,The giraffes did not reach the highest branches.
+0.8832662954898762,0.9229793025736579,0.9383232056893158,0.8818784589202523,The mechanic expertly repaired the car.,The mechanic did not expertly repair the car.
+0.9301379673069585,0.9118950298326578,0.907058295794526,0.9202092265023112,The data was reliable.,The data was unreliable.
+0.893392973285251,0.931591701931734,0.9488533443271646,0.8893514067233342,The toad cautiously hopped toward the pond.,The toad did not cautiously hop toward the pond.
+0.9181604016305851,0.9440931012542457,0.9511988357914373,0.9115505691209065,The leader inspired their followers.,The leader did not inspire their followers.
+0.9192788426386947,0.889799074637886,0.8952359853300118,0.9072259943646315,The news is accurate,The news is inaccurate
+0.8399197429641493,0.877803924828948,0.8901858089563274,0.8344031270510004,The judge presided over the trial,The judge did not preside over the trial
+0.9033114056578396,0.9318325713255814,0.9405707481281291,0.9015088065387431,The foxes stalked their prey.,The foxes did not stalk their prey.
+0.9352307496063732,0.9112070297923489,0.9142152010229856,0.9246592217629023,The window is closed,The window is open
+0.8362940285664424,0.8121615689514642,0.8258304095516087,0.8311856448493913,The game was exciting,The game was boring
+0.8591475584050963,0.9046414326992793,0.921904556605181,0.8455100317213619,The lights went out,The lights did not go out
+0.8900547011828386,0.9123664279965549,0.9237246335140018,0.886973885605659,The lecture was stimulating.,The lecture was not stimulating.
+0.88904440694265,0.9197564094705591,0.9406338344989544,0.8810129879401121,The squirrel playfully chattered from the tree.,The squirrel did not playfully chatter from the tree.
+0.8681201709511319,0.8789118352781984,0.8988825887949332,0.8616879008895939,The problem was solved.,The problem was not solved.
+0.8938746712869252,0.911414859577391,0.9188316713686082,0.8832468067514785,The world collaboratively tackled climate change.,The world did not collaboratively tackle climate change.
+0.8615541741984356,0.9068743952734004,0.9333841898739228,0.8606497131008783,The friend sincerely offered their support.,The friend did not sincerely offer their support.
+0.8584215274854579,0.8960379298099967,0.9134483503268669,0.8551889164998798,The lakes reflected the sky.,The lakes did not reflect the sky.
+0.944239309033593,0.959690462122692,0.9654422582186725,0.9366682138381514,The report was informative.,The report was not informative.
+0.9371068716738951,0.9649787127971489,0.9693009955809522,0.9343244072148671,The trees provided shade from the sun.,The trees did not provide shade from the sun.
+0.9484935920828237,0.9269920411531649,0.9231042780328587,0.9409164935417649,The weather was unpredictable.,The weather was predictable.
+0.9032393652823052,0.938072628554822,0.9477136229116511,0.9010574226675574,The slugs ate the leaves.,The slugs did not eat the leaves.
+0.8802978011637136,0.8967407010256654,0.9131158578694706,0.8731004547346841,The challenge was overcome,The challenge was not overcome
+0.9029165245572387,0.9383689304473781,0.9520959058187047,0.8988249705167335,The squirrels chattered among themselves.,The squirrels did not chatter among themselves.
+0.9096630083259554,0.9223763105727754,0.9314833608414758,0.8981956319777991,The world united against a common enemy.,The world did not unite against a common enemy.
+0.9464240992737044,0.961910808095771,0.965977285524138,0.9435705288346514,The musk oxen fiercely defended their calves.,The musk oxen did not fiercely defend their calves.
+0.8635553769144306,0.9059054517496108,0.9202177156281262,0.8633041080817513,The bird perched on a branch.,The bird did not perch on a branch.
+0.8507308230727889,0.891875630060067,0.9067654982466282,0.8518711401218619,The scientist discovered a phenomenon.,The scientist did not discover a phenomenon.
+0.9011971848318376,0.9371157223304114,0.9484426700239424,0.9020722146865724,The artist skillfully crafted the sculpture.,The artist did not skillfully craft the sculpture.
+0.9514193987042384,0.9542216234282155,0.9526241568382185,0.9438863900197556,The instructions are simple,The instructions are not simple
+0.937040579041184,0.9518515789982419,0.9568022958818662,0.9283945416209264,The campaign successfully reached its target demographic.,The campaign did not successfully reach its target demographic.
+0.7136855512472218,0.7638518081488695,0.80150607385663,0.7175998249996902,The penguins waddled on the ice.,The penguins did not waddle on the ice.
+0.9523657838596143,0.9662191584662363,0.9663430500904651,0.9429561921228572,The ant cooperatively worked with its colony.,The ant did not cooperatively work with its colony.
+0.9098511967051047,0.9434835424893774,0.945800837892403,0.9121576712733681,The artist meticulously painted the portrait.,The artist did not meticulously paint the portrait.
+0.850772867356533,0.8983173981768018,0.9083564570627423,0.8512344630872529,The musician passionately played the violin.,The musician did not passionately play the violin.
+0.9338184285147682,0.9571284711566872,0.9583013375046672,0.9280962572433746,The market steadily grew during the quarter.,The market did not steadily grow during the quarter.
+0.9051271167236562,0.9241551645037787,0.9282488350481046,0.896426592062139,The employee conscientiously performed their duties.,The employee did not conscientiously perform their duties.
+0.8514478702419246,0.857636123932572,0.8817216678595454,0.8400928596640578,The demand was met.,The demand was not met.
+0.8686791967711521,0.9089848956424547,0.9217038634894896,0.8615858240104406,The country developed its infrastructure.,The country did not develop its infrastructure.
+0.9118551675558917,0.9427206843800462,0.9523274739569436,0.9056012525629406,The child grew up happily.,The child did not grow up happily.
+0.8955293440882723,0.919879473142617,0.9256057672237171,0.889406276483441,The doctor cured a disease.,The doctor did not cure a disease.
+0.8823683599934661,0.9299630607355389,0.9436130944813632,0.880107124755155,The rabbits scampered through the field.,The rabbits did not scamper through the field.
+0.9061539503190348,0.9468841980043321,0.9511851217533076,0.9038440496504891,The lizard basked in the warm sunlight.,The lizard did not bask in the warm sunlight.
+0.8797914844510359,0.9270503088083287,0.9413587706650544,0.8664316387057445,The dancer moved gracefully,The dancer did not move gracefully
+0.9312139034031927,0.953797377757787,0.9578988633098378,0.9245151007652336,The mouse stealthily scurried behind the furniture.,The mouse did not stealthily scurry behind the furniture.
+0.9044295378962468,0.9402763693588883,0.9501480759221121,0.8987722410836245,The bee buzzed around the flower.,The bee did not buzz around the flower.
+0.9158351072570843,0.9526235375450881,0.9576597121255601,0.9120345944695336,The squirrels buried their nuts carefully.,The squirrels did not bury their nuts carefully.
+0.818184573567897,0.8469180772415777,0.8686025388714328,0.8179844020821113,The experiment worked.,The experiment did not work.
+0.9190752502063609,0.9191209130861562,0.9335247922408336,0.9173651143962444,The argument was logical.,The argument was not logical.
+0.9344042038934245,0.9460391376011823,0.9495004140075081,0.9323564992462048,The musk oxen defended their young.,The musk oxen did not defend their young.
+0.87254970715709,0.9122377930615905,0.9334561554664619,0.87030920564862,The volunteers generously donated their time.,The volunteers did not generously donate their time.
+0.8838326933217244,0.9119473693581823,0.924536410647129,0.8801369291681718,The hamster ran on its wheel.,The hamster did not run on its wheel.
+0.9025927693625901,0.9344961502604631,0.9476898311090947,0.896540951529874,The client enthusiastically approved the proposal.,The client did not enthusiastically approve the proposal.
+0.9032418220446952,0.9315944923866177,0.9412039262472143,0.9011379419156902,The dog barked at the mailman.,The dog did not bark at the mailman.
+0.8774731271088476,0.9159973946133182,0.9275421207536325,0.867170916705227,The economy expanded rapidly.,The economy did not expand rapidly.
+0.8669955783804956,0.9134270377402077,0.9268662681487966,0.858402887052903,The baker expertly decorated the cake.,The baker did not expertly decorate the cake.
+0.8652037786907019,0.9129768597717364,0.9254299071352832,0.8573110534452755,The economy expanded,The economy did not expand
+0.8583875187147929,0.909204130586762,0.9211315778697262,0.8582932960268035,The eagles soared high above.,The eagles did not soar high above.
+0.9511428550660485,0.9741000506209911,0.9745109726483866,0.947145421188264,The rats avoided the traps expertly.,The rats did not avoid the traps expertly.
+0.8905963676628498,0.9275335941149814,0.9419644962460252,0.8892746270193137,The snowy owls silently hunted in the twilight.,The snowy owls did not silently hunt in the twilight.
+0.9184016228362494,0.9553818282261825,0.9623474189708358,0.914617476563012,The grasshopper powerfully launched itself into the air.,The grasshopper did not powerfully launch itself into the air.
+0.9349950757193275,0.9598305269094942,0.9606371541685119,0.9250565100527046,The rivers supplied fresh water to the communities.,The rivers did not supply fresh water to the communities.
+0.9157876814869895,0.9440838775319942,0.9476358350909719,0.9061670894531172,The bears fished for salmon in the river.,The bears did not fish for salmon in the river.
+0.8991587349140098,0.9399405954232731,0.9502837850142367,0.8962641387236294,The teacher patiently explained the lesson.,The teacher did not patiently explain the lesson.
+0.8939589564085257,0.9266323842939519,0.9392328124994906,0.8902961487292897,The bears hibernated peacefully.,The bears did not hibernate peacefully.
+0.8972402973306044,0.9313741983439717,0.9381971053075938,0.8978097635137965,The vultures scavenged for food.,The vultures did not scavenge for food.
+0.9048817719676451,0.9297465238201934,0.9387150877042842,0.9020855466462823,The physicists researched the fundamental forces.,The physicists did not research the fundamental forces.
+0.8636259656876158,0.9123400254406903,0.9318231319379932,0.8640129113677867,The trees swayed gently.,The trees did not sway gently.
+0.8912028717880355,0.9334844755598024,0.9485175084815015,0.8886580811664161,The parrots squawked loudly.,The parrots did not squawk loudly.
+0.8519296388351205,0.9096835633055812,0.9292345096120784,0.8478229387893331,The rabbits hopped quickly through the field.,The rabbits did not hop quickly through the field.
+0.9387493197017451,0.9507132199662776,0.9489509797455551,0.9302421914749919,The building is tall,The building is not tall

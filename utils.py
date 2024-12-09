@@ -40,3 +40,22 @@ def read_embeddings_df(embeddings_csv):
             embeddings_df[col] = embeddings_df[col].apply(lambda x: np.fromstring(x.strip('[]'), sep=' '))
     
     return embeddings_df
+
+
+def get_edi_scores(embeddings_csv):
+    """
+    Get the EDI scores for the current linguistic property from the saved results.
+    
+    Returns:
+        numpy.ndarray: Array of EDI scores for each dimension
+    """
+    
+    # Construct path to EDI scores
+    edi_scores_path = os.path.join(
+        get_results_directory(embeddings_csv, "edi_scores"),
+        "edi_score.csv"
+    )
+    
+    # Load and return EDI scores
+    edi_df = pd.read_csv(edi_scores_path)
+    return edi_df['EDI Score'].values
