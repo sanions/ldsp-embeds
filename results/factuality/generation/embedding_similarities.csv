@@ -1,0 +1,201 @@
+baseline_similarity,mean_shift_similarity,regression_similarity,Sentence1,Sentence2
+0.7858589389415216,0.8704727741413825,0.8834193914492827,The debate was lively.,The debate may have been lively.
+0.8130477937359994,0.8858994621330487,0.9122004054081619,The pressure changed rapidly.,The pressure could have changed rapidly.
+0.8662074094718777,0.919431982328771,0.928284925891776,The rainbow appeared beautifully.,The rainbow could have appeared beautifully.
+0.8574794918043105,0.905664617385012,0.9213976416899193,The goose honked loudly.,The goose may have honked loudly.
+0.7256562343778148,0.8199669848065121,0.8524736663546661,The method was effective.,The method may have been effective.
+0.880122444055635,0.9218115500817186,0.935969433245092,The toad sat on a lily pad.,The toad may have sat on a lily pad.
+0.7509450036250411,0.827462752960201,0.8498702253717818,The rebound was swift.,The rebound may have been swift.
+0.8769413251042025,0.953053515750961,0.9598008084765025,The book was insightful.,The book might have been insightful.
+0.808278684236038,0.8806488389337486,0.9031329843599482,The audience applauded enthusiastically.,The audience might have applauded enthusiastically.
+0.7958082391969834,0.8562693259396912,0.8962842100562731,The person is tired.,The person might be tired.
+0.8980669606297687,0.9019634945884164,0.9129925483464483,The experience is transformative.,The experience may be transformative.
+0.8160749886232891,0.8647728085017051,0.8868732871780273,The city is big.,The city could be big.
+0.8464680859601577,0.9217870210364241,0.9369433671757925,The potential was unlimited.,The potential might have been unlimited.
+0.8585289479114551,0.9453788757299839,0.9620784170764074,The profit was significant.,The profit might have been significant.
+0.7611710094257185,0.8325485318928723,0.8657790205882036,The potential was unlimited.,The potential may have been unlimited.
+0.8373727905026697,0.9251275005101747,0.9386642094659725,The competition was fierce.,The competition could have been fierce.
+0.8275126973529094,0.8894683882148327,0.9108164701780288,The victory was sweet.,The victory may have been sweet.
+0.7770715328687101,0.86406065131116,0.8951240979961674,The influence was considerable.,The influence might have been considerable.
+0.8382028448998005,0.8842856899471752,0.9060866593380515,The wildfire destroyed homes.,The wildfire could have destroyed homes.
+0.7309949763463912,0.7844831181060515,0.8174872652285812,The commute is long.,The commute might be long.
+0.8696357364246319,0.9291787538897341,0.9406317666060522,The ingenuity was remarkable.,The ingenuity might have been remarkable.
+0.8721834674965784,0.9303562412222692,0.9374757160722612,The evidence is compelling.,The evidence might be compelling.
+0.8221194961238535,0.9173895206573993,0.9335091654282954,The meeting was productive.,The meeting might have been productive.
+0.8593279061842694,0.9178558799378718,0.926422199228306,The action was timely.,The action may have been timely.
+0.8103785050133419,0.8518880952332256,0.872807013425644,The progress is slow.,The progress could be slow.
+0.8365791116412762,0.8969635821375647,0.9034135520987447,The soup is too salty.,The soup might be too salty.
+0.8373321338366084,0.8894385300572709,0.8973096487653247,The night is cool.,The night might be cool.
+0.8067493293438195,0.885810294868195,0.9207698208694464,The management was efficient.,The management could have been efficient.
+0.851929735043301,0.9172103876959035,0.9449081050711551,The problem was complex.,The problem could have been complex.
+0.8381478531730808,0.9060604760585795,0.9212214876285252,The experience was transformative.,The experience may have been transformative.
+0.727735789600263,0.7428660217459202,0.7714387202658732,The development is rapid.,The development may be rapid.
+0.7633125647638118,0.804960641275052,0.8615207988701381,The person is angry.,The person could be angry.
+0.7349290101380244,0.8494310627799329,0.899940499570438,The expansion was significant.,The expansion might have been significant.
+0.87659319847468,0.9546257216628684,0.9589692463929699,The customer satisfaction was high.,The customer satisfaction could have been high.
+0.938637542567174,0.9373601545967228,0.916906536655457,The value is immeasurable.,The value may be immeasurable.
+0.8436269497530926,0.9282560833953942,0.9432180261459577,The risk was minimized.,The risk might have been minimized.
+0.7972523927683318,0.8415572884284186,0.863376640266249,The snake shed its skin.,The snake may have shed its skin.
+0.8418967194194177,0.8395065540176844,0.837525671955422,The steering is precise.,The steering may be precise.
+0.843740384160335,0.9216108355814461,0.9348412896665208,The task was difficult.,The task might have been difficult.
+0.832740078008548,0.8976762957464661,0.9115588827822104,The sky is clear.,The sky might be clear.
+0.7935651088002511,0.8449605625287698,0.8883528903267942,The conditions are favorable.,The conditions could be favorable.
+0.787913433485647,0.8086486288126381,0.8296956208909689,The coffee is bitter.,The coffee may be bitter.
+0.8806161509275268,0.9456948381391701,0.9499470284134341,The packing was tedious.,The packing could have been tedious.
+0.8470738082561611,0.9111511614322767,0.9259600820552906,The sales increased dramatically.,The sales could have increased dramatically.
+0.8764367285403508,0.9491270775058309,0.9501166955553972,The execution was flawless.,The execution could have been flawless.
+0.8670762667005671,0.9295692431992897,0.9401677503402543,The success was well-deserved.,The success might have been well-deserved.
+0.8055902489046729,0.8700536964502856,0.8880173869062719,The firefighter extinguished the fire.,The firefighter might have extinguished the fire.
+0.8691170421409342,0.9234375851805801,0.9254850442375975,The trip was memorable.,The trip could have been memorable.
+0.8620613148443692,0.9217136263718043,0.9286831478362492,The future was promising.,The future could have been promising.
+0.8107689685124964,0.8410279171414257,0.8421820262933076,The artist painted a masterpiece.,The artist may have painted a masterpiece.
+0.7940120383623381,0.8996061601855918,0.9168354380653587,The achievement was remarkable.,The achievement might have been remarkable.
+0.7611710094257185,0.8325485318928723,0.8657790205882036,The potential was unlimited.,The potential may have been unlimited.
+0.824184783728914,0.8931967826879967,0.9084478692728295,The moment was special.,The moment may have been special.
+0.820696042271709,0.8917690609491455,0.9200766204948635,The solution was simple.,The solution may have been simple.
+0.7241185612458683,0.7801707446300468,0.8473322468686435,The river is flowing.,The river could be flowing.
+0.8542358406382802,0.890802387330671,0.8958510536499814,The air is fresh.,The air may be fresh.
+0.839201427202938,0.8974252296859363,0.8957635264286533,The improvement was remarkable.,The improvement may have been remarkable.
+0.8213090611375078,0.8811326720016108,0.8940063040278968,The movie is good.,The movie could be good.
+0.7839855232568728,0.8355707665563026,0.885172075258176,The system is stable.,The system might be stable.
+0.8801247234262831,0.8874567454252387,0.8954337540260575,The skill is impressive.,The skill may be impressive.
+0.753271766615718,0.8634209001166256,0.9109078341629706,The organization was effective.,The organization might have been effective.
+0.7579989662968338,0.8261057719430087,0.8686333259788813,The tea is strong.,The tea could be strong.
+0.8214374216095212,0.8917537260274238,0.9013603501898466,The decline was temporary.,The decline may have been temporary.
+0.7841058161803394,0.8592079039290207,0.9076533929106105,The growth is steady.,The growth might be steady.
+0.8447949020810094,0.9145809828133759,0.9292148439109834,The adventure was exciting.,The adventure could have been exciting.
+0.8570508028500607,0.8778519049190924,0.8923058398612317,The salamander ate a spider.,The salamander could have eaten a spider.
+0.8752891519927152,0.9203960345957453,0.9286767739177818,The eagle soared high above.,The eagle could have soared high above.
+0.8821534838599676,0.928857021059561,0.9362064350809343,The contribution was invaluable.,The contribution could have been invaluable.
+0.867152115124757,0.8990218547030207,0.8925658434791447,The mountain is high.,The mountain may be high.
+0.8383620148009628,0.9349104657390138,0.94685418609011,The recovery was strong.,The recovery might have been strong.
+0.8605169137122056,0.9014345379139586,0.9137784553396114,The stars are visible.,The stars might be visible.
+0.8517275974398133,0.9143171765976859,0.9204013783607224,The efficiency was maximized.,The efficiency may have been maximized.
+0.8388364767967196,0.8760792894013927,0.8925681921759692,The technology is innovative.,The technology may be innovative.
+0.796244366312852,0.8812447335300345,0.9063145153065275,The sunset glowed brightly.,The sunset may have glowed brightly.
+0.8422149579755068,0.9228256858351893,0.9416264546107392,The collaboration was ineffective.,The collaboration might have been ineffective.
+0.8387033963328078,0.8880084395788652,0.9155371141318913,The information was useful.,The information may have been useful.
+0.7803797653637968,0.8667363524945874,0.9027815724297821,The fish swam gracefully.,The fish might have swum gracefully.
+0.8041017937360184,0.8700542924560171,0.889471648838008,The bees are buzzing.,The bees might be buzzing.
+0.9020550440405243,0.9088826178407885,0.9036170802512453,The safety features are advanced.,The safety features could be advanced.
+0.8468037873901866,0.8851463330650683,0.9147201595004568,The property taxes are high.,The property taxes might be high.
+0.8180464398797518,0.8761430028660063,0.8919794071374815,The newt swam in the stream.,The newt might have swum in the stream.
+0.8232492253859047,0.84865696541583,0.8634777688669382,The building is tall.,The building may be tall.
+0.8192382803915292,0.9172016961855187,0.9338701330341195,The decline was gradual.,The decline might have been gradual.
+0.7604070200980813,0.8124971708018667,0.8544636368788529,The road is long.,The road might be long.
+0.8523839318370965,0.8578539899496758,0.8677247281075589,The schools are excellent.,The schools may be excellent.
+0.8562840169965055,0.9322539412660567,0.9435507298565062,The creativity was inspiring.,The creativity may have been inspiring.
+0.9179759088045016,0.9452200044567368,0.9498829987215195,The repercussions were negligible.,The repercussions could have been negligible.
+0.84766529766612,0.9014946568818247,0.9183355083889783,The clouds drifted lazily.,The clouds may have drifted lazily.
+0.8656196867952888,0.9142252468637108,0.9107882993525347,The earthquake caused damage.,The earthquake may have caused damage.
+0.7892108336888983,0.8346047883718495,0.8747415242459702,The situation is stable.,The situation might be stable.
+0.8076869125404025,0.9057771293799186,0.9297382696181886,The success was evident.,The success might have been evident.
+0.6162505406426863,0.6901949473475721,0.7807732653096562,The goals were achieved.,The goals may have been achieved.
+0.8151770702916763,0.9174037859242832,0.9406211610781713,The argument was convincing.,The argument might have been convincing.
+0.8086316038711405,0.8753658675542294,0.8948444241335339,The connection is clear.,The connection might be clear.
+0.9066798676832595,0.9273698710266902,0.9241229246147239,The twelfth-grader graduated from high school.,The twelfth-grader could have graduated from high school.
+0.8272137468625917,0.9090496365533184,0.9387448189263163,The business model was successful.,The business model might have been successful.
+0.8263305899694164,0.8739923204155947,0.89922256926667,The ice cracked dangerously.,The ice could have cracked dangerously.
+0.806549825393567,0.8643800928445626,0.8762313447136157,The restaurant is expensive.,The restaurant could be expensive.
+0.7789195190315265,0.8325981346992768,0.8674866122945678,It is a car.,It could be a car.
+0.9085409188411171,0.9248359469044038,0.9268043412374558,The strength is impressive.,The strength may be impressive.
+0.8255405199765018,0.8938156134286404,0.9212314801948693,The rain fell softly.,The rain could have fallen softly.
+0.8272854385435113,0.8886442154481541,0.8990243249574537,The recovery is strong.,The recovery might be strong.
+0.844190363711231,0.9167095506447724,0.9311660963445011,The future was uncertain.,The future might have been uncertain.
+0.8349060796537195,0.9233069397139253,0.931737826087227,The room was spacious.,The room might have been spacious.
+0.8165616887433476,0.8620536462044628,0.8940792817530065,The ability was remarkable.,The ability may have been remarkable.
+0.8256467778963529,0.8720563468801976,0.8951100205961408,The value was immeasurable.,The value may have been immeasurable.
+0.7611710094257185,0.8325485318928723,0.8657790205882036,The potential was unlimited.,The potential may have been unlimited.
+0.8581190171137705,0.900775415516423,0.9261677905348842,The challenge was daunting.,The challenge may have been daunting.
+0.8316599939109248,0.8806124240367068,0.9187608559852559,The team exceeded expectations.,The team might have exceeded expectations.
+0.8295287079929934,0.8657710690924911,0.877236878212988,The umpire called the pitches.,The umpire may have called the pitches.
+0.7750743215416144,0.8940402959798207,0.9300730974569544,The response was immediate.,The response might have been immediate.
+0.846632645658268,0.8554189680553803,0.852426195350362,The potential is unlimited.,The potential may be unlimited.
+0.7953163005666412,0.8977461972938703,0.9345093802315227,The leadership was effective.,The leadership might have been effective.
+0.859740897163934,0.8981425756613659,0.910197651523095,The innovation is groundbreaking.,The innovation could be groundbreaking.
+0.8640452934943209,0.8975986032418133,0.9010129299174394,The evening is calm.,The evening may be calm.
+0.8549421477942877,0.952213199826794,0.9573951342021991,The market demand was strong.,The market demand might have been strong.
+0.8119558442305922,0.870643097470819,0.9084352665609272,The service is excellent.,The service could be excellent.
+0.732941900431561,0.8266776068519085,0.8536769061723638,The technology was advanced.,The technology may have been advanced.
+0.8222066256731084,0.9223942847075854,0.9457045456040323,The change was substantial.,The change might have been substantial.
+0.8067451005203706,0.9115469085675963,0.9436770114847819,The leadership was inspiring.,The leadership might have been inspiring.
+0.842753924040701,0.9270074989198898,0.9396286442236566,The progress was remarkable.,The progress might have been remarkable.
+0.8671727216834277,0.9238051320596897,0.9411038812502546,The longevity was remarkable.,The longevity could have been remarkable.
+0.9062967688209567,0.9357241487931334,0.9398322883721879,The stars twinkled in the night sky.,The stars could have twinkled in the night sky.
+0.8455955870453391,0.8748908708377099,0.8965676941497416,The memory is cherished.,The memory might be cherished.
+0.8408217218744167,0.9127974962552154,0.9252235643981687,The bread is crusty.,The bread might be crusty.
+0.9081911651638108,0.9511090183186709,0.9575080638008873,The impact was far-reaching.,The impact could have been far-reaching.
+0.806441009900334,0.8439514949436914,0.8660234745178398,The transmission is smooth.,The transmission could be smooth.
+0.757961375193885,0.858890032021874,0.8982621326534399,The meeting started late.,The meeting might have started late.
+0.8256467778963529,0.8720563468801976,0.8951100205961408,The value was immeasurable.,The value may have been immeasurable.
+0.880195096285838,0.9062315060099542,0.9175643974262548,The future prospects are bright.,The future prospects might be bright.
+0.894876739167803,0.9063608145084001,0.8986796620049449,The driving experience is enjoyable.,The driving experience may be enjoyable.
+0.7745105649254571,0.8206216726514803,0.8411105372510892,The composer created a score.,The composer may have created a score.
+0.7906003360706944,0.8703020481771955,0.9175859272998523,The response was positive.,The response might have been positive.
+0.8531166867056552,0.92837857787384,0.9364726891985453,The outcome was favorable.,The outcome could have been favorable.
+0.7150579739231383,0.7898610540579254,0.8651651563045941,The reaction was positive.,The reaction could have been positive.
+0.8162491480085197,0.8908608669466607,0.9014262641042146,The juice is sweet.,The juice might be sweet.
+0.8425132920657744,0.8924288916520136,0.9104231322271961,The town is quiet.,The town might be quiet.
+0.8328622474213496,0.8717468185115765,0.8891992595027243,The difference is subtle.,The difference could be subtle.
+0.8964201083742755,0.9296207508567451,0.9198372494194661,The stars are shining.,The stars may be shining.
+0.8387748853071207,0.882216440895636,0.8956935975194613,The forest is dark.,The forest could be dark.
+0.942644848248203,0.9333752140616816,0.90184840577163,The flowers are fragrant.,The flowers may be fragrant.
+0.7957703506327126,0.8957039086013125,0.9204414999163552,The conversation was engaging.,The conversation could have been engaging.
+0.7847963142223825,0.8885019662171962,0.9125688447281567,The storm raged furiously.,The storm might have raged furiously.
+0.793832681037323,0.8687089268601456,0.9051501986952608,The defeat was bitter.,The defeat could have been bitter.
+0.8716788676604399,0.9437225079763013,0.954455417225665,The advancement was significant.,The advancement could have been significant.
+0.7860976170478422,0.834065043674153,0.8565085484219233,The athlete trained rigorously.,The athlete may have trained rigorously.
+0.9266560962477076,0.9279233007569903,0.9336113677535383,The value is immeasurable.,The value could be immeasurable.
+0.7961555509898375,0.9063668138995713,0.9349057347379175,The restaurant was crowded.,The restaurant might have been crowded.
+0.7091302407997713,0.7784562664949003,0.8072741278226969,The ability is remarkable.,The ability could be remarkable.
+0.8551964508067109,0.9005229495593875,0.9225440095782951,The job market is strong.,The job market might be strong.
+0.8821534838599676,0.928857021059561,0.9362064350809343,The contribution was invaluable.,The contribution could have been invaluable.
+0.7856187787025107,0.8623058811727857,0.8937408050750673,The painting is beautiful.,The painting might be beautiful.
+0.8564708790561921,0.9280190637293322,0.945616059057022,The innovation was groundbreaking.,The innovation could have been groundbreaking.
+0.8447714591085879,0.9072626966441618,0.9215505220716542,The profitability was improved.,The profitability could have been improved.
+0.8399136978144004,0.912229111159845,0.9314220407378733,The strength was impressive.,The strength may have been impressive.
+0.8159492227559193,0.9319091544639682,0.9485690633228101,The growth was exponential.,The growth might have been exponential.
+0.7777719740903623,0.8359194995305932,0.8724148011547836,The repairs are necessary.,The repairs might be necessary.
+0.8274452110442541,0.8781416269212239,0.9033645148765648,The alligator caught a bird.,The alligator might have caught a bird.
+0.7200159597844369,0.7837109962983487,0.8383288137494509,He is a doctor.,He might be a doctor.
+0.9081911651638108,0.9511090183186709,0.9575080638008873,The impact was far-reaching.,The impact could have been far-reaching.
+0.8194537125279838,0.875567292927702,0.8952005286370746,The value is exceptional.,The value could be exceptional.
+0.8746002300210982,0.9377311707524236,0.9421329822001432,The humidity was oppressive.,The humidity could have been oppressive.
+0.8486821421039994,0.9081241003401168,0.9259976188794817,The dog barked loudly.,The dog may have barked loudly.
+0.8809208059517423,0.9417671001971323,0.9502259902246758,The cat slept soundly.,The cat might have slept soundly.
+0.7577140217334752,0.8520518617524659,0.8738236247595486,The influence was widespread.,The influence might have been widespread.
+0.8113771228251001,0.8536339135729613,0.8894438876015182,The butterfly fluttered its wings.,The butterfly could have fluttered its wings.
+0.8598411043967059,0.9447842336969567,0.9576340117180675,The planning was meticulous.,The planning might have been meticulous.
+0.8109006900870834,0.8496310251861234,0.8730695784491942,The frog ate a fly.,The frog could have eaten a fly.
+0.7810115996978746,0.8639252070037999,0.8834080460341225,The settling in was difficult.,The settling in may have been difficult.
+0.7732533806662651,0.8172434824043827,0.859215132219523,The renovations are extensive.,The renovations could be extensive.
+0.6992352830408639,0.7979292561593554,0.8320094941675412,The ability is remarkable.,The ability might be remarkable.
+0.8527385822891502,0.9368493611819232,0.9513488004747093,The system was reliable.,The system could have been reliable.
+0.7640247525689511,0.7895988198121482,0.8066689022998372,The dogs are barking.,The dogs may be barking.
+0.8294650844329785,0.9122677341683503,0.925950843812557,The communication was clear.,The communication could have been clear.
+0.8057145256869915,0.893360352747449,0.9258848713256083,The performance was outstanding.,The performance might have been outstanding.
+0.7405212714463693,0.8400146681477623,0.8744873544055025,The capacity is immense.,The capacity might be immense.
+0.7366044650439512,0.8123982360764139,0.8732165097872928,The flight was delayed.,The flight might have been delayed.
+0.8881317419966381,0.924177996332694,0.936965050169094,The experience was unforgettable.,The experience may have been unforgettable.
+0.846632645658268,0.8554189680553803,0.852426195350362,The potential is unlimited.,The potential may be unlimited.
+0.8727479345636466,0.9088156343797665,0.9235419494219297,The frog hopped into the water.,The frog could have hopped into the water.
+0.7671803249163891,0.8741188301669576,0.9148827077341537,The productivity was increased.,The productivity might have been increased.
+0.8465026457660465,0.9164047727044047,0.937778745542557,The ant crawled along the ground.,The ant might have crawled along the ground.
+0.8547835398983732,0.9217552230598479,0.940383140501049,The recommendations were practical.,The recommendations could have been practical.
+0.8836165329405147,0.9263800519580855,0.9382011363141178,The decision was wise.,The decision could have been wise.
+0.835899664707664,0.875661707513096,0.9036151572180446,The dancer performed a ballet.,The dancer could have performed a ballet.
+0.8521245107337395,0.8588651927840183,0.8595477716161939,The person is hungry.,The person may be hungry.
+0.7990520268194521,0.8715631222129042,0.9025178265452194,The innovation is groundbreaking.,The innovation might be groundbreaking.
+0.750775926582642,0.826489710401541,0.8497179880524497,The strength is impressive.,The strength might be impressive.
+0.7770715328687101,0.86406065131116,0.8951240979961674,The influence was considerable.,The influence might have been considerable.
+0.8815308670081917,0.9247783650271599,0.9389018102410861,The hail damaged the crops.,The hail could have damaged the crops.
+0.8523759850979822,0.9497719252278942,0.9645573236589023,The learning was significant.,The learning might have been significant.
+0.9075574278292172,0.9221147637448756,0.922138135555204,The legacy is enduring.,The legacy may be enduring.
+0.8678858914688988,0.9398827799211279,0.9468649285196163,The goat climbed nimbly.,The goat might have climbed nimbly.
+0.8941309166726475,0.9343996744781766,0.9406772627079083,The benefit was maximized.,The benefit could have been maximized.
+0.8765491843117439,0.8910412458376924,0.8772519932579357,The improvement is noticeable.,The improvement may be noticeable.
+0.8696357364246319,0.9291787538897341,0.9406317666060522,The ingenuity was remarkable.,The ingenuity might have been remarkable.
+0.8341260327837021,0.8681954652388648,0.8911196114414583,The technology is innovative.,The technology could be innovative.
+0.8291333968211418,0.8833002590514749,0.899772598079928,The potential is huge.,The potential might be huge.
+0.8291771985846805,0.8838430045505941,0.916753025731236,The result was successful.,The result could have been successful.
+0.8830161616495144,0.9048393827334428,0.9092389214092418,The village is quiet.,The village may be quiet.

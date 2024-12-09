@@ -1,0 +1,201 @@
+baseline_similarity,mean_shift_similarity,regression_similarity,Sentence1,Sentence2
+0.4509541645410388,0.4535447468369036,0.756579448640651,The athlete broke the record.,She may finish the project early.
+0.6318765221691702,0.630480422260955,0.7715151376624119,The knowledge was acquired.,It looks fantastic
+0.5052739777069899,0.5048326038350341,0.7363377100124235,The politician convincingly presented their views.,He listened attentively.
+0.4690784221705714,0.4700847787327199,0.6898629086424657, He is at risk of losing his job.,You engage listeners actively
+0.5374223173485819,0.5363214493951743,0.661976797164852,The opportunity was seized,We contract slightly
+0.5654201057315671,0.5631675998389452,0.707614713697151,Architects designed innovative buildings,Over 1000 people attended the festival.
+0.5704090137403661,0.5703794376149769,0.7291714082602194,The polar bears powerfully swam through the icy water.,The nurse cared for the sick.
+0.6218732001171331,0.6214664671560237,0.7701198743919757,The theme is relevant.,The parcel was sent by the shipper.
+0.5457795868317431,0.5457456002391274,0.6974017291911112,The request was approved., He is able to efficiently solve the problem.
+0.5631544495438965,0.5637070977555407,0.8281276468586724, The tank is full of fish.,The idea was innovative.
+0.6876154786496997,0.6866797140680027,0.7654222625799134,The development was rapid.,The crime was atrocious.
+0.5821961393587654,0.579862266971781,0.7247314861191625,The engineer designed a new technology., The mouse is surprisingly tiny.
+0.5519388831229652,0.5510418926570628,0.7580689575666959,He built four birdhouses.,The progress might have been remarkable.
+0.7004734050446471,0.7007359309060972,0.7699705170101774,He presented the financial report.,The workers completed the projects.
+0.5921949515047964,0.593673717909575,0.7641627478643405, The pepper is beside the grinder.,He is a good listener.
+0.5231764105284977,0.5239345520994665,0.7000664755511425,The thief was convicted of grand larceny.,The dance was performed by the dancer.
+0.4132479771552271,0.41485559545262735,0.6233391111974913,Fairly and impartially was ruled by the judge.,You simplified considerably
+0.5693702218099163,0.5696433179073062,0.733814065725471,The ducks swim happily, The plum is near the bowl.
+0.5633025482149874,0.56252222146629,0.714395786319586, She plans to go to the park.,The hamster ran excitedly on its wheel.
+0.6048556217113432,0.6034201885512191,0.7200367613967833,The team strategically implemented their winning strategy.,The projects were completed by the workers.
+0.6738548591827325,0.6739322728344158,0.7982657716836212, The performance was unimpressive.,The advice was followed.
+0.49607065551795937,0.4919480743191965,0.729988096343579,The worker completed their task.,The effect might have been noticeable.
+0.656292896072462,0.6575825282091684,0.6739757520427134,The painter created a mural.,The concert was performed by the musician.
+0.6239616258166565,0.6214029830012917,0.8125271458094119,A victory was achieved,The change was dramatic.
+0.5601788681437255,0.5608125286289685,0.8037698296127198,The vivid scene was eloquently described by the writer.,The system was efficient.
+0.4860051301431596,0.4857253523439523,0.756605708525663,She ran swiftly, The masterpiece is truly iconic.
+0.575708178793113,0.5749636267079246,0.7175225019965137,The delivery driver delivered the books.,The planet revolved around the sun
+0.49507459197936676,0.49620883813534233,0.6707517779018124,The outcome was uncertain.,We strengthen significantly
+0.6012662905227171,0.60117198553514,0.720611703196219,A rock was sunned on by the lizard.,The commentator provided insightful analysis of the match.
+0.6284659477775312,0.626925108931002,0.7626529117210312,The selection was appropriate.,A gripping script was penned by the screenwriter.
+0.5821111101449036,0.5802454871753275,0.7029403188026733,The film's success was celebrated by the fans.,The company expanded its operations.
+0.810666693471148,0.8114683110436058,0.7349301905582748,It may snow later today., It might rain tomorrow.
+0.6948468644622463,0.6956793850996347,0.7987996001630964,The tea was aromatic and comforting.,The sunset was magnificent.
+0.6893579168864254,0.6841749493463039,0.7620453337559914,The delivery was timely.,The product was bought by the customer.
+0.5672491636200689,0.5672509212537169,0.7628890039878196,The book was recommended to patrons by the librarian.,The insects did not crawl on the leaves.
+0.5734539681173417,0.5725610685376039,0.7147148846207945,The professors graded the assignments.,The orangutans nested comfortably.
+0.6107579937327335,0.6098826254439664,0.778508711592548,The presentation was compelling,A thorough examination was given to the patient by the doctor.
+0.505589546640449,0.5024601412689258,0.7565816383487782,The architect planned the city.,The deer grazed peacefully in the forest.
+0.5142874747738833,0.5132091947285834,0.7489328336556511,The programmer wrote the software.,She may be feeling stressed.
+0.5803146718194615,0.5783641821119282,0.7862239712990515,A street is busy,New policies were implemented by the manager.
+0.576113782889183,0.5748140385676357,0.7284839922270521,The destination was sought.,Engineers designed structures expertly
+0.5649098131830583,0.5631958000124413,0.6894620435246599,The beetles did not crawl on the ground.,The third-grader could have solved a math problem.
+0.5825602677171526,0.5835498782048336,0.7535653978818899,They may need help.,The verdict was guilty.
+0.5975089555292374,0.595028195826856,0.7504685046239776,The fashion shoot was expertly captured by the photographer., The person is walking along the beach.
+0.7027192170980356,0.7034282480520945,0.8097748812682285,The fox hunted in the forest,Grass is green.
+0.6775475160469916,0.6784597992582303,0.772789785464215,The profitability was improved.,The resolution was satisfactory.
+0.7120231758112614,0.7098314637678933,0.7800377779217791,A commitment was honored.,The team is effective.
+0.5581869972106728,0.5561969357095764,0.7308691347949955,The development was rapid.,The tuna is on the sandwich.
+0.6960396150052051,0.6953797157220702,0.7652524023933295,The knowledge was gained.,The ice melted
+0.5685209916033985,0.566119433739215,0.7997513704667201, He worked extremely long hours this week., The mood is downcast.
+0.5678066630691885,0.5666838735905193,0.7465037448124223,The opportunities are plentiful., The restaurant is terrible.
+0.6413236654278593,0.640971071910776,0.8030766411045099,She designed beautiful clothes.,The concert was spectacular.
+0.5837798174811123,0.5821905795307473,0.7353992305495813,The organizers reviewed the feedback., The software is remarkably user-friendly.
+0.6629415761574644,0.6601597944481292,0.7461391355960612,The path was obvious., The deer grazed near the meadow.
+0.6555436604915057,0.6569062469654124,0.795766873686055,He read at least 15 chapters.,The cheese was sharp.
+0.5415794824323887,0.5402461953276522,0.7295856167733115,The waiter served the food.,The producer created a successful television show.
+0.5401533862417578,0.5393989117638596,0.7966508258467082,They are students.,The salesperson made a sale.
+0.49771764712487,0.49515992119754587,0.7459485497857563,The swans glided elegantly,The coach motivated the team.
+0.5262001975165151,0.5253704603735996,0.7356943697328798,The employee completed the report.,The jellyfish drifted passively
+0.6417776608027467,0.6425884099041895,0.7933286651597486,The lighthouse did not beam its warning light.,The buyer purchased the house.
+0.5673916785833288,0.5639581280697742,0.7614908049910835,The person might be nervous., The jewelry is on the dresser.
+0.5621753688574056,0.5615482421454634,0.7584138517528667,The scientist conducted a series of experiments., The value is low.
+0.6580424805225321,0.6565249512046124,0.7929985200206336,The development was swift.,The conclusions were sound.
+0.5445131529982606,0.5468087863027604,0.7936963293963373,Their strategy was effectively implemented by the team.,The impact was significant.
+0.5678937694127374,0.5660588451476212,0.7107323951958288,The chef did not create a culinary delight., He worked incredibly long hours this week.
+0.5679425289032507,0.5696815064105786,0.803471330705592,The moths did not flutter around the lights.,The manager rewarded her team.
+0.5560424270076831,0.5570279241911169,0.7988414291428572,The bear is near the cave,The impact was not profound
+0.5073249123854746,0.5050714483548153,0.7743108337098252, The musician played numerous songs., The yacht is sailing out to sea.
+0.4925705570234531,0.49453345459655834,0.7552591804759314,The toad may have sat on a lily pad., The dinner was slightly rushed.
+0.5335115256093743,0.5317911381006355,0.6831224612737488, The cat sat near the mat., The painting is extraordinarily vibrant.
+0.5962735770402439,0.5960649409448795,0.7269139288840771, The wind was very gentle.,Color change occurred in the leaves.
+0.5810516824060492,0.5829291407685656,0.7504211528340262, He worked incredibly long hours this week.,He can speak Mandarin.
+0.5382117180987658,0.5361202823423029,0.7610392925786716,The experiment was conducted by the scientist.,The motorcycle speeds along
+0.5711022451039741,0.5730419209296691,0.7743141421115092,The graduate student defended their dissertation.,The characters were well-developed.
+0.49187840357821083,0.49077966356638514,0.7673552720898953,The train did not arrive on time, Countless stars were visible.
+0.5208896617103674,0.5212063704098681,0.7616512473104038,The bird flew in the sky., The education is very valuable.
+0.7308268190416264,0.7309425256142167,0.780431265130533,A understanding was reached,The interaction was amicable.
+0.5469100903309321,0.5471800725077489,0.7265262452046548,The bees buzz around,The jewelry is on the dresser
+0.46864498334780186,0.4696083765343497,0.7585930596441879,The service was received by the client.,Good time was had by all.
+0.5660465081627706,0.5652859753373659,0.7854449031702043,The arctic foxes hunted lemmings,The business is thriving.
+0.5454351800082825,0.5456988419199985,0.7454599877622223,The turtle could have laid its eggs.,The renovations could be extensive.
+0.681423731741021,0.6783458969848476,0.7343290556241189,The project succeeded,A team worked collaboratively
+0.5947275128723123,0.5929878151006567,0.7536999126309317,I answered at least 70 questions correctly.,The artist did not skillfully craft the sculpture.
+0.6180854976232744,0.6180907601573267,0.7412050763000438,The outcome is positive., She is hoping to feel better soon.
+0.5555623965995197,0.5563983715590743,0.7565386941630066,The cat sat on the mat,The ordinance was signed by the mayor.
+0.6755598632766476,0.6732095699005534,0.8017926413614218,The emotion was intense.,The sunrise painted the sky.
+0.5118520041553971,0.514248523175307,0.7482466460189412,The book is under the nightstand., The astronomer studied a particular galaxy.
+0.48269255045905135,0.482220302404035,0.7131831930323171, The music is irritating.,The phenomenon was studied by the researcher.
+0.48456795653640006,0.4845319409486979,0.711946503156377,The student excelled in their studies.,I ate two slices of bread.
+0.5804226861849587,0.5793436875232498,0.734172927464652,The change is beneficial.,The employees were supervised by the managers.
+0.5460553030749645,0.545128269398624,0.6793251154425455,The anxiety was crippling.,The giraffe stretched its long neck to reach the leaves.
+0.6270471910938893,0.6273050564036478,0.745795183654598,There were approximately 650 chairs in the hall., There are many players on the team.
+0.5619377715439176,0.5588885944596036,0.7703165028234014,The family ate the dinner.,The friendship is true.
+0.6256798171012098,0.6244778340147666,0.7770979688065125,The pilot flew the plane.,She hired talented employees.
+0.5411826337167358,0.5434192239851707,0.7106082831711933, The selection was inappropriate., He is a skilled cook.
+0.5596526543300717,0.5603789994242776,0.7882673927713026,The correspondence was prompt,The legacy may be enduring.
+0.5905773911731294,0.5883475690636153,0.7900261224093437,The economy flourished during that period.,The plumbing was fixed by the plumber.
+0.581340306116193,0.5797765527134964,0.7722606506690106,The loss was disappointing.,The anger is justified.
+0.6223579204914255,0.6248834155742158,0.8002816523252724,The manager supervised the team.,Error was corrected.
+0.5603170229920128,0.5613166906591585,0.7734307835660885,The glass is in the sink.,The reaction was immediate.
+0.6294615984803626,0.6279230264125004,0.7381609316410318,She inspired others.,She played the piano skillfully.
+0.6247133118988384,0.6239513849914927,0.8167912216614512,The response was positive.,The book was engaging.
+0.7242189461257955,0.7262816929754415,0.7881261716497643,The physical therapist diligently guided the patient's rehabilitation.,She assessed employee performance.
+0.569813317994111,0.5702330968004778,0.7249431005624045,The dinner was delicious.,She may visit her aunt tomorrow.
+0.45529026853105603,0.4543835061971649,0.7285793713680205,The firefighter rescued the family from the fire.,The bees might be buzzing.
+0.6240366263177204,0.624260206785402,0.8148480747896676,He can solve that math problem easily.,The theory was proven.
+0.5702753705744348,0.5698046081200674,0.7828337033148183,The friends enjoyed a fun outing.,The implication was positive.
+0.5792822653360725,0.5788270400951253,0.7711893339999423,The support was unwavering., The humidity is extremely high.
+0.6706398973226033,0.6712749513207793,0.7826912949883542,The museum was fascinating.,The threat was grave.
+0.3925094913612843,0.39538004114361475,0.7810724860743192,The crickets chirped in the night.,Proficiency was demonstrated.
+0.6137058714896915,0.6134116256757554,0.7249735214089832,The strike was called by the umpire.,The machine was built by the engineer.
+0.5029116729760956,0.5004896780303443,0.7330934730751921,The train traveled swiftly across the country.,The reduction may have been substantial.
+0.6551524601666313,0.6507949333360089,0.7447414794601106,The moth cleverly eluded the bat.,The toad sat on a lily pad.
+0.6356548544121019,0.6336186574980547,0.7846424580257767,The witness was questioned by the lawyer.,The lion is outside the trees
+0.5340535630756365,0.5335348542231575,0.7213685103547667,The judgment was unjust., He tends to be a good friend.
+0.5106011558582433,0.5121362205187245,0.7393558012786859,You explained clearly,The order was executed.
+0.5354592572499436,0.5324247910095983,0.7491350370448258,The letter was received.,The turtle did not slowly lumber across the path.
+0.6125800565518055,0.6121043894276377,0.7122613258302044,There were nearly 300 stars visible in the sky.,The cricket produced a rhythmic chirping pattern.
+0.6117556538877141,0.6133495887472198,0.7808913632213088, The wind was very gentle.,The help was offered.
+0.6229261752117857,0.6245237741580468,0.8188162301086682,The concept is abstract.,The speech was inspiring.
+0.5265785073061063,0.5257310731215397,0.6664209079254357,The lawyer prepared cases,I lost three buttons.
+0.6529153387143778,0.6546909379149428,0.8387053572092287,The laptop is in the bag.,The forest is dense.
+0.5383778379056715,0.535954585832834,0.6763860131108408,The growth was experienced.,She loves unconditionally.
+0.5407098260990677,0.5398397289147394,0.7207917763747054,The snow blanketed the ground,The plant is in the corner
+0.5214155704557111,0.5226371234952265,0.7704407409003963,The satellites orbited the Earth.,The skill was outstanding.
+0.5202719063175661,0.5202704890013372,0.7622542300684161,The family was helped by the social worker., The plants could die.
+0.5196595668472814,0.519932094232112,0.6650061566286377,The coach motivated the team.,The defendant was found guilty by the jury.
+0.5999387306379955,0.5975795055737957,0.7611943484872226,The result was favorable.,The building stood tall against the skyline.
+0.4821405952588103,0.4842365594589689,0.7256920494443988,He planted approximately 160 trees in the park.,The satellite approaches the Earth.
+0.6472674329689927,0.6441644206744831,0.7760440162058644,He composed a beautiful symphony.,The society did not progress toward equality.
+0.5368615584434133,0.5354066498367889,0.7217036966768369,The friendship is genuine.,He wrote over 40 essays.
+0.4983614167435152,0.49716894982563187,0.7417005103363703,The investor funded the startup.,It may be a busy day.
+0.5512760344441188,0.5526589451469852,0.7718800808612247,They can travel to Europe.,The physician examined the patient.
+0.5735545391491996,0.5741720183569065,0.7432165182817285,The fans admired his talent.,The foxes hunt cleverly
+0.5750958789643702,0.57281285623374,0.6932294140965932,The building is not tall,The garden contains 5 roses.
+0.45279887689680937,0.45295703145561733,0.7542328393715475,The design might be stylish.,The hawks hunt fiercely
+0.5944714409160756,0.5913923241187155,0.7534249305930372,The architecture is impressive.,The glaciers slowly moved across the land.
+0.5047383390348097,0.5058988119787164,0.8004995620701048, Many houses are situated on this street.,The painting was beautiful.
+0.5512180280160668,0.5527808140013275,0.6972325213308892,Their time was volunteered by the parents.,Giraffes reached high leaves
+0.5771384889745874,0.578491787623562,0.6633071698602853, The message is extremely concise.,We respond thoughtfully
+0.49326581988513907,0.4922334950900583,0.7504319986040175,He won numerous awards.,The lion thundered majestically.
+0.6047382684155025,0.6069002931645613,0.7419922037783647,She took photographs of the scenery., The team scored many goals.
+0.5488289193090201,0.5520057499942099,0.7771752381263144,The ocean waves crash loudly,Gratitude was sincere.
+0.47337738683615116,0.4721715250149268,0.7194761145609077,The inventor patented their invention.,The cloud drifts over the mountain
+0.4202262306453145,0.41939622330240983,0.6779532201583783,Arctic foxes survived harsh winters,The game was played by the team.
+0.6253719844325091,0.6290203116869182,0.8229219152588411,The bird is on the tree.,The journey is long.
+0.41950999484760565,0.41781674988950335,0.7199162554575111,The bees pollinated the flowers efficiently.,The hypothesis is supported.
+0.6299163554405547,0.6280174012931921,0.8033931722879664,The solution was effective, The team is remarkably efficient.
+0.499714971789034,0.49587987293893254,0.7486482823735386,He spent 25 hours studying.,The stars shone brightly in the darkness.
+0.5559959925165672,0.5576025847954398,0.8152388185222904,He built four birdhouses.,The future was uncertain.
+0.6203786478064413,0.6211226000997647,0.7622735559048436, The milkshake was extremely thick.,The rest was restorative.
+0.5419710568701619,0.5424014632230323,0.788700320832083,He supported various causes.,The stars sparkled
+0.46269544574999855,0.4610691078550164,0.7826518682001855,The galaxy contains billions of stars, The outcome is negative.
+0.6672319718594615,0.6663445061988036,0.7971629093667709, The scientist conducted many experiments.,The repairs are necessary.
+0.47851353580598127,0.4757670699729231,0.6583998692820037,The boat sailed upon the lake,The game could end in a draw.
+0.43054680540011164,0.42871055321704954,0.6973937783003388,She received numerous awards.,The supply chain was managed by the logistics team.
+0.4490685718669895,0.44674280249325315,0.7134707271656724,The composer structures complex pieces,The canoe is on the riverbank
+0.6413926994717264,0.6404941989056421,0.7887993812219449, The interface was complex.,The restaurant may be busy.
+0.6812843718268806,0.6826863066056603,0.8407212658777224, The economy is shrinking.,The technology was advanced.
+0.4998412085994528,0.5003232306888421,0.7475556931526781,The team did not win the championship.,The legend left a lasting legacy.
+0.535575740489485,0.5340841866643131,0.7975858507443178,The spaceship travelled through space,The vacation was relaxing.
+0.5641140608634976,0.5622246214154556,0.8252505309244057,She is a student.,The carpenter built a chair.
+0.6755344988209844,0.6737513422156958,0.76609742225206,The musician did not play a beautiful song,A short story was penned by the writer.
+0.5481771309692789,0.5455700773413109,0.7026780165738895,The bluebirds sang beautifully,The twelfth-grader could have graduated from high school.
+0.45174474158861877,0.4508673836527276,0.6706547586309174,He does not like to swim,The team won the game.
+0.5430528621427809,0.5437452039543806,0.651893617870319, The farm raised a massive flock of chickens., There are many houses in this town.
+0.5178285423824326,0.5171069005884877,0.7904245821680741,The world leader advocated for global cooperation.,The trees did not sway gently
+0.5214753084707663,0.5226549829745771,0.7701151386056353,The ability was remarkable.,A delicious meal was prepared by the chef.
+0.617370860146903,0.6166331366698733,0.7448546807798324,We may need to hire an extra staff member.,She read at least 110 books last year.
+0.466193631826169,0.46852960024039525,0.7739124176263242, The cat might jump on the counter.,The team strategically planned their approach.
+0.5249798644459011,0.5235645244188019,0.7613903889980106,The clock is on the mantelpiece, The movement was sluggish.
+0.6023896693589681,0.6015017898661479,0.7799798232159724,The nurse administered the treatment.,High standards of quality were maintained by the business.
+0.4872501894251873,0.4867256698665599,0.7208285325581791,The impact was considerable.,Honey was made by the bee.
+0.6035522047198394,0.6028341767351302,0.7768733610963303,The fashion was created by the designer., The kite is near the clouds.
+0.5799314566828766,0.5824550206815846,0.8027270436079285,The air was fresh and clean., The dedication was lacking.
+0.6008492015288601,0.6012225159811395,0.7783404175766118,The plants are vibrant.,The adaptability could have been impressive.
+0.5666931582227633,0.567078152088142,0.8253522269576319,The eagles soared high above the mountains.,The strategy was effective.
+0.5881450065770581,0.5877385006603761,0.7399030829112767,A debate ensued,The organizers successfully concluded the conference.
+0.7008882277436153,0.7038425581909294,0.7538749917652997,She bought about 60 pairs of socks.,I ate 12 cookies.
+0.5594728937278215,0.5604663436057158,0.7967733031521119,The statue was carved by the sculptor., He answered several questions.
+0.5133533709346809,0.5096580877229582,0.7786390961849364,The tsunami could have flooded the coastal areas., The chair is away from the window.
+0.6198903761827389,0.6163701565459045,0.7603983060011865,He fixed the car.,The shrimp is on the plate.
+0.5271352600663874,0.5263582184858606,0.7490967041026964,The sun did not set in the west,He can fix the car.
+0.5502234119508824,0.5529180694603977,0.687956579549855,The atmosphere was positive.,The asteroid approached Earth
+0.5714353304219661,0.5695407371130249,0.7037484279610201, He devoted countless hours to the project.,The snail secreted a trail of mucus.
+0.5773901654312196,0.5762736213882415,0.7195759847457779, The workflow is chaotic.,The organization effectively managed its operations.
+0.6679567953717913,0.6627700138441402,0.7284913601229144,The design is elegant.,The picture hangs beside the fireplace.
+0.5268670955508683,0.5238202422256256,0.7319474041632112,The customer ordered food.,The decline may have been temporary.
+0.5395469767351591,0.5414567729583011,0.7714378656221994,The set designer builds sets,The team achieved its ambitious goals.
+0.5976767815224895,0.5960793852148887,0.7611496040561648,The experience might have been transformative.,Their lines were memorized diligently by the actors.
+0.6083157333442415,0.6087015505254217,0.722958365280812,The conviction is unwavering., Disagreement is a possibility.
+0.5581156176870838,0.5595569138517734,0.7616355851815502,The arctic hares skillfully evaded their predators.,The recovery might be strong.
+0.6407681743507355,0.640300745893554,0.7971311061489272,A host greeted them warmly., The dialogue is extremely engaging.
+0.6501215020371364,0.6515719922418044,0.7823623454011435, The hatred is extremely intense.,He developed a unique plot.
+0.5858854456395597,0.5859033962923066,0.7130568949614224, The kite flew near the clouds.,The dog can fetch the ball.
+0.6057087965818173,0.6027629439410664,0.7168328911372748,The student did not thoughtfully answer the questions.,The waitstaff were effectively supervised by the manager.
+0.6196516017361282,0.6177711435161068,0.7239096542476386,The cook prepared the meal.,The cats meowed softly.
+0.5191839822620234,0.5195349481277409,0.7148277292625239,The lakes reflected the sky.,The promising startup was funded by the investor.
+0.6928143827156998,0.693442222572006,0.7747883487144469,People walked steadily,She bought four dresses.
+0.47995867647658497,0.4830495775470933,0.7388022242063474, The day is gloriously sunny.,The secret was concealed.

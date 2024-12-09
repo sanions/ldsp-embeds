@@ -1,0 +1,201 @@
+baseline_similarity,mean_shift_similarity,regression_similarity,Sentence1,Sentence2
+0.8241582874334611,0.8744315275441674,0.8907157636984149,He planted approximately 30 flowers., He planted several flowers.
+0.8128834115472645,0.8652431791800287,0.8857858388314455,He planted approximately 60 flowers., He planted several flowers.
+0.8958930092717945,0.9170545301531422,0.9286162005948385,She read at least 90 books last year., She read many books last year.
+0.929933248046376,0.9458067513021282,0.9408537325831199,She baked around 140 cupcakes for the sale., She baked a large quantity of cupcakes for the sale.
+0.9195388212319611,0.9445332695716503,0.9416328872135702,The library has over 8000 books., The library has a vast collection of books.
+0.9057744896084217,0.9404104840906788,0.9469873062679671,There are around 400 apples in the orchard., There are many apples in the orchard.
+0.9272460525415269,0.9403945041615103,0.9337808932793151,The garden contains approximately 60 roses., The garden has numerous roses.
+0.8720337017011485,0.9278719638202373,0.9350844657375555,He planted approximately 120 trees in the forest., He planted a large number of trees in the forest.
+0.8276931907103656,0.8723447820827307,0.8784046019613904,The restaurant served about 1100 customers., The restaurant served many customers.
+0.8984297658446826,0.8901900385586642,0.8901179210472916,The student answered 5 questions correctly., The student got most of the questions correct.
+0.8258750690127831,0.8741224439704571,0.8946983145286869,I have 22 dogs., I have a very large number of dogs.
+0.9185981476158155,0.9183351709200369,0.9300539204730616,He wrote two essays., He wrote a few essays.
+0.8663063051370643,0.9079750176120347,0.9169533284403865,The baker sold over 350 loaves of bread., The baker sold a large quantity of bread.
+0.8459556894488641,0.8650904990364257,0.8678001019962353,He read at least 50 chapters., He read a substantial portion of the book.
+0.780174260450792,0.8184096310707673,0.8416829214666612,Approximately 1100 birds were seen migrating south., A massive flock of birds migrated south.
+0.8591576158224994,0.9012682638731323,0.9135530447154041,I have more than 50 cats., I have a large number of cats.
+0.8845703182681879,0.8970966299548043,0.9090530156792995,The company hired 75 employees., The company hired many employees.
+0.8307435048895022,0.874850751955947,0.895817708071055,I have 24 dogs., I have a very large number of dogs.
+0.8660793960094205,0.896349453574775,0.8995262359622886,He wrote around 100 essays., He wrote numerous essays.
+0.8643273759965624,0.870941910768579,0.8663315647355971,She drank more than 15 cups of coffee yesterday., She drank an excessive amount of coffee yesterday.
+0.8731744383633623,0.9086662542513742,0.9279005401255698,He read over 50 novels., He read many novels.
+0.8887705828534396,0.9073457545495557,0.910702983307752,I ate 10 slices of pizza., I ate a large amount of pizza.
+0.9596864034101275,0.9545755157805302,0.9350458067016141,I answered at least 50 questions correctly on the exam., I answered a majority of the questions correctly on the exam.
+0.8896282450009463,0.9078002039700808,0.899599394479467,I ate more than 40 slices of pizza., I ate a huge amount of pizza.
+0.8494676579386895,0.8764635535028282,0.9021290937818499,The scientist conducted 15 experiments., The scientist conducted many experiments.
+0.8356234786637875,0.8834797027123124,0.897266098476845,She baked 50 cupcakes., She baked a great many cupcakes.
+0.8953145209158864,0.9115117212171696,0.9305234862606848,She read 5 books., She read several books.
+0.9261830506787097,0.9392224281112422,0.9335589988987361,The garden contains approximately 110 roses., The garden has numerous roses.
+0.8836544787454956,0.9017228256557114,0.9104809019510651,There are more than 500 fish in the tank., The tank is full of fish.
+0.8997392602887895,0.8980888185358691,0.9036472440493463,I answered at least 130 questions correctly., I answered almost all the questions correctly.
+0.8494572569868833,0.8830131716969454,0.8944929371765183,The library has over 7000 books., The library houses a vast collection of books.
+0.9342493437064984,0.9355996325249992,0.9443036025468456,The author wrote 3 chapters., The author wrote several chapters.
+0.8751463590426923,0.9106771376520737,0.9283341276959564,He read over 60 novels., He read many novels.
+0.830808842147016,0.8738858944180674,0.878409275838535,The restaurant served about 600 customers., The restaurant served many customers.
+0.7580319277475422,0.7602781701685379,0.7835094446074715,There were more than 400 people attending the conference., The conference had a large attendance.
+0.8620874744773865,0.858349362244178,0.8772180174861895,The team scored 5 goals., The team scored several goals.
+0.9138412016271781,0.9326565629134196,0.9337829640184758,I ate over 70 bowls of soup., I ate an enormous amount of soup.
+0.7323425295027295,0.775208745727202,0.797611278411885,She collected nearly 180 stamps., She has an extremely extensive stamp collection.
+0.871123068602704,0.8864530708711076,0.8893414391462415,He read at least 45 chapters., He read a substantial portion of the book.
+0.9030004945084962,0.9073314439604622,0.9131891489257361,She baked three cookies., She baked a couple of cookies.
+0.7716431932128336,0.7985029195696809,0.8078543911191747,He wrote close to 30 songs., He has written a large number of songs.
+0.8431907680704113,0.8553945378403507,0.8803713887698359,I bought 3 shirts., I bought some new shirts.
+0.7988133919088616,0.8577355284264245,0.8722535301151211,He planted approximately 15 flowers in his garden., He planted a few flowers in his garden.
+0.8615319475834289,0.8813737649805115,0.9000285279908662,There are more than 550 fish in the tank., The tank is full of fish.
+0.9036145282115992,0.9344505761893876,0.9361883072076862,She read over 50 books this year., She read a vast number of books this year.
+0.9018616080277811,0.9142213063492112,0.9144271991017351,The teacher assigned 20 problems., The teacher assigned numerous problems.
+0.8693132167553626,0.9103779703172248,0.9190255796232574,The baker sold over 550 loaves of bread., The baker sold a large quantity of bread.
+0.8742487651127309,0.8952107442033084,0.8931981803900642,He spent about 75 hours working this week., He worked extremely long hours this week.
+0.9406488955188083,0.9302398643695429,0.9294714221372073,I saw at least 50 squirrels foraging for nuts., I saw numerous squirrels foraging for nuts.
+0.8792005929081121,0.9135248204661655,0.9308033726385004,He read over 90 novels., He read many novels.
+0.7698608216510958,0.8373673955567718,0.8584920075377394,The library held over 20000 books., The library had an enormous collection of books.
+0.9182638790121532,0.9439007139432961,0.9444459163800689,I bought more than 40 pairs of shoes., I bought many pairs of shoes.
+0.6885191074918315,0.708259665714462,0.7994099357921414,There are 100 fish in the pond., The pond is teeming with fish.
+0.9087906906147558,0.9211807266153524,0.9197027511572908,Around 600 birds were soaring overhead., A vast number of birds were soaring overhead.
+0.9245220830909586,0.928652718019931,0.9238080255147256,We ate four slices of pizza., We ate quite a few slices of pizza.
+0.8619723729229469,0.8754766310404667,0.8897541519287735,He made four calls., He made a few calls.
+0.8716469367797841,0.9024294672311397,0.904518780362383,He wrote around 80 essays., He wrote numerous essays.
+0.9411569367741626,0.9336722697849904,0.931260475119606,They found two seashells., They found a handful of seashells.
+0.9149968029606188,0.9320982682875053,0.9221191212255757,The company produced 5000 products., The company produced many products.
+0.8718932353990392,0.9224142693635317,0.928673030440053,She bought close to 90 dresses., She bought a significant number of dresses.
+0.9246910961133346,0.9368703696804902,0.9356574441886529,The factory produced 5000 cars., The factory produced a large number of cars.
+0.9013392008097688,0.8997598651725833,0.916488831177144,I ate two pieces of cake., I ate a small amount of cake.
+0.8723538581716842,0.8943001334994743,0.9069565638073717,There are more than 250 fish in the aquarium., The aquarium is full of fish.
+0.9396267665727748,0.9435204242640113,0.9481711689124022,The author wrote 5 chapters., The author wrote several chapters.
+0.8575994820160958,0.9005533743592545,0.9106694858758921,She bought close to 60 dresses., She bought many dresses.
+0.9394831927343396,0.9507360432858817,0.9491175341111231,She bought about 40 pairs of pants., She bought several pairs of pants.
+0.9390314204644824,0.9373511708226631,0.9288032938237145,There were nearly 400 stars visible in the clear night sky., Countless stars were visible in the clear night sky.
+0.7372428200175152,0.7865879351983802,0.8259683404877651,Approximately 1000 birds were observed migrating., A massive flock of birds was migrating.
+0.8212734591224427,0.8431076563970781,0.8722663302350916,I have three dogs., I have some pets.
+0.9014606864475031,0.9251762995012874,0.9251322263922491,I ate over 50 bowls of soup., I ate a huge amount of soup.
+0.918730562128309,0.9000525949970299,0.8994443594081679,There are 20 houses on the street., There are approximately twenty houses on the street.
+0.8058636534667779,0.8700910609310344,0.894589680016248,The store had approximately 70 apples., The store had many apples.
+0.8938333028033443,0.8992589737432175,0.898012755963326,There were nearly 350 stars visible tonight., Countless stars were visible tonight.
+0.8857509729614362,0.913522784414919,0.9164835367844166,He wrote over 80 essays., He wrote numerous essays.
+0.7486600943458159,0.8004450485512729,0.8444548772654432,The city had 3 million residents., The city had a very large population.
+0.7944258122701251,0.8411788655493808,0.8583520302562047,The library held 10000 books., The library housed a vast collection of books.
+0.8750969807460848,0.9067733685902092,0.9182115516525208,She has read well over 100 books this year., She has read a vast number of books this year.
+0.9319622330293755,0.9283844566722671,0.9355392976109376,She wore two bracelets., She wore a few bracelets.
+0.8204471281472323,0.8391362365615764,0.8696648678831312,He spent over 60 hours working on the project., He devoted many hours to the project.
+0.9433510745439633,0.9621344941739243,0.9505056608793485,She baked about 70 cupcakes for the bake sale., She baked a large quantity of cupcakes for the bake sale.
+0.9009127968856151,0.9261457567263446,0.9324860375664368,I ate nearly 40 slices of bread., I ate a large amount of bread.
+0.9693065071558792,0.9606791272471153,0.9503569404678489,I ate two slices of bread., I ate a couple of slices of bread.
+0.8802616312017537,0.900515865138509,0.9005976675803378,The artist painted 40 pictures., The artist created many paintings.
+0.9151529141348869,0.9074657796181248,0.9009795390210534,She drank three cups of tea., She drank some tea.
+0.9189873060525882,0.9388336165007845,0.9276311848665564,I ate over 20 slices of pizza at the party., I ate a large quantity of pizza at the party.
+0.9432933935202308,0.9520508972407065,0.9513141320977831,She bought about 30 pairs of pants., She bought several pairs of pants.
+0.7587739275841041,0.8244520222998123,0.8607843127797747,The park contained over 1100 trees., The park has a lot of trees.
+0.7744781112391885,0.834942787506282,0.8560064993601222,The library held over 30000 books., The library had an enormous collection of books.
+0.8713727189896898,0.8991366548056018,0.9024413842928929,He wrote over 90 songs., He wrote numerous songs.
+0.822795227942001,0.8702633229240355,0.8855226261182999,She drank approximately 20 cups of tea., She drank a lot of tea.
+0.8527824990195669,0.8818657796736864,0.9013896311546639,There were approximately 250 chairs set up for the meeting., There were plenty of chairs for the meeting.
+0.8376753972342589,0.8781309990758175,0.9006558577506093,I have 12 dogs., I have a lot of dogs.
+0.7954446112614979,0.7991722206806634,0.799109091913425,There were close to 300 students at the graduation., Many students attended the graduation.
+0.8696104936769516,0.903075700397314,0.907518255012593,The restaurant served 200 customers., The restaurant served many customers.
+0.8092754547683907,0.8519397108382544,0.8604808981588066,The restaurant served about 1000 customers., The restaurant served many customers.
+0.9168409852556798,0.9480588340158554,0.9435958291808355,She read over 70 books during the summer., She read a significant number of books during the summer.
+0.9334667343890217,0.9478001209438504,0.9482646074356975,She bought about 45 pairs of pants., She bought several pairs of pants.
+0.7566050543075032,0.7673066151431027,0.8084383635706276,I read 2 chapters., I read a small portion of the book.
+0.8561322270707548,0.8582585496671882,0.8859518771647454,She bought four dresses., She bought some clothing items.
+0.8086691057668492,0.8507111961673992,0.8763669779208518,There were approximately 240 birds singing., Many birds were singing.
+0.7514579606415168,0.7902570350616553,0.8345906401184188,The school enrolled over 5000 students., The school had a very large student body.
+0.8471216420803824,0.8782656831456161,0.8912666911225647,The musician played at least 40 songs., The musician played many songs.
+0.9136811947277179,0.949554018321111,0.9425006630985032,The boutique sold 900 scarves., The boutique sold many scarves.
+0.9111535229241131,0.9247090772767662,0.922474023772927,He wrote 20 songs., He wrote numerous songs.
+0.8781644488683568,0.9151187561678022,0.9202782520175852,The scientist conducted more than 70 experiments., The scientist conducted many experiments.
+0.7562947440792882,0.7972125710890179,0.8412027183181894,The school enrolled over 4000 students., The school had a very large student body.
+0.9302457994282631,0.9448562881335307,0.9360858462195089,The garden contains approximately 50 roses., The garden has numerous roses.
+0.8973855089093117,0.9114509020121973,0.902346249624776,I ate more than 100 slices of pizza., I ate a huge amount of pizza.
+0.8001874957861275,0.8338906541211977,0.8629773312865326,He planted 8 flowers., He planted a few flowers.
+0.7939331958863791,0.8398632920945198,0.8618423983703417,The farmer harvested over 1000 bushels of wheat., The farmer had an extremely abundant harvest.
+0.8256836072310763,0.8727160249611207,0.8902068851776562,She drank over 30 cups of coffee., She drank a great deal of coffee.
+0.9091399797645016,0.9322814249282907,0.9353968983409918,I ate nearly 50 slices of bread., I ate a large amount of bread.
+0.8798632774788442,0.9138238660535147,0.9161830462936524,The store sold at least 280 shirts., The store sold many shirts.
+0.8444927000478178,0.8644876342374513,0.8709262358888827,She drank over 60 cups of coffee., She drank an excessive amount of coffee.
+0.9244228015920528,0.9520214354567189,0.952079181992605,He planted 30 trees., He planted numerous trees.
+0.9231724501124454,0.955294877894848,0.9446756347682064,The boutique sold 250 scarves., The boutique sold many scarves.
+0.8352698314262602,0.8753807804311332,0.9018524706812197,He wrote 15 songs., He wrote a good number of songs.
+0.8924080829019121,0.9108646432168994,0.9090140594067082,There are at least 700 houses in this neighborhood., There are many houses in this neighborhood.
+0.803410628549112,0.8543076920358348,0.8742123982678587,There are around 300 apples in the bin., There are a lot of apples in the bin.
+0.8797480969536713,0.9109626007893604,0.919714610127607,The farm raised 3000 chickens., The farm raised a massive flock of chickens.
+0.8739999437127208,0.9197803156948458,0.924090063558861,She bought close to 100 dresses., She bought a significant number of dresses.
+0.9177127142541311,0.9425097497458346,0.9430222583222521,The museum displayed approximately 250 artifacts., The museum displayed many artifacts.
+0.9068106630756081,0.9358670240463233,0.94372085666293,The museum displayed approximately 450 artifacts., The museum displayed a large number of artifacts.
+0.8581874846234355,0.8722405581015114,0.8839442877037976,He read 8 chapters of the book., He read a substantial part of the book.
+0.7085450076406403,0.7433227394251345,0.7806950025202933,There are 100 stars visible., There are countless stars in the night sky.
+0.844897075730748,0.8506441212930378,0.8915974526252513,The student answered at least 30 questions correctly., The student answered many questions correctly.
+0.9178613655810905,0.9202712372033387,0.917151071472155,I saw at least 70 squirrels burying acorns., I saw many squirrels burying acorns.
+0.8099294769481831,0.8306907824113405,0.8399538649575827,He spent over 40 hours working on the project., He devoted a significant amount of time to the project.
+0.9066532707390542,0.9321514628505496,0.9261323106509102,I baked more than 110 cookies for the event., I baked a large quantity of cookies for the event.
+0.6815833202997021,0.731854047760077,0.7654665274441916,She collected nearly 240 stamps., She has a truly massive stamp collection.
+0.8880135568041434,0.9054317707733741,0.8958772920451422,I ate more than 50 slices of pizza., I ate a huge amount of pizza.
+0.8880885107588403,0.9108889251580842,0.909078594669513,The company hired approximately 450 employees., The company hired a significant number of employees.
+0.7980583726510835,0.8354987628363848,0.8556374371500525,There are 150 houses on the street., There are countless houses on the street.
+0.8780229582829532,0.9140419522273264,0.9184833663246748,The scientist conducted more than 120 experiments., The scientist conducted many experiments.
+0.8578788133005653,0.8765494951284639,0.8934130948626086,He spent about 65 hours working this week., He worked many hours this week.
+0.8583685727898904,0.8646424955997647,0.8895628439125749,She drank three glasses of juice., She drank a lot of juice.
+0.9036359688574067,0.9248135027961851,0.930616844508393,I ate 5 bowls of soup., I ate a large quantity of soup.
+0.7643538043797571,0.7975480940711053,0.8287016074893829,The concert attracted 1000 people., The concert drew a huge crowd.
+0.8419494501501108,0.8604891237359271,0.8891571107492948,She sang three songs., She sang a couple of songs.
+0.9265499463688541,0.9049126876061117,0.9045976136971303,He read two chapters of the book., He read a portion of the book.
+0.9208797879382321,0.9340183466552267,0.9372103660840506,He planted five trees., He planted some trees.
+0.880707600066766,0.8942107893997494,0.9019375905905164,She drank 12 cups of coffee., She drank a large amount of coffee.
+0.9221008224966142,0.9465505659064842,0.9412696517950329,The factory produced around 15000 cars., The factory produced a very large number of cars.
+0.8856665020563995,0.8939206865853966,0.9093540470353997,The author wrote 7 chapters., The author wrote a large number of chapters.
+0.8763917024233046,0.9142415159322805,0.9262381072704753,He read approximately 110 articles., He read many articles.
+0.9326301677241877,0.9472267266364834,0.937670242703591,The garden contains approximately 100 roses., The garden has numerous roses.
+0.8585226806165762,0.8656106934482902,0.8630773864189836,There were close to 550 students at the concert., Many students attended the concert.
+0.8210407973102085,0.8435893643789132,0.8587998161378106,He wrote 18 essays., He wrote a significant number of essays.
+0.8578545396539525,0.90193446030649,0.9157689617029424,There are around 500 apples in the bin., There are many apples in the bin.
+0.985154295468101,0.9645499822027256,0.9497113300076453,There are roughly 100 houses on this street., There are approximately 100 houses on this street.
+0.8391118955057809,0.8805424043081069,0.8843973134429075,The restaurant served about 800 customers., The restaurant served many customers.
+0.9111344022089127,0.9191090125761928,0.927143259186543,I saw 15 squirrels., I saw several squirrels.
+0.8759771275219823,0.9067899734454758,0.9093890294549803,He wrote around 130 essays., He wrote numerous essays.
+0.7057907440698753,0.7407454074847503,0.7879729718389994,The city had approximately 5 million residents., The city has a very large population.
+0.8087991418917739,0.8501292847297306,0.8742745605073717,He wrote close to 550 pages of his thesis., He wrote a very substantial thesis.
+0.9483514091675838,0.9722330433574939,0.9615379879481307,There are around 250 apples in the orchard., There are a large number of apples in the orchard.
+0.9362485503394808,0.9356186120871742,0.927410458344849,There were nearly 150 stars visible in the clear night sky., Countless stars were visible in the clear night sky.
+0.8766365453819395,0.9103227232724005,0.9143162317910887,The store sold at least 200 shirts., The store sold many shirts.
+0.9368460411029873,0.9360226988521507,0.9408266425385481,He wrote two poems., He wrote a few poems.
+0.8884569619993441,0.9117669799716781,0.9259889842882867,She read at least 110 books last year., She read many books last year.
+0.8532481750608211,0.8917871174695756,0.910632155597327,I have 16 dogs., I have a large number of dogs.
+0.8728557256345129,0.9025966615983081,0.905663890381469,The team scored over 25 goals., The team scored many goals.
+0.9179259138040509,0.9448080753927742,0.9406456292826185,The factory produced around 12000 cars., The factory produced a very large number of cars.
+0.9322263535881081,0.9472040256560649,0.9389626814254024,Approximately 700 birds migrated south for the winter., A large flock of birds migrated south for the winter.
+0.9143816408398026,0.9404468128206248,0.9378103849106953,The factory produced around 20000 cars., The factory produced a very large number of cars.
+0.9043643047801417,0.9227766581197957,0.9325236439874138,She read at least 80 books last year., She read many books last year.
+0.9229829851231464,0.9392530978746736,0.9390647304298538,I baked 30 cookies for the party., I baked many cookies for the party.
+0.8705541504787104,0.9029049880609832,0.9041126278946324,He wrote around 90 essays., He wrote numerous essays.
+0.8292494234073445,0.8570097386404641,0.8780768332748223,I now own 8 dogs., I own several dogs.
+0.9423454261651576,0.9489628127389482,0.9431379289039892,I bought more than 10 pairs of shoes last year., I bought several pairs of shoes last year.
+0.7741010438328453,0.8456401964528762,0.8692977240845816,The library held over 12000 books., The library had a vast collection of books.
+0.8540579190336386,0.883201842438797,0.8946303992924365,The team scored over 12 goals., The team scored many goals.
+0.8827663080073752,0.8974777156747957,0.910174575781394,He read 3 articles., He read some articles.
+0.799791335214773,0.84856041553274,0.8694985623331504,The farmer harvested over 1100 bushels of wheat., The farmer had an extremely abundant harvest.
+0.7869581343266552,0.8231033499825808,0.8535963900518785,The teacher assigned approximately 40 problems., The teacher assigned many problems.
+0.8294914952927058,0.8627677492018369,0.8841414195838484,The school enrolled over 1500 students., The school had a large student body.
+0.8334982322207551,0.8497399630326157,0.8554701526636287,I ate 12 slices of bread., I ate a significant portion of the bread.
+0.849872404044888,0.8739326149765325,0.8881289395413461,She bought 18 pairs of socks., She bought lots of socks.
+0.8820734598784246,0.9122615540215393,0.9206489443350006,Over 1000 people attended the festival., A huge crowd attended the festival.
+0.8767820336205481,0.9177856631011843,0.9274307001422557,He read approximately 80 articles., He read many articles.
+0.7563664381985807,0.8176835902357935,0.8561789513192924,The park contained over 400 trees., The park has a lot of trees.
+0.7658220632453423,0.8231686967862079,0.8502471561988661,There were approximately 450 chairs in the auditorium., There were plenty of chairs in the auditorium.
+0.8123674048332685,0.8647420210990711,0.8763987644282921,He planted approximately 20 flowers in his garden., He planted some flowers in his garden.
+0.812750173211879,0.868588959820769,0.8834648458305248,There were approximately 350 chairs in the hall., There were ample chairs in the hall.
+0.793856209120841,0.843118422109404,0.8652413285187139,The farmer harvested over 900 bushels of wheat., The farmer had an extremely abundant harvest.
+0.903479211324112,0.9065077494899907,0.9195987236093055,The musician played 12 songs., The musician played a number of songs.
+0.8675676475571406,0.9097762694594627,0.9166131847806388,The baker sold more than 175 loaves of bread., The baker sold a large quantity of bread.
+0.8854776385017216,0.9198188879579792,0.9223772027339711,The company produced over 15000 products., The company produced a huge number of products.
+0.945257387866711,0.9526108284458241,0.9450911938734599,More than 130 cars were parked illegally., Numerous cars were parked illegally.
+0.8753066474206782,0.9135012070021555,0.9251042436701318,He read approximately 90 articles., He read many articles.
+0.8865164422660035,0.9298315087683411,0.938320123725705,She baked around 220 cupcakes., She baked a very large quantity of cupcakes.
+0.8681376772136986,0.8790419070550951,0.8829173686682736,He read at least 40 chapters., He read a substantial portion of the book.
+0.6790038706400591,0.7316412125521549,0.7665792806513376,She collected nearly 200 stamps., She has an incredibly extensive stamp collection.
+0.8925515927702403,0.9292128603496401,0.9369977612921557,The chef prepared 25 dishes., The chef prepared many dishes.
+0.7898301821210223,0.8501384366865222,0.8862476343145279,The park contained 150 trees., The park had numerous trees.
+0.8625192623806366,0.9047052867701324,0.9137498660008765,The chef prepared more than 50 dishes., The chef prepared a large number of dishes.
+0.9068090507591218,0.913878045430005,0.9160667914155847,He read at least 10 chapters of the book., He read a good portion of the book.
+0.9195385271455511,0.9319531411563655,0.9288775183327806,The company hired 50 employees., The company hired many employees.
+0.8673193401246961,0.8777103579966496,0.8816098058504295,He read at least 25 chapters., He read a substantial portion of the book.
+0.7094088978062012,0.7301249446889584,0.7716806362125382,I have three cats., I have some feline companions.
