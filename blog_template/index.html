@@ -1,0 +1,514 @@
+<html>
+<head>
+	<link rel="stylesheet" href="hoverEffect.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="hoverEffect.js"></script>
+<style>
+	/* Styling for highlighting */
+	.hover-highlight {
+		position: relative;
+		cursor: pointer;
+	}
+	.hover-highlight:hover .highlight-text {
+		display: block;
+	}
+	.highlight-text {
+		display: none;
+		position: absolute;
+		background: rgba(0, 0, 0, 0.8);
+		color: #fff;
+		padding: 5px;
+		border-radius: 3px;
+		top: -25px;
+		left: 0;
+		white-space: nowrap;
+	}
+</style>
+
+<link rel="shortcut icon" href="images/icon.ico">
+<style type="text/css">
+	body {
+		background-color: #f5f9ff;
+	}
+
+	/* Hide both math displays initially, will display based on JS detection */
+  .mathjax-mobile, .mathml-non-mobile { display: none; }
+
+  /* Show the MathML content by default on non-mobile devices */
+  .show-mathml .mathml-non-mobile { display: block; }
+  .show-mathjax .mathjax-mobile { display: block; }
+
+	.content-margin-container {
+		display: flex;
+		width: 100%; /* Ensure the container is full width */
+		justify-content: left; /* Horizontally centers the children in the container */
+		align-items: center;  /* Vertically centers the children in the container */
+	}
+	.main-content-block {
+		width: 70%; /* Change this percentage as needed */
+    max-width: 1100px; /* Optional: Maximum width */
+		background-color: #fff;
+		border-left: 1px solid #DDD;
+		border-right: 1px solid #DDD;
+		padding: 10px 10px 10px 10px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
+	}
+	.sub-content-block {
+    max-width: 1100px; /* Optional: Maximum width */
+		background-color: #fff;
+		/* border-left: 1px solid #DDD;
+		border-right: 1px solid #DDD; */
+		padding: 10px 0px 0px 0px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
+	}
+	.margin-left-block {
+			font-size: 14px;
+			width: 15%; /* Change this percentage as needed */
+			max-width: 130px; /* Optional: Maximum width */
+			position: relative;
+			margin-left: 10px;
+			text-align: left;
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
+			padding: 5px;
+	}
+	.margin-right-block {
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
+			font-size: 14px;
+			width: 25%; /* Change this percentage as needed */
+			max-width: 256px; /* Optional: Maximum width */
+			position: relative;
+			text-align: left;
+			padding: 10px;  /* Optional: Adds padding inside the caption */
+	}
+
+	img {
+			max-width: 100%; /* Make sure it fits inside the container */
+			height: auto;
+			display: block;
+			margin: auto;
+	}
+	.my-video {
+			max-width: 100%; /* Make sure it fits inside the container */
+			height: auto;
+			display: block;
+			margin: auto;
+	}
+	/* Hide both video displays initially, will display based on JS detection */
+  .vid-mobile, .vid-non-mobile { display: none; }
+
+  /* Show the video content by default on non-mobile devices */
+  .show-vid-mobile .vid-mobile { display: block; }
+  .show-vid-non-mobile .vid-non-mobile { display: block; }
+
+	a:link,a:visited
+	{
+		color: #0e7862; /*#1367a7;*/
+		text-decoration: none;
+	}
+	a:hover {
+		color: #24b597; /*#208799;*/
+	}
+
+	h1 {
+		font-size: 26px;
+		margin-top: 4px;
+		margin-bottom: 10px;
+	}
+
+	h2 {
+		font-size: 20px;
+		margin-top: 4px;
+		margin-bottom: 10px;
+	}
+
+	h3 {
+		font-size: 17px;
+		margin-top: 4px;
+		margin-bottom: 10px;
+	}
+
+	table.header {
+    font-weight: 300;
+    font-size: 17px;
+    flex-grow: 1;
+		width: 70%;
+    max-width: calc(100% - 290px); /* Adjust according to the width of .paper-code-tab */
+	}
+	table td, table td * {
+	    vertical-align: middle;
+	    position: relative;
+	}
+	table.paper-code-tab {
+	    flex-shrink: 0;
+	    margin-left: 8px;
+	    margin-top: 8px;
+	    padding: 0px 0px 0px 8px;
+	    width: 290px;
+	    height: 150px;
+	}
+
+	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		        5px 5px 0 0px #fff, /* The second layer */
+		        5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		        10px 10px 0 0px #fff, /* The third layer */
+		        10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-right: 30px;
+		margin-bottom: 5px;
+	}
+
+	hr {
+    height: 1px; /* Sets the height of the line to 1 pixel */
+    border: none; /* Removes the default border */
+    background-color: #DDD; /* Sets the line color to black */
+  }
+
+	div.hypothesis {
+		width: 80%;
+		background-color: #EEE;
+		border: 1px solid black;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		font-family: Courier;
+		font-size: 18px;
+		text-align: center;
+		margin: auto;
+		padding: 16px 16px 16px 16px;
+	}
+
+	div.citation {
+    font-size: 0.8em;
+    background-color:#fff;
+    padding: 10px;
+		height: 200px;
+  }
+
+	.fade-in-inline {
+		position: absolute;
+		text-align: center;
+		margin: auto;
+		-webkit-mask-image: linear-gradient(to right,
+																			transparent 0%,
+																			transparent 40%,
+																			black 50%,
+																			black 90%,
+																			transparent 100%);
+		mask-image: linear-gradient(to right,
+																transparent 0%,
+																transparent 40%,
+																black 50%,
+																black 90%,
+																transparent 100%);
+		-webkit-mask-size: 8000% 100%;
+		mask-size: 8000% 100%;
+		animation-name: sweepMask;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		animation-delay: -1s;
+	}
+
+	.fade-in2-inline {
+			animation-delay: 1s;
+	}
+
+	.inline-div {
+			position: relative;
+	    display: inline-block; /* Makes both the div and paragraph inline-block elements */
+	    vertical-align: top; /* Aligns them at the top, you can adjust this to middle, bottom, etc., based on your needs */
+	    width: 50px; /* Optional: Adds space between the div and the paragraph */
+	}
+
+</style>
+
+	  <title>The Platonic Representation Hypothesis</title>
+      <meta property="og:title" content="The Platonic Representation Hypothesis" />
+			<meta charset="UTF-8">
+  </head>
+
+  <body>
+
+		<div class="content-margin-container">
+				<div class="margin-left-block">
+				</div>
+		    <div class="main-content-block">
+						<table class="header" align=left>
+								<tr>
+									<td colspan=4>
+										<span style="font-size: 32px; font-family: 'Courier New', Courier, monospace; /* Adds fallbacks */">A Grand Unified Theory of Deep Learning</span>
+									</td>
+								</tr>
+								<tr>
+										<td align=left>
+												<span style="font-size:17px"><a href="your_website">Your name</a></span>
+										</td>
+										<td align=left>
+												<span style="font-size:17px"><a href="your_partner's_website">Your partner's name</a></span>
+										</td>
+								<tr>
+									<td colspan=4 align=left><span style="font-size:18px">Final project for 6.7960, MIT</span></td>
+								</tr>
+						</table>
+					</div>
+					<div class="margin-right-block">
+					</div>
+		</div>
+
+		<div class="content-margin-container" id="intro">
+				<div class="margin-left-block">
+          <!-- table of contents here -->
+          <div style="position:fixed; max-width:inherit; top:max(20%,120px)">
+              <b style="font-size:16px">Outline</b><br><br>
+              <a href="#intro">Introduction</a><br><br>
+              <!-- <a href="#does_x_do_y">Does X do Y?</a><br><br> -->
+			  <a href="#lit-review">Literature Review</a><br><br>
+			  <a href="#data">Data</a><br><br>
+			  <a href="#experiments">Experiments</a><br><br>
+			  <!-- <a href="#mean-shift">Mean-shift</a><br><br> -->
+              <a href="#implications_and_limitations">Implications and limitations</a><br><br>
+          </div>
+				</div>
+		    <div class="main-content-block">
+            <!--You can embed an image like this:-->
+            <img src="./images/your_image_here.png" width=512px/>
+		    </div>
+		    <div class="margin-right-block">
+						Caption for the image.
+		    </div>
+		</div>
+
+    <div class="content-margin-container" id="intro">
+				<div class="margin-left-block">
+				</div>
+		    <div class="main-content-block">
+						<h1>Introduction</h1>
+						Sentence embeddings, derived from transformer-based models like BERT, encode semantic and syntactic properties into high-dimensional vectors. While these embeddings have revolutionized NLP by enabling tasks like sentiment analysis and paraphrase detection, their interpretability remains a major challenge. Existing research focuses on probing static embeddings to reveal latent properties, but little is understood about how linguistic relationships—such as tense shifts, negation, or synonymy—are dynamically encoded and manipulated in embedding spaces.
+						<br>
+						<br>
+						Our work addresses this gap by focusing on the generation of embeddings for Sentence 2 from the embedding of Sentence 1, where Sentence 2 represents a linguistically transformed version of Sentence 1. This generative approach allows us to analyze how specific linguistic relationships are encoded as shifts in embedding dimensions and evaluate how well these transformations align with ground-truth embeddings. We move beyond passive probing to actively generating embeddings for  relational transformations, offering deeper insights into the inner workings of these models.
+						<br>
+						<br>
+						This project contributes new knowledge to NLP and deep learning by uncovering the mechanisms underlying relational encoding in embedding spaces. Specifically, we investigate which dimensions encode linguistic relationships, how effectively embeddings can approximate transformations, and whether embedding spaces can be directly manipulated to reflect controlled changes. These findings bridge the gap between interpretability and generative capabilities, providing both theoretical insights and practical tools for embedding manipulation.
+						<br>
+						<br>
+						The generative approach expands the scope of embedding analysis by revealing how embeddings dynamically encode linguistic transformations, not just whether they capture properties. This has implications for explainable AI, enabling transparent and interpretable manipulations of embeddings to reflect specific linguistic changes. Additionally, generating embeddings for transformations introduces fine-grained control in NLP systems, with applications in controlled text generation, robust paraphrasing, and personalized language tasks. By addressing the underexplored dynamic nature of embeddings, our work provides a foundation for building more robust, interpretable, and actionable embedding-based systems.						
+		    </div>
+		    <div class="margin-right-block">
+						Margin note that clarifies some detail #main-content-block for intro section.
+		    </div>
+		</div>
+
+		<div class="content-margin-container">
+				<div class="margin-left-block">
+				</div>
+			<div class="main-content-block" id="lit-review">
+			<h1>Literature Review</h1>
+			Insert content here. Make sure to do in-text citations and link to bib.
+			</div>
+		</div>
+
+		<div class="content-margin-container">
+				<div class="margin-left-block">
+				</div>
+			<div class="main-content-block" id="data">
+			<h1>Data</h1>
+			LDSPs
+			<div class="image-container">
+				<div class="image-wrapper" data-coordinates="
+				752,182,1167,259,image1.jpg;
+				752,262,1167,339,image2.jpg;
+				752,342,1167,419,image3.jpg;
+				752,422,1167,499,image4.jpg;
+				752,502,1167,579,image5.jpg;
+				752,582,1167,659,image6.jpg;
+				752,662,1167,739,image7.jpg;
+				752,742,1167,819,image8.jpg;
+				752,822,1167,899,image9.jpg;
+				752,902,1167,979,image10.jpg">
+				<img src="images/linguistic_prop/linguistic_prop.001.jpeg" alt="Default">
+				<img src="images/linguistic_prop/linguistic_prop.002.jpeg" alt="Image 1">
+				<img src="images/linguistic_prop/linguistic_prop.003.jpeg" alt="Image 2">
+				<img src="images/linguistic_prop/linguistic_prop.004.jpeg" alt="Image 3">
+				<img src="images/linguistic_prop/linguistic_prop.005.jpeg" alt="Image 4">
+				<img src="images/linguistic_prop/linguistic_prop.006.jpeg" alt="Image 5">
+				<img src="images/linguistic_prop/linguistic_prop.007.jpeg" alt="Image 6">
+				<img src="images/linguistic_prop/linguistic_prop.008.jpeg" alt="Image 7">
+				<img src="images/linguistic_prop/linguistic_prop.009.jpeg" alt="Image 8">
+				<img src="images/linguistic_prop/linguistic_prop.010.jpeg" alt="Image 9">
+				<img src="images/linguistic_prop/linguistic_prop.011.jpeg" alt="Image 10">
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="content-margin-container">
+				<div class="margin-left-block">
+				</div>
+		    <div class="main-content-block" id="experiments">
+            <h1>Experiments</h1>
+			The task of generating Sentence 2 embeddings based on Sentence 1 embeddings involves modeling the shifts observed in embedding dimensions as they encode linguistic transformations. Two approaches are employed in this project: mean-shift and regression-based transformations. These methods rely on training data (80% of the dataset) to identify patterns and apply those transformations to the test data (remaining 20%).
+			<!-- <br> -->
+				<div class="sub-content-block" id="mean-shift">
+				<h2>Mean-shift</h2>
+					<!-- <p> -->
+						The mean-shift approach simplifies the problem by assuming that the transformation for a given linguistic property 
+						can be modeled as a fixed, dimension-specific shift. These shifts are calculated from the training data and then 
+						applied to test data.
+					<!-- </p> -->
+					<ol>
+						<li>
+							<h3>Calculating mean shifts</h3>
+							<p>
+								For each dimension \( d \) in the embedding space, the mean shift \( \Delta_d \) is calculated as the difference 
+								between the average value of that dimension for Sentence 2 embeddings and Sentence 1 embeddings in the training data.
+							</p>
+							<p>Mathematically:</p>
+							<p>
+								\[
+								\Delta_d = \frac{1}{n} \sum_{i=1}^n E_2[i, d] - \frac{1}{n} \sum_{i=1}^n E_1[i, d]
+								\]
+								<!-- <span class="highlight-text">This represents the mean shift for dimension \( d \).</span> -->
+							</p>
+							<p>Here:</p>
+							<ul>
+								<li class="hover-highlight">
+									\( E_1[i, d] \): Represents the \( d \)-th dimension of the \( i \)-th Sentence 1 embedding.
+									<span class="highlight-text">Embedding for Sentence 1.</span>
+								</li>
+								<li class="hover-highlight">
+									\( E_2[i, d] \): Represents the \( d \)-th dimension of the \( i \)-th Sentence 2 embedding.
+									<span class="highlight-text">Embedding for Sentence 2.</span>
+								</li>
+								<li class="hover-highlight">
+									\( n \): Number of sentences in the training set.
+									<span class="highlight-text">Number of training examples.</span>
+								</li>
+							</ul>
+							<p>
+								The result is a vector \( \Delta = [\Delta_1, \Delta_2, \dots, \Delta_d] \), where \( d \) is the embedding dimensionality.
+							</p>
+						</li>
+						<li>
+							<h3>Applying mean shifts</h3>
+							<p>
+								To generate the embedding for Sentence 2 during testing, the calculated shifts \( \Delta \) are added to the corresponding
+								dimensions of the Sentence 1 embedding:
+							</p>
+							<p class="hover-highlight">
+								\[
+								e_2'[d] = e_1[d] + \Delta_d \quad \forall d \in \{1, \dots, D\}
+								\]
+								<span class="highlight-text">This adjusts Sentence 1 embeddings with the mean shifts.</span>
+							</p>
+						</li>
+					</ol>
+					<p>
+						This method is efficient and captures global trends in dimension shifts, making it particularly useful for transformations 
+						where shifts are consistent across examples.
+					</p>
+				</div>
+
+				<div class="sub-content-block" id="regression">
+					<h2>Logistic Regression</h2>
+					<p>
+						While the mean-shift approach captures global trends, it does not account for variability or nonlinear relationships 
+						within specific dimensions. The regression-based approach overcomes this limitation by learning dimension-specific 
+						logistic regression models to predict changes.
+					</p>
+					<ol>
+						<li>
+							<h3>Learning dimension transformations</h3>
+							<p>
+								For each dimension \( d \), a logistic regression model is trained using the \( d \)-th dimension of Sentence 1 embeddings as input 
+								and the corresponding dimension of Sentence 2 embeddings as output:
+							</p>
+							<p>
+								\[
+								E_2[i, d] = f_d(E_1[i, d]) + \epsilon
+								\]
+							</p>
+							<p>
+								where \( f_d(x) = \frac{1}{1 + e^{-(w_d x + b_d)}} \) is the sigmoid function parameterized by the weight \( w_d \) and bias \( b_d \), 
+								and \( \epsilon \) is the residual error.
+							</p>
+							<p>
+								The parameters \( w_d \) and \( b_d \) are learned by minimizing the negative log-likelihood (NLL) loss over the training set:
+							</p>
+							<p>
+								\[
+								\min_{w_d, b_d} -\frac{1}{n} \sum_{i=1}^n \left( E_2[i, d] \log(f_d(E_1[i, d])) + (1 - E_2[i, d]) \log(1 - f_d(E_1[i, d])) \right)
+								\]
+							</p>
+						</li>
+						<li>
+							<h3>Generating regression-based embeddings</h3>
+							<p>
+								For a test embedding \( e_1 \), the logistic regression models are applied to each dimension to predict the corresponding dimensions of Sentence 2:
+							</p>
+							<p>
+								\[
+								e_2'[d] = f_d(e_1[d]) = \frac{1}{1 + e^{-(w_d e_1[d] + b_d)}} \quad \forall d \in \{1, \dots, D\}
+								\]
+							</p>
+						</li>
+					</ol>
+					<p>
+						This approach allows each dimension to respond differently to the linguistic transformation, making it more flexible than the mean-shift method.
+					</p>
+				</div>
+				
+				
+
+			
+			<!-- <ol>
+				<li>Mean-shift</li>
+				<li>Regression</li>
+				<li>Milk</li>
+			</ol> -->
+
+            In this section we embed a video:
+						<video class='my-video' loop autoplay muted style="width: 725px">
+								<source src="./images/mtsh.mp4" type="video/mp4">
+						</video>
+		    </div>
+		    <div class="margin-right-block">
+					A caption for the video could go here.
+		    </div>
+		</div>
+
+		<div class="content-margin-container" id="implications_and_limitations">
+				<div class="margin-left-block">
+				</div>
+		    <div class="main-content-block">
+						<h1>Implications and limitations</h1>
+						Let's end with some discussion of the implications and limitations.
+		    </div>
+		    <div class="margin-right-block">
+		    </div>
+		</div>
+
+		<div class="content-margin-container" id="citations">
+				<div class="margin-left-block">
+				</div>
+		    <div class="main-content-block">
+						<div class='citation' id="references" style="height:auto"><br>
+							<span style="font-size:16px">References:</span><br><br>
+							<a id="ref_1"></a>[1] <a href="https://en.wikipedia.org/wiki/Allegory_of_the_cave">Allegory of the Cave</a>, Plato, c. 375 BC<br><br>
+							<a id="ref_2"></a>[2] <a href="">A Human-Level AGI</a>, OpenAI, 2025<br><br>
+						</div>
+		    </div>
+		    <div class="margin-right-block">
+            <!-- margin notes for reference block here -->
+		    </div>
+		</div>
+
+	<script src="hoverEffect.js"></script>
+
+	</body>
+
+</html>
