@@ -4,6 +4,7 @@ import pandas as pd
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+from custom_loss_generation import train_edi_generator, generate_s2_embedding
 
 
 def get_dimension_shifts(train_df):
@@ -110,30 +111,48 @@ if __name__ == "__main__":
         # Split data into train and test sets
         train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
         
-        # Calculate transformations using only training data
-        shifts = get_dimension_shifts(train_df)
-        transformations = get_dimension_transformations(train_df)
-        s2_means, s2_stds = get_dimension_distributions(train_df)
+        # # Calculate transformations using only training data
+        # shifts = get_dimension_shifts(train_df)
+        # transformations = get_dimension_transformations(train_df)
+        # s2_means, s2_stds = get_dimension_distributions(train_df)
         
-        # Load EDI scores (assuming they're available in the utils module)
-        edi_scores = get_edi_scores(embeddings_csv) 
+        # Load EDI scores
+        edi_scores = get_edi_scores(embeddings_csv)
         
-        # Generate new embeddings for test set using different methods
-        test_df['mean_shift_embedding'] = test_df['Sentence1_embedding'].apply(
-            lambda x: generate_shifted_embedding(x, shifts)
-        )
+        # Train EDI generator
+        train_e1 = np.stack(train_df['Sentence1_embedding'])
+        train_e2 = np.stack(train_df['Sentence2_embedding'])
+
+        generator = train_edi_generator(train_e1, train_e2, edi_scores, n_epochs=200)
         
-        test_df['regression_embedding'] = test_df['Sentence1_embedding'].apply(
-            lambda x: generate_regression_embedding(x, transformations)
-        )
+        # # Generate new embeddings for test set using different methods
+        # test_df['mean_shift_embedding'] = test_df['Sentence1_embedding'].apply(
+        #     lambda x: generate_shifted_embedding(x, shifts)
+        # )
         
-        test_df['sampling_embedding'] = test_df['Sentence1_embedding'].apply(
-            lambda x: generate_sampling_embedding(x, edi_scores, s2_means, s2_stds)
-        )
+        # test_df['regression_embedding'] = test_df['Sentence1_embedding'].apply(
+        #     lambda x: generate_regression_embedding(x, transformations)
+        # )
         
+        # test_df['sampling_embedding'] = test_df['Sentence1_embedding'].apply(
+        #     lambda x: generate_sampling_embedding(x, edi_scores, s2_means, s2_stds)
+        # )
+        
+        # test_df['custom_loss_embedding'] = test_df['Sentence1_embedding'].apply(
+        #     lambda x: generate_s2_embedding(x, generator)
+        # )   
+
+        # test_df['contrastive_loss_embedding'] = test_df['Sentence1_embedding'].apply(
+        #     lambda x: generate_s2_embedding(x, generator)
+        # )  
+
+        test_df['contrastive_cosine_embedding'] = test_df['Sentence1_embedding'].apply(
+            lambda x: generate_s2_embedding(x, generator)
+        )       
         # Save results
         results_dir = get_results_directory(embeddings_csv, "generation")
-        output_path = os.path.join(results_dir, "generated_embeddings.csv")
+        output_path = os.path.join(results_dir, "generated_embeddings_contrastive_cosine.csv")
         test_df.to_csv(output_path, index=False)
+
 
     print("Embedding generation complete")
