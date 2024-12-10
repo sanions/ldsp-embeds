@@ -46,8 +46,8 @@
 		align-items: center;  /* Vertically centers the children in the container */
 	}
 	.main-content-block {
-		width: 70%; /* Change this percentage as needed */
-    max-width: 1100px; /* Optional: Maximum width */
+		width: 80%; /* Change this percentage as needed */
+    max-width: 1400px; /* Optional: Maximum width */
 		background-color: #fff;
 		border-left: 1px solid #DDD;
 		border-right: 1px solid #DDD;
@@ -64,22 +64,12 @@
 	}
 	.margin-left-block {
 			font-size: 14px;
-			width: 15%; /* Change this percentage as needed */
-			max-width: 130px; /* Optional: Maximum width */
+			width: 12%; /* Change this percentage as needed */
 			position: relative;
 			margin-left: 10px;
 			text-align: left;
 			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
 			padding: 5px;
-	}
-	.margin-right-block {
-			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
-			font-size: 14px;
-			width: 25%; /* Change this percentage as needed */
-			max-width: 256px; /* Optional: Maximum width */
-			position: relative;
-			text-align: left;
-			padding: 10px;  /* Optional: Adds padding inside the caption */
 	}
 
 	img {
@@ -473,7 +463,7 @@
 				</p>
 				<!-- <h3>Methodology</h3> -->
 				<p>
-					For each dimension in the embedding, its EDI score is compared against a predefined threshold (default of 0.75). Dimensions with EDI scores below the threshold 
+					For each dimension in the embedding, its EDI score is compared against a predefined threshold (default is 0.75). Dimensions with EDI scores below the threshold 
 					are left unchanged, while those with EDI scores greater than or equal to the threshold are sampled from a Gaussian distribution derived from the 
 					corresponding dimension's mean and standard deviation in Sentence 2 embeddings.
 				</p>
