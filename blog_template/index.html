@@ -317,7 +317,86 @@
 				</div>
 			<div class="main-content-block" id="data">
 			<h1>Data</h1>
-			LDSPs
+			<p>
+				These efforts reflect the ongoing commitment to making embeddings more interpretable and addressing the inherent opacity of high-dimensional representations. 
+				However, while these studies offer critical insights, a persistent challenge lies in enhancing the interpretability of widely adopted techniques such as 
+				Word2Vec, GloVe, and BERT without requiring alternative architectures or training paradigms.
+			</p>
+			<p>
+				To address the challenges in understanding how embeddings encode linguistic properties, in this study, we introduce the Linguistically Distinct Sentence Pairs (LDSP) dataset. 
+				Based on this dataset, we propose dimension-wise analysis methods to identify the embedding dimensions most responsive to specific linguistic features 
+				and introduce a novel metric, the <b>Embedding Dimension Impact (EDI)</b> score, to quantify their significance. 
+				We conduct a comprehensive analysis of BERT embeddings to demonstrate the effectiveness of our dimension-wise analysis methods 
+				and the utility of the EDI score in uncovering meaningful linguistic encoding distributions.
+			</p>
+			
+			<h2>Dataset overview</h2>
+			<p>
+				We curated a dataset of 1000 LDSPs for each of the 10 linguistic properties we wanted to investigate. 
+				The dataset was generated using Google's <code>gemini-1.5-flash</code> model API. 
+				This model was selected due to its reliability and cost-efficiency while being able to produce consistent outputs across a variety of linguistic contexts. 
+				The model was prompted with a set of reference LDSPs as well as a description of the linguistic property to ensure high-quality outputs. 
+				These outputs were generated in batches of 100 LDSPs at a time.
+			</p>
+			
+			<h2>Linguistic properties</h2>
+			<p>
+				The linguistic properties tested were chosen to explore various semantic and syntactic relationships. 
+				Below is a summary of each property from the LDSP dataset:
+			</p>
+		
+			<table border="1" align=center cellspacing="0" cellpadding="10" width="50%">
+				<thead>
+					<tr>
+						<th>Linguistic property</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><i>Control</i></td>
+						<td>Contains completely unrelated sentence pairs for comparison.</td>
+					</tr>
+					<tr>
+						<td><i>Synonym</i></td>
+						<td>Both sentences have the same meaning, with one word replaced by its synonym.</td>
+					</tr>
+					<tr>
+						<td><i>Quantity</i></td>
+						<td>Switch from an exact number to a grouping word.</td>
+					</tr>
+					<tr>
+						<td><i>Tense</i></td>
+						<td>One sentence is constructed in the present tense, while the other is in the past tense.</td>
+					</tr>
+					<tr>
+						<td><i>Intensifier</i></td>
+						<td>Degree of emphasis present within a sentence.</td>
+					</tr>
+					<tr>
+						<td><i>Definiteness</i></td>
+						<td>Use of definite or indefinite articles within a sentence, such as <i>the</i> compared to <i>a</i>.</td>
+					</tr>
+					<tr>
+						<td><i>Factuality</i></td>
+						<td>The degree of truth implied by the structure of the sentence.</td>
+					</tr>
+					<tr>
+						<td><i>Polarity</i></td>
+						<td>Similar to negation but occurs when an antonym is used to reverse the meaning of the sentence completely.</td>
+					</tr>
+					<tr>
+						<td><i>Negation</i></td>
+						<td>Addition of <i>not</i> to a sentence, negating the meaning.</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<p>
+				These linguistic properties were selected to provide a comprehensive view of both semantic and syntactic relationships in embedding spaces.
+				Additionally, the inclusion of the <i>control</i> category ensures that results are contextualized against unrelated sentences, offering a baseline for comparison.
+				The interactive graphic below shows examples of Sentence 1 and Sentence 2 according to their linguistic relationship.
+			</p>
 			<div class="image-container">
 				<div class="image-wrapper" data-coordinates="
 				752,182,1167,259,image1.jpg;
@@ -353,6 +432,54 @@
             <h1>Experiments</h1>
 			The task of generating Sentence 2 embeddings based on Sentence 1 embeddings involves modeling the shifts observed in embedding dimensions as they encode linguistic transformations. Two approaches are employed in this project: mean-shift and regression-based transformations. These methods rely on training data (80% of the dataset) to identify patterns and apply those transformations to the test data (remaining 20%).
 			<!-- <br> -->
+			<div class="sub-content-block" id="sampling">
+				<h2>Sampling</h2>
+				<p>
+					The sampling-based method selectively alters certain dimensions based on their 
+					EDI scores. This method ensures that only the most linguistically significant dimensions (as determined by their EDI scores) 
+					are modified, while the less significant dimensions remain unchanged. This approach leverages the statistical properties of Sentence 2 embeddings 
+					to generate more linguistically meaningful transformations.
+				</p>
+				<!-- <h3>Methodology</h3> -->
+				<p>
+					For each dimension in the embedding, its EDI score is compared against a predefined threshold (default of 0.75). Dimensions with EDI scores below the threshold 
+					are left unchanged, while those with EDI scores greater than or equal to the threshold are sampled from a Gaussian distribution derived from the 
+					corresponding dimension's mean and standard deviation in Sentence 2 embeddings.
+				</p>
+				<p>
+					This selective approach means that we still incorporate the original Sentence 1 embedding into the transformation process. If we were to sample for all dimensions, the original Sentence 1 embedding would not contribute to the generation of Sentence 2 embeddings, defeating the purpose of using Sentence 1 as a reference.
+				</p>
+				<!-- <h3>Mathematical representation</h3> -->
+				<p>
+					For a given embedding \( e \), the transformed embedding \( e' \) is generated as follows:
+				</p>
+				<p>
+					\[
+					e'[d] = 
+					\begin{cases} 
+						e[d], & \text{if } \text{EDI}[d] < \text{threshold} \\
+						\text{Sample from } \mathcal{N}(\mu_{s2}[d], \sigma_{s2}[d]), & \text{if } \text{EDI}[d] \geq \text{threshold}
+					\end{cases}
+					\]
+				</p>
+				<p>
+					Here:
+				</p>
+				<ul>
+					<li>\( e[d] \): The \( d \)-th dimension of the original embedding.</li>
+					<li>\( \text{EDI}[d] \): The EDI score for the \( d \)-th dimension.</li>
+					<li>\( \mathcal{N}(\mu_{s2}[d], \sigma_{s2}[d]) \): Gaussian distribution with mean \( \mu_{s2}[d] \) and standard deviation \( \sigma_{s2}[j] \) 
+					derived from Sentence 2 embeddings.</li>
+					<li>\( \text{threshold} \): The EDI score threshold.</li>
+				</ul>
+				<!-- <h3>Significance</h3> -->
+				<!-- <p>
+					This approach highlights the role of highly impactful embedding dimensions in linguistic transformations, while avoiding unnecessary modifications 
+					to dimensions with lower EDI scores. By focusing on sampling from the natural distribution of Sentence 2 embeddings, the sampling-based method 
+					ensures that the generated embeddings maintain linguistic relevance and statistical integrity.
+				</p> -->
+			</div>
+			
 				<div class="sub-content-block" id="mean-shift">
 				<h2>Mean-shift</h2>
 					<!-- <p> -->
@@ -376,17 +503,14 @@
 							</p>
 							<p>Here:</p>
 							<ul>
-								<li class="hover-highlight">
+								<li>
 									\( E_1[i, d] \): Represents the \( d \)-th dimension of the \( i \)-th Sentence 1 embedding.
-									<span class="highlight-text">Embedding for Sentence 1.</span>
 								</li>
-								<li class="hover-highlight">
+								<li>
 									\( E_2[i, d] \): Represents the \( d \)-th dimension of the \( i \)-th Sentence 2 embedding.
-									<span class="highlight-text">Embedding for Sentence 2.</span>
 								</li>
-								<li class="hover-highlight">
+								<li>
 									\( n \): Number of sentences in the training set.
-									<span class="highlight-text">Number of training examples.</span>
 								</li>
 							</ul>
 							<p>
@@ -461,8 +585,141 @@
 						This approach allows each dimension to respond differently to the linguistic transformation, making it more flexible than the mean-shift method.
 					</p>
 				</div>
+
+				<div class="sub-content-block" id="edi-cosine-loss">
+					<h2>EDI + Cosine Loss</h2>
+					<p>
+						The EDI + Cosine Loss method introduces a weighted transformation loss that selectively penalizes changes to embedding dimensions based on 
+						their EDI scores. By combining a dimension-specific weighting mechanism with cosine similarity, this method 
+						ensures that embedding transformations preserve linguistic meaning while penalizing unnecessary deviations.
+					</p>
+					<ol>
+						<li>
+							<h3>Methodology</h3>
+							<p>
+								For each dimension \( d \) in the embedding, the EDI score determines its contribution to the transformation loss. Dimensions with high EDI scores 
+								are considered linguistically significant and are assigned lower penalties for changes, encouraging the model to focus on altering dimensions 
+								that encode meaningful transformations. Dimensions with low EDI scores, on the other hand, are penalized more heavily to prevent unnecessary changes.
+							</p>
+							<p>
+								The EDI scores are scaled using a sigmoid function, defined as:
+							</p>
+							<p>
+								\[
+								w_d = \text{Sigmoid}(5 \cdot (\text{EDI}[d] - 0.5))
+								\]
+							</p>
+							<p>
+								Here:
+							</p>
+							<ul>
+								<li>\( \text{EDI}[d] \): The EDI score for the \( d \)-th dimension.</li>
+								<li>\( \text{EDI}_d \): The scaled weight for the \( d \)-th dimension, emphasizing high EDI scores and de-emphasizing low scores.</li>
+							</ul>
+							<br>
+						</li>
+						<li>
+							<h3>Loss calculation</h3>
+							<p>
+								The EDI + Cosine Loss combines dimension-specific penalties and a similarity measure. The total loss is computed as:
+							</p>
+							<p>
+								\[
+								\mathcal{L} = \frac{1}{D} \sum_{d=1}^D \left( 1 - \text{EDI}_d \right) \cdot |e_1[d] - e_2[d]| \cdot (1 - \text{CosineSimilarity}(e_1, e_2))
+								\]
+							</p>
+							<p>
+								Here:
+							</p>
+							<ul>
+								<li>\( d \): The total number of dimensions in the embedding.</li>
+								<li>\( e_1[d] \): The \( d \)-th dimension of the original embedding (Sentence 1).</li>
+								<li>\( e_2[d] \): The \( d \)-th dimension of the transformed embedding (Sentence 2).</li>
+								<li>\( \text{EDI}_d \): The scaled EDI score for the \( d \)-th dimension, derived using the chosen scaling method.</li>
+								<li>\( \text{CosineSimilarity}(e_1, e_2) \): The cosine similarity between the original and transformed embeddings, i.e., cosine distance between two vectors the cosine distance between two vectors.</li>
+							</ul>
+							<p>
+								By combining the weighted dimension-wise changes and cosine similarity, this loss function encourages transformations that preserve 
+								overall semantic similarity while prioritizing changes in dimensions with high EDI scores.
+							</p>
+						</li>
+					</ol>
+					<p>
+						The EDI + Cosine Loss method is particularly effective in tasks where preserving the semantic meaning of embeddings is critical. 
+						By weighting dimensions based on their linguistic significance (EDI scores), the transformations are both targeted and interpretable. 
+						Furthermore, the integration of cosine similarity aligns the embeddings globally, enabling the method to balance local changes with overall structural coherence.
+					</p>
+				</div>
+
+				<div class="sub-content-block" id="contrastive-loss">
+					<h2>Contrastive Loss Methods</h2>
+					<p>
+						The contrastive loss methods introduce a robust objective that evaluates embedding transformations by comparing them against both positive and negative pairs. 
+						The goal is to minimize the distance between the transformed embedding and the original embedding (positive pair) while maximizing the distance between 
+						the transformed embedding and a randomly sampled negative embedding (negative pair). These methods encourage meaningful transformations that preserve 
+						semantic consistency while separating embeddings from unrelated contexts.
+					</p>
+					<ol>
+						<li>
+							<h3>Contrastive loss objective</h3>
+							<p>
+								For a transformed embedding \( e_2' \), the contrastive loss is defined as:
+							</p>
+							<p>
+								\[
+								\mathcal{L}_{\text{contrastive}} = \text{dist}(e_2', e_1) + \max \left( 0, \text{margin} - \text{dist}(e_2', e_{\text{neg}}) \right)
+								\]
+							</p>
+							<p>
+								Here:
+							</p>
+							<ul>
+								<li>\( e_2' \): The transformed embedding (Sentence 2).</li>
+								<li>\( e_1 \): The original embedding (Sentence 1).</li>
+								<li>\( e_{\text{neg}} \): A randomly sampled negative embedding (unrelated sentence).</li>
+								<li>\( \text{margin} \): A predefined margin for sufficient separation from negative examples (default is 1).</li>
+								<li>\( \text{dist}(x, y) \): A distance function that measures the similarity or dissimilarity between two embeddings.</li>
+							</ul>
+						
+							<p>The distance function \( \text{dist}(x, y) \) can be one of the following:</p>
+							<ul>
+								<li><b>Mean squared error (MSE):</b> Measures the squared Euclidean distance:
+									\[
+									\text{dist}(x, y) = \|x - y\|^2
+									\]
+								</li>
+								<li><b>Cosine similarity:</b> Measures the cosine distance between two vectors:
+									\[
+									\text{dist}(x, y) = 1 - \text{CosineSimilarity}(x, y)
+									\]
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h3>Combined loss</h3>
+							<p>
+								For robust embedding transformations, the contrastive loss can be combined with the transformation loss as follows:
+							</p>
+							<p>
+								\[
+								\mathcal{L} = \lambda_1 \cdot \mathcal{L}_{\text{transformation}} + \lambda_2 \cdot \mathcal{L}_{\text{contrastive}},
+								\]
+							</p>
+							<p>
+								where \( \lambda_1 \) = 1 = \( \lambda_2 \), i.e., the losses are equally weighted.
+							</p>
+						</li>
+					</ol>
+					<!-- <h3>Significance</h3> -->
+					<p>
+						The contrastive loss methods provide an additional layer of robustness by explicitly introducing a negative sampling objective. 
+						By minimizing the distance to the original embedding and maximizing the distance from negative examples, we aim to have 
+						transformed embeddings maintain their semantic relevance while remaining distinguishable from unrelated contexts. The combined 
+						loss further integrates these objectives, balancing the preservation of linguistic properties with enhanced robustness against noise.
+					</p>
+				</div>
 				
-				
+					
 
 			
 			<!-- <ol>
