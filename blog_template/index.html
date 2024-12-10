@@ -46,8 +46,8 @@
 		align-items: center;  /* Vertically centers the children in the container */
 	}
 	.main-content-block {
-		width: 70%; /* Change this percentage as needed */
-    max-width: 1100px; /* Optional: Maximum width */
+		width: 80%; /* Change this percentage as needed */
+    max-width: 1400px; /* Optional: Maximum width */
 		background-color: #fff;
 		border-left: 1px solid #DDD;
 		border-right: 1px solid #DDD;
@@ -55,7 +55,7 @@
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
 	}
 	.sub-content-block {
-    max-width: 1100px; /* Optional: Maximum width */
+    max-width: 1400px; /* Optional: Maximum width */
 		background-color: #fff;
 		/* border-left: 1px solid #DDD;
 		border-right: 1px solid #DDD; */
@@ -64,22 +64,12 @@
 	}
 	.margin-left-block {
 			font-size: 14px;
-			width: 15%; /* Change this percentage as needed */
-			max-width: 130px; /* Optional: Maximum width */
+			width: 12%; /* Change this percentage as needed */
 			position: relative;
 			margin-left: 10px;
 			text-align: left;
 			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
 			padding: 5px;
-	}
-	.margin-right-block {
-			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
-			font-size: 14px;
-			width: 25%; /* Change this percentage as needed */
-			max-width: 256px; /* Optional: Maximum width */
-			position: relative;
-			text-align: left;
-			padding: 10px;  /* Optional: Adds padding inside the caption */
 	}
 
 	img {
@@ -266,10 +256,13 @@
               <b style="font-size:16px">Outline</b><br><br>
               <a href="#intro">Introduction</a><br><br>
               <!-- <a href="#does_x_do_y">Does X do Y?</a><br><br> -->
-			  <a href="#lit-review">Literature Review</a><br><br>
+			  <a href="#lit-review">Literature review</a><br><br>
 			  <a href="#data">Data</a><br><br>
 			  <a href="#experiments">Experiments</a><br><br>
 			  <!-- <a href="#mean-shift">Mean-shift</a><br><br> -->
+			  <a href="#training">Training</a><br><br>
+			  <a href="#eval">Evaluation</a><br><br>
+			  <a href="#results">Results</a><br><br>
               <a href="#implications_and_limitations">Implications and limitations</a><br><br>
           </div>
 				</div>
@@ -296,7 +289,7 @@
 						This project contributes new knowledge to NLP and deep learning by uncovering the mechanisms underlying relational encoding in embedding spaces. Specifically, we investigate which dimensions encode linguistic relationships, how effectively embeddings can approximate transformations, and whether embedding spaces can be directly manipulated to reflect controlled changes. These findings bridge the gap between interpretability and generative capabilities, providing both theoretical insights and practical tools for embedding manipulation.
 						<br>
 						<br>
-						The generative approach expands the scope of embedding analysis by revealing how embeddings dynamically encode linguistic transformations, not just whether they capture properties. This has implications for explainable AI, enabling transparent and interpretable manipulations of embeddings to reflect specific linguistic changes. Additionally, generating embeddings for transformations introduces fine-grained control in NLP systems, with applications in controlled text generation, robust paraphrasing, and personalized language tasks. By addressing the underexplored dynamic nature of embeddings, our work provides a foundation for building more robust, interpretable, and actionable embedding-based systems.						
+						The generative approach expands the scope of embedding analysis by revealing how embeddings dynamically encode linguistic properties. This has implications for interpretable AI, enabling transparent and interpretable manipulations of embeddings to reflect specific linguistic changes. Additionally, generating embeddings for transformations introduces fine-grained control in NLP systems, with applications in controlled text generation, robust paraphrasing, and personalized language tasks. By addressing the underexplored dynamic nature of embeddings, our work provides a foundation for building more robust, interpretable, and actionable embedding-based systems.						
 		    </div>
 		    <!-- <div class="margin-right-block">
 						Margin note that clarifies some detail #main-content-block for intro section.
@@ -307,7 +300,7 @@
 				<div class="margin-left-block">
 				</div>
 			<div class="main-content-block" id="lit-review">
-			<h1>Literature Review</h1>
+			<h1>Literature review</h1>
 			Insert content here. Make sure to do in-text citations and link to bib.
 			</div>
 		</div>
@@ -318,25 +311,39 @@
 			<div class="main-content-block" id="data">
 			<h1>Data</h1>
 			<p>
-				These efforts reflect the ongoing commitment to making embeddings more interpretable and addressing the inherent opacity of high-dimensional representations. 
-				However, while these studies offer critical insights, a persistent challenge lies in enhancing the interpretability of widely adopted techniques such as 
-				Word2Vec, GloVe, and BERT without requiring alternative architectures or training paradigms.
+				The <b>Linguistically Distinct Sentence Pairs (LDSP)</b> dataset forms the foundation for our study, providing a diverse set of linguistic transformations 
+				critical for understanding how embeddings encode semantic and syntactic relationships. The LDSP dataset, introduced in prior work [LINKED HERE], contains sentence pairs 
+				that differ along specific linguistic properties shown in the Table 1 [REF TABLE]. These transformations are designed to isolate and test the 
+				embedding dimensions most responsive to each property.
 			</p>
 			<p>
-				To address the challenges in understanding how embeddings encode linguistic properties, in this study, we introduce the Linguistically Distinct Sentence Pairs (LDSP) dataset. 
-				Based on this dataset, we propose dimension-wise analysis methods to identify the embedding dimensions most responsive to specific linguistic features 
-				and introduce a novel metric, the <b>Embedding Dimension Impact (EDI)</b> score, to quantify their significance. 
-				We conduct a comprehensive analysis of BERT embeddings to demonstrate the effectiveness of our dimension-wise analysis methods 
-				and the utility of the EDI score in uncovering meaningful linguistic encoding distributions.
+				To evaluate the responsiveness of embedding dimensions to these linguistic properties, we utilized the <b>Embedding Dimension Impact (EDI)</b> metric, 
+				a measure that quantifies the importance of each embedding dimension for encoding a specific linguistic transformation. The EDI score is computed as:
+			</p>
+			<p>
+				\[
+				\text{EDI}_{d,lp} = w_1 \cdot T_{d,lp} + w_2 \cdot MI_{d,lp} + w_3 \cdot R_{d,lp},
+				\]
+			</p>
+			<p>
+				where:
+			</p>
+			<ul>
+				<li><b>\( T_{d,lp} \)</b>: The negative log of the p-value from the statistical pairwise t-test, which determines whether there is a significant 
+				difference between the embedding values for Sentence 1 and Sentence 2 in each LDSP.</li>
+				<li><b>\( MI_{d,lp} \)</b>: The mutual information score, quantifying the amount of information shared between the embedding dimension and the linguistic property.</li>
+				<li><b>\( R_{d,lp} \)</b>: The absolute value of the logistic regression weight for the dimension after recursive feature elimination (RFE). 
+				If the dimension is removed during RFE, \( R_{d,lp} = 0 \).</li>
+			</ul>
+			<p>
+				The weights \( w_1, w_2, w_3 \) were optimized in prior work to balance the contributions of each component, ensuring that the EDI metric reliably captures the significance of each dimension for linguistic transformations.
 			</p>
 			
 			<h2>Dataset overview</h2>
 			<p>
-				We curated a dataset of 1000 LDSPs for each of the 10 linguistic properties we wanted to investigate. 
+				The LDSP dataset includes 1000 sentence pairs for each of the 10 linguistic properties we investigate.
 				The dataset was generated using Google's <code>gemini-1.5-flash</code> model API. 
-				This model was selected due to its reliability and cost-efficiency while being able to produce consistent outputs across a variety of linguistic contexts. 
-				The model was prompted with a set of reference LDSPs as well as a description of the linguistic property to ensure high-quality outputs. 
-				These outputs were generated in batches of 100 LDSPs at a time.
+				While maintaining reliability and cost-efficiency, the model produced consistent, high-quality outputs across a variety of linguistic contexts. 
 			</p>
 			
 			<h2>Linguistic properties</h2>
@@ -375,7 +382,7 @@
 					</tr>
 					<tr>
 						<td><i>Definiteness</i></td>
-						<td>Use of definite or indefinite articles within a sentence, such as <i>the</i> compared to <i>a</i>.</td>
+						<td>Use of definite or indefinite articles within a sentence, such as "the" compared to "a".</td>
 					</tr>
 					<tr>
 						<td><i>Factuality</i></td>
@@ -395,7 +402,7 @@
 			<p>
 				These linguistic properties were selected to provide a comprehensive view of both semantic and syntactic relationships in embedding spaces.
 				Additionally, the inclusion of the <i>control</i> category ensures that results are contextualized against unrelated sentences, offering a baseline for comparison.
-				The interactive graphic below shows examples of Sentence 1 and Sentence 2 according to their linguistic relationship.
+				Our interactive graphic in [FIGURE 1] shows examples of Sentence 1 and Sentence 2 according to their linguistic relationship.
 			</p>
 			<div class="image-container">
 				<div class="image-wrapper" data-coordinates="
@@ -423,7 +430,14 @@
 				</div>
 			</div>
 			
-
+			[FIGURE 2] illustrates the embedding dimensions with high EDI scores.
+			On the left, a table of our linguistic 
+			properties is displayed. 
+			On the right, we plot the embedding dimensions where EDI scores exceed the 
+			threshold of 0.8 for the given property. Each vertical line represents a dimension significantly impacted 
+			by the linguistic property, indicating that these dimensions are the most responsive to variations 
+			involving emphasis within sentences. This way, we can identify which specific dimensions are most important for encoding
+			linguistic changes.
 		
 
 			<div class="image-container">
@@ -473,7 +487,7 @@
 				</p>
 				<!-- <h3>Methodology</h3> -->
 				<p>
-					For each dimension in the embedding, its EDI score is compared against a predefined threshold (default of 0.75). Dimensions with EDI scores below the threshold 
+					For each dimension in the embedding, its EDI score is compared against a predefined threshold (default is 0.75). Dimensions with EDI scores below the threshold 
 					are left unchanged, while those with EDI scores greater than or equal to the threshold are sampled from a Gaussian distribution derived from the 
 					corresponding dimension's mean and standard deviation in Sentence 2 embeddings.
 				</p>
@@ -569,17 +583,16 @@
 				</div>
 
 				<div class="sub-content-block" id="regression">
-					<h2>Logistic Regression</h2>
+					<h2>Regression</h2>
 					<p>
-						While the mean-shift approach captures global trends, it does not account for variability or nonlinear relationships 
-						within specific dimensions. The regression-based approach overcomes this limitation by learning dimension-specific 
-						logistic regression models to predict changes.
+						While the mean-shift approach captures global trends, it does not account for variability or linear relationships within specific dimensions. 
+        				The regression-based approach overcomes this limitation by learning dimension-specific regression models to predict changes.
 					</p>
 					<ol>
 						<li>
 							<h3>Learning dimension transformations</h3>
 							<p>
-								For each dimension \( d \), a logistic regression model is trained using the \( d \)-th dimension of Sentence 1 embeddings as input 
+								For each dimension \( d \), a linear regression model is trained using the \( d \)-th dimension of Sentence 1 embeddings as input 
 								and the corresponding dimension of Sentence 2 embeddings as output:
 							</p>
 							<p>
@@ -588,26 +601,25 @@
 								\]
 							</p>
 							<p>
-								where \( f_d(x) = \frac{1}{1 + e^{-(w_d x + b_d)}} \) is the sigmoid function parameterized by the weight \( w_d \) and bias \( b_d \), 
-								and \( \epsilon \) is the residual error.
+								where \( f_d(x) = w_d x + b_d \) is a linear function parameterized by the weight \( w_d \) and bias \( b_d \), and \( \epsilon \) is the residual error.
 							</p>
 							<p>
-								The parameters \( w_d \) and \( b_d \) are learned by minimizing the negative log-likelihood (NLL) loss over the training set:
+								The parameters \( w_d \) and \( b_d \) are learned by minimizing the mean squared error (MSE) over the training set:
 							</p>
 							<p>
 								\[
-								\min_{w_d, b_d} -\frac{1}{n} \sum_{i=1}^n \left( E_2[i, d] \log(f_d(E_1[i, d])) + (1 - E_2[i, d]) \log(1 - f_d(E_1[i, d])) \right)
+								\min_{w_d, b_d} \frac{1}{n} \sum_{i=1}^n \left( E_2[i, d] - (w_d E_1[i, d] + b_d) \right)^2
 								\]
 							</p>
 						</li>
 						<li>
 							<h3>Generating regression-based embeddings</h3>
 							<p>
-								For a test embedding \( e_1 \), the logistic regression models are applied to each dimension to predict the corresponding dimensions of Sentence 2:
+								For a test embedding \( e_1 \), the regression models are applied to each dimension to predict the corresponding dimensions of Sentence 2:
 							</p>
 							<p>
 								\[
-								e_2'[d] = f_d(e_1[d]) = \frac{1}{1 + e^{-(w_d e_1[d] + b_d)}} \quad \forall d \in \{1, \dots, D\}
+								e_2'[d] = f_d(e_1[d]) = w_d e_1[d] + b_d \quad \forall d \in \{1, \dots, D\}
 								\]
 							</p>
 						</li>
@@ -618,9 +630,9 @@
 				</div>
 
 				<div class="sub-content-block" id="edi-cosine-loss">
-					<h2>EDI + Cosine Loss</h2>
+					<h2>EDI + Cosine loss</h2>
 					<p>
-						The EDI + Cosine Loss method introduces a weighted transformation loss that selectively penalizes changes to embedding dimensions based on 
+						The EDI + Cosine loss method introduces a weighted transformation loss that selectively penalizes changes to embedding dimensions based on 
 						their EDI scores. By combining a dimension-specific weighting mechanism with cosine similarity, this method 
 						ensures that embedding transformations preserve linguistic meaning while penalizing unnecessary deviations.
 					</p>
@@ -683,9 +695,9 @@
 				</div>
 
 				<div class="sub-content-block" id="contrastive-loss">
-					<h2>Contrastive Loss Methods</h2>
+					<h2>Contrastive loss methods</h2>
 					<p>
-						The contrastive loss methods introduce a robust objective that evaluates embedding transformations by comparing them against both positive and negative pairs. 
+						The contrastive loss methods introduce a custom objective function that evaluates embedding transformations by comparing them against both positive and negative pairs. 
 						The goal is to minimize the distance between the transformed embedding and the original embedding (positive pair) while maximizing the distance between 
 						the transformed embedding and a randomly sampled negative embedding (negative pair). These methods encourage meaningful transformations that preserve 
 						semantic consistency while separating embeddings from unrelated contexts.
@@ -759,15 +771,148 @@
 				<li>Milk</li>
 			</ol> -->
 
-            In this section we embed a video:
+            <!-- In this section we embed a video:
 						<video class='my-video' loop autoplay muted style="width: 725px">
 								<source src="./images/mtsh.mp4" type="video/mp4">
-						</video>
+						</video> -->
 		    </div>
 		    <!-- <div class="margin-right-block">
 					A caption for the video could go here.
 		    </div> -->
 		</div>
+
+	</div>
+
+	<div class="content-margin-container" id="training">
+		<div class="margin-left-block">
+		</div>
+	<div class="main-content-block">
+		<h1>Training</h1>
+		<p>
+			In the <a href="#experiments">Experiments</a> section, we proposed 
+			multiple methods to generate Sentence 2 embeddings from Sentence 1 embeddings. Each of these methods (mean shift, regression, sampling, contrastive losses) 
+			hypothesizes a different mechanism to encode linguistic transformations. The EDI-weighted generator is used to test and compare these methods in a unified framework 
+			by learning transformations directly influenced by embedding dimensionality.
+		</p>
+	
+		<h2>Generator model</h2>
+		<p>
+			The generator model is a feedforward neural network designed to transform high-dimensional embeddings. It consists of:
+		</p>
+		<ul>
+			<li><b>Input layer:</b> Accepts embeddings of dimension \( D \), where \( D \) is the size of the embedding vector.</li>
+			<li><b>Hidden layer:</b> A fully connected layer with a ReLU activation function to introduce non-linearity.</li>
+			<li><b>Output layer:</b> A fully connected layer that outputs transformed embeddings of the same dimension \( D \).</li>
+		</ul>
+		<p>
+			Mathematically, the transformation can be expressed as:
+		</p>
+		<p>
+			\[
+			\mathbf{e}_2' = \sigma(\mathbf{W}_2 \cdot \text{ReLU}(\mathbf{W}_1 \cdot \mathbf{e}_1 + \mathbf{b}_1) + \mathbf{b}_2)
+			\]
+		</p>
+		<p>
+			Here:
+		</p>
+		<ul>
+			<li>\( \mathbf{e}_1 \): Input embedding (Sentence 1).</li>
+			<li>\( \mathbf{e}_2' \): Transformed embedding (predicted Sentence 2).</li>
+			<li>\( \mathbf{W}_1, \mathbf{W}_2 \): Weight matrices for the hidden and output layers, respectively.</li>
+			<li>\( \mathbf{b}_1, \mathbf{b}_2 \): Bias vectors for the hidden and output layers, respectively.</li>
+			<li>\( \sigma \): Activation function (identity in this case).</li>
+		</ul>
+	
+		<h2>Custom objective function</h2>
+		<p>
+			The training process uses the <b>EDI-weighted transformation loss</b>, which combines an EDI-weighted dimension-wise loss and a cosine similarity objective. 
+			This objective function ensures that the generator:
+		</p>
+		<ul>
+			<li>Prioritizes embedding dimensions with higher EDI scores for linguistic transformations.</li>
+			<li>Encodes transformations while preserving the overall semantic structure of the embedding space.</li>
+			<li>Discourages overfitting by incorporating a contrastive loss term with negative examples.</li>
+		</ul>
+		<p>
+			The total loss for a single transformed embedding is given by:
+		</p>
+		<p>
+			\[
+			\mathcal{L} = \underbrace{\frac{1}{D} \sum_{d=1}^D \left(1 - \text{EDI}_d\right) \cdot \left| e_{1,d} - e_{2,d}' \right|}_{\text{EDI-weighted dimension loss}}
+			+ \lambda \cdot \left(1 - \text{cos}(\mathbf{e}_2', \mathbf{e}_2)\right),
+			\]
+		</p>
+		<p>
+			where:
+		</p>
+		<ul>
+			<li>\( \text{EDI}_d \): EDI score for dimension \( d \).</li>
+			<li>\( e_{1,d} \): Dimension \( d \) of the original Sentence 1 embedding.</li>
+			<li>\( e_{2,d}' \): Dimension \( d \) of the predicted Sentence 2 embedding.</li>
+			<li>\( \text{cos}(\mathbf{e}_2', \mathbf{e}_2) \): Cosine similarity between the predicted and ground-truth embeddings.</li>
+			<li>\( \lambda \): Weighting factor for the cosine similarity loss term.</li>
+		</ul>
+	
+		<h2>Training procedure</h2>
+		<p>
+			The generator is trained over multiple epochs using the Adam optimizer, with the following key steps:
+		</p>
+		<ol>
+			<li><b>Batch sampling:</b> Training embeddings are divided into batches of size \( B \), where each batch contains \( \mathbf{e}_1 \) and \( \mathbf{e}_2 \) pairs.</li>
+			<li><b>Negative sampling:</b> Negative examples are generated by randomly shuffling embeddings within each batch to create unaligned pairs.</li>
+			<li><b>Forward pass:</b> The generator predicts transformed embeddings \( \mathbf{e}_2' \) from \( \mathbf{e}_1 \).</li>
+			<li><b>Loss calculation:</b> The EDI-weighted loss is computed for each batch, combining transformation and contrastive loss terms.</li>
+			<li><b>Backward pass:</b> Gradients of the loss with respect to the model parameters are computed and used to update the weights using the Adam optimizer.</li>
+		</ol>
+	
+		By the end of training, the generator learns to produce embeddings that effectively capture the semantic and syntactic transformations in the LDSP dataset. 
+
+	</div>
+	<!-- <div class="margin-right-block">
+	</div> -->
+</div>
+
+		<div class="content-margin-container" id="eval">
+			<div class="margin-left-block">
+			</div>
+		<div class="main-content-block">
+					<h1>Evaluation</h1>
+					<p>
+						To assess the effectiveness of embedding generation methods, we evaluated the generated Sentence 2 embeddings against the ground-truth Sentence 2 embeddings 
+						and baseline Sentence 1 embeddings using <b>cosine similarity</b>. This metric provided a consistent measure of alignment for all methods.
+					</p>
+				
+					<p>
+						The evaluation compared the following methods:
+					</p>
+					<ul>
+						<li>Baseline (Sentence 1 embeddings)</li>
+						<li>Mean Shift</li>
+						<li>Regression</li>
+						<li>Sampling</li>
+						<li>EDI + Cosine Loss</li>
+						<li>Contrastive MSE Loss</li>
+						<li>Contrastive Cosine Loss</li>
+					</ul>
+					<p>
+						For each method, similarities were calculated between the generated and ground-truth embeddings. These values were then analyzed to determine 
+						how effectively each method captured linguistic transformations.
+					</p>
+		</div>
+		<!-- <div class="margin-right-block">
+		</div> -->
+	</div>
+
+	<div class="content-margin-container" id="results">
+		<div class="margin-left-block">
+		</div>
+	<div class="main-content-block">
+				<h1>Results</h1>
+				plots, plots, and more plots
+	</div>
+	<!-- <div class="margin-right-block">
+	</div> -->
+</div>
 
 		<div class="content-margin-container" id="implications_and_limitations">
 				<div class="margin-left-block">
