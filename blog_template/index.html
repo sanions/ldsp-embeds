@@ -45,15 +45,28 @@
 		justify-content: left; /* Horizontally centers the children in the container */
 		align-items: center;  /* Vertically centers the children in the container */
 	}
+	/*
 	.main-content-block {
-		width: 80%; /* Change this percentage as needed */
-    max-width: 1400px; /* Optional: Maximum width */
+		width: 80%;
+    max-width: 1400px;
 		background-color: #fff;
 		border-left: 1px solid #DDD;
 		border-right: 1px solid #DDD;
 		padding: 10px 10px 10px 10px;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
 	}
+	*/
+
+	.main-content-block {
+		width: 70%; /* Change this percentage as needed */
+    max-width: 1400px; /* Optional: Maximum width */
+		background-color: #fff;
+		border-left: 1px solid #DDD;
+		border-right: 1px solid #DDD;
+		padding: 8px 8px 8px 8px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
+	}
+
 	.sub-content-block {
     max-width: 1400px; /* Optional: Maximum width */
 		background-color: #fff;
@@ -62,14 +75,37 @@
 		padding: 10px 0px 0px 0px;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
 	}
+	
+	/*
 	.margin-left-block {
 			font-size: 14px;
-			width: 12%; /* Change this percentage as needed */
+			width: 12%;
 			position: relative;
 			margin-left: 10px;
 			text-align: left;
 			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
 			padding: 5px;
+	} */
+
+	.margin-left-block {
+			font-size: 14px;
+			width: 15%; /* Change this percentage as needed */
+			max-width: 130px; /* Optional: Maximum width */
+			position: relative;
+			margin-left: 10px;
+			text-align: left;
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
+			padding: 5px;
+	}
+
+	.margin-right-block {
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
+			font-size: 14px;
+			width: 25%; /* Change this percentage as needed */
+			max-width: 256px; /* Optional: Maximum width */
+			position: relative;
+			text-align: left;
+			padding: 10px;  /* Optional: Adds padding inside the caption */
 	}
 
 	img {
@@ -270,10 +306,13 @@
             <!--You can embed an image like this:-->
 			<br>
 			<br>
-            <img src="images/methods_diagram.jpeg" width="85%">
+            <img src="images/methods_diagram.jpeg" width="85%" id="figure1">
 			<br>
 			<br>
 		    </div>
+			<div class="margin-right-block">
+				Figure 1. Methods diagram; see <a href="#data">Data</a> and <a href="#experiments">Experiments</a> for more information.
+			</div>
 		    <!-- <div class="margin-right-block">
 						Caption for the image.
 		    </div> -->
@@ -359,6 +398,7 @@
 			</p>
 	
 			<h3>Generative Approaches and Embedding Transformations</h3>
+			<!-- <a href="#figure1">Figure 1</a> -->
 			<p>
 				Probing embeddings through generative methods has gained traction as an active means of analysis. Kerscher and Eger 
 				(<a href="#ref_12">[10]</a>) introduced Vec2Sent, a framework for generating sentences from embeddings to probe their semantic fidelity. 
@@ -377,6 +417,9 @@
 		<div class="content-margin-container">
 				<div class="margin-left-block">
 				</div>
+				<!-- <div class="margin-right-block"></div>
+				Table 1. Linguistic properties.
+			</div> -->
 			<div class="main-content-block" id="data">
 			<h1>Data</h1>
 			<p>
@@ -420,8 +463,7 @@
 				The linguistic properties tested were chosen to explore various semantic and syntactic relationships. 
 				Below is a summary of each property from the LDSP dataset:
 			</p>
-		
-			<table border="1" align=center cellspacing="0" cellpadding="10" width="50%">
+			<table border="1" align=center cellspacing="0" cellpadding="10" width="50%" id="table1">
 				<thead>
 					<tr>
 						<th>Linguistic property</th>
@@ -467,6 +509,7 @@
 					</tr>
 				</tbody>
 			</table>
+			
 			<br>
 			<p>
 				These linguistic properties were selected to provide a comprehensive view of both semantic and syntactic relationships in embedding spaces.
@@ -544,7 +587,7 @@
 				</div>
 		    <div class="main-content-block" id="experiments">
             <h1>Experiments</h1>
-			The task of generating Sentence 2 embeddings based on Sentence 1 embeddings involves modeling the shifts observed in embedding dimensions as they encode linguistic transformations. Two approaches are employed in this project: mean-shift and regression-based transformations. These methods rely on training data (80% of the dataset) to identify patterns and apply those transformations to the test data (remaining 20%).
+			The task of generating Sentence 2 embeddings based on Sentence 1 embeddings involves modeling the shifts observed in embedding dimensions as they encode linguistic transformations. Two approaches are employed in this project: mean-shift and regression-based transformations. These methods rely on training data (80% of the dataset, 10% validation chunks) to identify patterns and apply those transformations to the test data (remaining 20%). <a href="#figure1">Figure 1</a> details the overall methods diagrams, including the steps to each experiment.
 			 
 			<div class="sub-content-block" id="sampling">
 				<h2>Sampling</h2>
