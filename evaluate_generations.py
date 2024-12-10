@@ -41,7 +41,7 @@ def evaluate_embeddings(true_embeddings, generated_embeddings, baseline_embeddin
 def plot_comparison_boxplots(similarities_df, results_dir, metric='cosine'): 
     lp = results_dir.split('/')[1]
     results_dir = os.path.join(results_dir, "plots")
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(15, 6))
     
     columns = ['baseline_similarity', 'sampling_similarity', 'mean_shift_similarity', 
                'regression_similarity', 'transformative_loss_similarity', 
@@ -65,10 +65,10 @@ def plot_comparison_boxplots(similarities_df, results_dir, metric='cosine'):
     
     sns.boxplot(data=plot_data)
     metric_name = 'Cosine Similarity' if metric == 'cosine' else 'Euclidean Distance'
-    plt.title(f'Comparison of Embedding {metric_name} Across Methods: {lp}')
-    plt.xlabel('Method')
-    plt.ylabel(metric_name)
-    plt.xticks(rotation=45)
+    # plt.title(f'Comparison of Embedding {metric_name} Across Methods: {lp}')
+    # plt.xlabel('Method')
+    # plt.ylabel(metric_name)
+    plt.xticks([])
     
     # Invert y-axis for euclidean distance to show better (lower) values at top
     if metric == 'euclidean':
@@ -130,10 +130,11 @@ if __name__ == "__main__":
     for embeddings_csv in tqdm(embedding_filepaths):
         # Load generated test embeddings
         results_dir = get_results_directory(embeddings_csv, "generation")
-        test_df = read_embeddings_df(os.path.join(results_dir, "generated_embeddings.csv"))
+        tables_dir = os.path.join(results_dir, "tables")
+        test_df = read_embeddings_df(os.path.join(tables_dir, "generated_embeddings.csv"))
 
-        contrastive_df = read_embeddings_df(os.path.join(results_dir, "generated_embeddings_contrastive.csv"))
-        cosine_df = read_embeddings_df(os.path.join(results_dir, "generated_embeddings_contrastive_cosine.csv"))
+        contrastive_df = read_embeddings_df(os.path.join(tables_dir, "generated_embeddings_contrastive.csv"))
+        cosine_df = read_embeddings_df(os.path.join(tables_dir, "generated_embeddings_contrastive_cosine.csv"))
 
         test_df = pd.concat([test_df, contrastive_df['contrastive_loss_embedding'], cosine_df['contrastive_cosine_embedding']], axis=1)
         
@@ -190,7 +191,7 @@ if __name__ == "__main__":
         plot_comparison_boxplots(similarities_df, results_dir)
         
         # Save detailed similarities
-        similarities_df.to_csv(os.path.join(results_dir, "embedding_similarities.csv"), index=False)
+        similarities_df.to_csv(os.path.join(tables_dir, "embedding_similarities.csv"), index=False)
 
         # Evaluate with Euclidean distance
         euclidean_similarities_df = pd.DataFrame({
@@ -214,7 +215,7 @@ if __name__ == "__main__":
         
         # Plot and save Euclidean distance comparison
         plot_comparison_boxplots(euclidean_similarities_df, results_dir, metric='euclidean')
-        euclidean_similarities_df.to_csv(os.path.join(results_dir, "embedding_euclidean_distances.csv"), index=False)
+        euclidean_similarities_df.to_csv(os.path.join(tables_dir, "embedding_euclidean_distances.csv"), index=False)
 
         # Add MSE scores to results table
         create_mse_table(euclidean_similarities_df, results_dir, all_results)

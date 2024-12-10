@@ -184,25 +184,80 @@ def create_colored_grid(df, threshold=0.675):
                 bbox_inches='tight')
     plt.close()
 
+def create_individual_colored_grid_rows(df, threshold=0.8):
+    # Define distinct colors for each property
+    colors = {
+        'Control': '#EC9D91',      
+        'Negation': '#FF85FF',     
+        'Intensifier': '#00AB8E',  
+        'Tense': '#61D836',        
+        'Voice': '#00A2FF',        
+        'Polarity': '#9437FF',     
+        'Quantity': '#FFD932',     
+        'Factuality': '#7A81FF',   
+        'Definiteness': '#0433FF', 
+        'Synonym': '#F27200'       
+    }
+    
+    # Process each property individually
+    for property_name, row in df.iterrows():
+        # Create a figure for this property
+        plt.figure(figsize=(20, 2))
+        
+        # Create a white background
+        plt.pcolor(np.zeros((1, len(df.columns))), 
+                  cmap='binary', 
+                  edgecolors='lightgray',
+                  linewidths=0.1)
+        
+        # Get indices where values exceed threshold
+        high_value_idx = row[row > threshold].index
+        x_positions = [int(col.split('_')[1]) for col in high_value_idx]
+        
+        # Plot colored cells for high values
+        for x in x_positions:
+            plt.fill([x, x+1, x+1, x], 
+                    [0, 0, 1, 1], 
+                    color=colors[property_name], 
+                    alpha=0.7, 
+                    linewidth=2)
+        
+        # Customize the plot
+        plt.yticks([])
+        plt.xticks(fontsize=22) 
+        # plt.xlabel('Dimensions (1-768)')
+        # plt.title(f'{property_name} EDI Scores Above {threshold} ({len(x_positions)} dimensions)')
+        
+        # Create save directory if it doesn't exist
+        save_dir = f'results/{property_name.lower()}/'
+        os.makedirs(save_dir, exist_ok=True)
+        
+        # Save the plot
+        plt.savefig(f'{save_dir}/dimension_highlights.svg', 
+                    dpi=300, 
+                    bbox_inches='tight')
+        plt.close()
+
 
 if __name__ == "__main__":
 
-    df = create_edi_comparison_table(768)
-    print(f"Created table with shape: {df.shape}")
-    print("\nFirst few columns of the table:")
-    print(df.iloc[:, :5])
+    # df = create_edi_comparison_table(768)
+    # print(f"Created table with shape: {df.shape}")
+    # print("\nFirst few columns of the table:")
+    # print(df.iloc[:, :5])
 
-    # df = pd.read_csv('results/combined_edi_scores.csv', index_col=0)
+    df = pd.read_csv('results/combined_edi_scores.csv', index_col=0)
 
-    create_highlighted_heatmap(df)
-    print("Created heatmap at 'results/edi_scores_heatmap.png'")
+    # create_highlighted_heatmap(df)
+    # print("Created heatmap at 'results/edi_scores_heatmap.png'")
 
-    create_colored_top_values(df, threshold=0.8)
-    print("Created visualization at 'results/colored_top_edi_scores.png'")
+    # create_colored_top_values(df, threshold=0.8)
+    # print("Created visualization at 'results/colored_top_edi_scores.png'")
 
-    create_colored_grid(df, threshold=0.8)
-    print("Created visualization at 'results/colored_grid_edi_scores.png'")
+    # create_colored_grid(df, threshold=0.8)
+    # print("Created visualization at 'results/colored_grid_edi_scores.png'")
 
+    create_individual_colored_grid_rows(df, threshold=0.8)
 
 
 
