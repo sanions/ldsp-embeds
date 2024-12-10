@@ -256,14 +256,14 @@
               <b style="font-size:16px">Outline</b><br><br>
               <a href="#intro">Introduction</a><br><br>
               <!-- <a href="#does_x_do_y">Does X do Y?</a><br><br> -->
-			  <a href="#lit-review">Literature review</a><br><br>
+			  <a href="#related-work">Related work</a><br><br>
 			  <a href="#data">Data</a><br><br>
 			  <a href="#experiments">Experiments</a><br><br>
 			  <!-- <a href="#mean-shift">Mean-shift</a><br><br> -->
 			  <a href="#training">Training</a><br><br>
 			  <a href="#eval">Evaluation</a><br><br>
 			  <a href="#results">Results</a><br><br>
-              <a href="#implications_and_limitations">Implications and limitations</a><br><br>
+              <a href="#discussion">Discussion</a><br><br>
           </div>
 				</div>
 		    <div class="main-content-block">
@@ -299,8 +299,8 @@
 		<div class="content-margin-container">
 				<div class="margin-left-block">
 				</div>
-			<div class="main-content-block" id="lit-review">
-			<h1>Literature review</h1>
+			<div class="main-content-block" id="related-work">
+			<h1>Related work</h1>
 			<p>
 				The development of sentence embeddings, particularly through transformer-based models such as BERT 
 				(<a href="#ref_1">[1]</a>), has significantly advanced natural language processing (NLP). These embeddings enable models 
@@ -1003,12 +1003,41 @@
 	</div> -->
 </div>
 
-		<div class="content-margin-container" id="implications_and_limitations">
+		<div class="content-margin-container" id="discussion">
 				<div class="margin-left-block">
 				</div>
 		    <div class="main-content-block">
-						<h1>Implications and limitations</h1>
-						Let's end with some discussion of the implications and limitations.
+						<h1>Discussion</h1>
+						<p>
+							This study demonstrates the feasibility and value of generating Sentence 2 embeddings directly from 
+							Sentence 1 embeddings based on specific linguistic transformations. By focusing on how embeddings 
+							encode and manipulate semantic and syntactic relationships, our approach highlights the generative 
+							potential of embedding models. This capability not only advances theoretical insights into how 
+							embeddings represent linguistic properties but also provides practical tools for fine-grained control 
+							and transparency in NLP systems.
+						</p>
+						<h2>Limitations</h2>
+    <p>
+        While this study provides valuable insights into generating embeddings for linguistic transformations, it also open avenues for future work:
+    </p>
+	<ol>
+		<li><i>Robustness to linguistic variability</i>: Our evaluation focused on distinct, predefined linguistic properties. 
+			However, the robustness of our methods to more nuanced or combined properties — such as the addition of modifiers like adjectives, for example — remains untested. 
+			Additionally, the sentences analyzed in this study are relatively simple and focus on one linguistic 
+			property at a time. Exploring embeddings generated for more complex sentences with multiple intertwined properties 
+			could reveal additional strengths or limitations of our approach.
+		</li>
+		<br>
+		<li><i>Task-agnostic evaluation</i>: While our evaluation methods focus on alignment with ground-truth embeddings, 
+			they do not address performance in downstream tasks, such as classification, machine translation, or sentiment analysis. 
+			This task-agnostic approach ensures broad applicability, but understanding task-specific utility would provide a 
+			more comprehensive evaluation of these methods.</li>
+			<br>
+		<li><i>Generator model architecture</i>: While our current generator model is sufficient for capturing key insights, more sophisticated architectures, such as transformers or variational autoencoders, may improve the quality of generated embeddings. 
+			However, given the primary focus of this work on embedding alignment and interpretability, the current architectures and evaluation methods provide a sufficient foundation for our conclusions.
+		</li>
+	</ol>
+ 
 		    </div>
 		    <!-- <div class="margin-right-block">
 		    </div> -->
