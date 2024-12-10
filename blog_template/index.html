@@ -268,7 +268,11 @@
 				</div>
 		    <div class="main-content-block">
             <!--You can embed an image like this:-->
-            <img src="./images/your_image_here.png" width=512px/>
+			<br>
+			<br>
+            <img src="images/methods_diagram.jpeg" width="85%">
+			<br>
+			<br>
 		    </div>
 		    <!-- <div class="margin-right-block">
 						Caption for the image.
@@ -459,7 +463,7 @@
 					</tr>
 					<tr>
 						<td><i>Negation</i></td>
-						<td>Addition of <i>not</i> to a sentence, negating the meaning.</td>
+						<td>Addition of "not" to a sentence, negating the meaning.</td>
 					</tr>
 				</tbody>
 			</table>
@@ -541,7 +545,7 @@
 		    <div class="main-content-block" id="experiments">
             <h1>Experiments</h1>
 			The task of generating Sentence 2 embeddings based on Sentence 1 embeddings involves modeling the shifts observed in embedding dimensions as they encode linguistic transformations. Two approaches are employed in this project: mean-shift and regression-based transformations. These methods rely on training data (80% of the dataset) to identify patterns and apply those transformations to the test data (remaining 20%).
-			<!-- <br> -->
+			 
 			<div class="sub-content-block" id="sampling">
 				<h2>Sampling</h2>
 				<p>
@@ -973,6 +977,27 @@
 		</div>
 	<div class="main-content-block">
 				<h1>Results</h1>
+				<p>
+					Cosine similarity and Mean Squared Error (MSE) provide complementary perspectives for evaluating embedding generation techniques, 
+					with their utility varying depending on the linguistic property under consideration.
+				</p>
+				<ul>
+					<li>
+						<b>Cosine Similarity:</b> Evaluates the angular alignment between the generated embedding and the ground-truth embedding, focusing on direction rather than magnitude. 
+						It is particularly helpful for transformations involving <i>semantic shifts</i>, such as <b>synonymy</b> or <b>negation</b>, where preserving meaning is critical. 
+						High cosine similarity indicates that the generated embedding maintains the semantic relationships of the ground truth.
+					</li>
+					<br>
+					<li>
+						<b>MSE:</b> Measures the absolute difference between the generated embedding and the ground-truth embedding, emphasizing magnitude preservation. 
+						It is particularly useful for <i>structural transformations</i>, such as <b>tense</b> or <b>voice</b>, where specific patterns of embedding changes correlate strongly with the transformation. 
+						Low MSE indicates quantitative alignment with the ground truth.
+					</li>
+				</ul>
+				<p>
+					By combining these metrics, we gain a nuanced understanding of embedding performance. 
+					Cosine similarity highlights semantic fidelity, while MSE ensures structural accuracy.
+				</p>
 				<div class="image-container">
 					<div class="image-wrapper" data-coordinates="
 					70,182,485,259,image1.jpg;
@@ -998,6 +1023,60 @@
 					<img src="images/eval_plots_hover/eval_plots_hover.011.jpeg" alt="Image 10">
 					</div>
 				</div>
+    <h2>General trends across methods</h2>
+    <ul>
+        <li>
+            <b>Baseline (Sentence 1 embedding) vs. generated embeddings:</b> 
+            Across all linguistic properties, baseline embeddings consistently achieve lower cosine similarity compared to generated embeddings, 
+            confirming the necessity of explicit embedding generation methods for encoding linguistic transformations. 
+            Baseline embeddings also exhibit notably higher MSE, indicating their inability to capture quantitative and structural changes.
+        </li>
+		<br>
+        <li>
+            <b>Performance of Specific Methods:</b> 
+            <ul>
+                <li><b>Regression-based generation</b> consistently outperforms simpler methods (e.g., sampling or mean-shift) across most linguistic properties, highlighting its ability to capture linear relationships in embedding transformations.</li>
+                <li><b>Contrastive methods</b> (e.g., Contrastive Cosine Loss, Contrastive MSE Loss) perform well for <i>semantic transformations</i> like synonymy and negation, showcasing robustness in preserving semantic fidelity while penalizing divergence from unrelated embeddings.</li>
+                <li><b>Mean-shift</b> demonstrates moderate performance for properties involving small, uniform changes (e.g., definiteness) but struggles with more complex transformations.</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h2>Linguistic property-specific insights</h2>
+    <ul>
+        <li>
+            <b>Control:</b> For unrelated sentence pairs, cosine similarity is low across all methods, as expected. Generated embeddings exhibit limited alignment with ground-truth embeddings, indicating no linguistic relationship exists to guide the transformation.
+        </li>
+        <li>
+            <b>Negation:</b> Cosine similarity excels for negation, where angular relationships between embeddings are key to capturing polarity shifts. 
+            Regression and contrastive methods achieve the highest scores, demonstrating their ability to handle semantic inversions effectively.
+        </li>
+        <li>
+            <b>Tense and Voice:</b> MSE is more informative for structural transformations like tense and voice, as these involve predictable shifts in embedding magnitudes. 
+            Low MSE scores reflect how closely the generated embeddings align structurally with the ground truth.
+        </li>
+        <li>
+            <b>Definiteness and Quantity:</b> Both definiteness (e.g., "a" vs. "the") and quantity (specific numbers to grouping words) exhibit moderate performance across methods. 
+            Cosine similarity highlights semantic fidelity, while MSE provides insights into the precision of structural alignment.
+        </li>
+        <li>
+            <b>Synonymy:</b> Cosine similarity is particularly valuable for synonymy, as it evaluates whether the semantic equivalence between the original and transformed sentences is preserved. 
+            Contrastive methods achieve the highest cosine similarity scores, demonstrating their effectiveness in handling lexical variation.
+        </li>
+        <li>
+            <b>Intensifier and Polarity:</b> Both properties show robust performance across contrastive and regression methods. Improvements in cosine similarity over the baseline indicate these methods effectively capture semantic emphasis (intensifier) and polarity shifts.
+        </li>
+    </ul>
+    
+    <h2>Method-specific observations</h2>
+    <ul>
+        <li><b>Regression Methods:</b> These demonstrate strong alignment with ground-truth embeddings across a wide range of linguistic properties, making them a versatile option for embedding generation.</li>
+        <li><b>Contrastive Loss:</b> These methods exhibit robustness across both semantic and structural transformations, achieving consistently high cosine similarity and low variance, particularly for complex properties like synonymy and polarity shifts.</li>
+        <li><b>Mean-shift:</b> While effective for uniform shifts (e.g., definiteness), this simpler method struggles with more complex linguistic transformations.</li>
+    </ul>
+    
+	Our primary insight is that <i>contrastive loss</i> and <i>regression</i> methods consistently outperform simpler methods, demonstrating their ability to handle both semantic and structural linguistic properties effectively.
+
 	</div>
 	<!-- <div class="margin-right-block">
 	</div> -->
