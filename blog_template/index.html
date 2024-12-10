@@ -1009,18 +1009,56 @@
 		    <div class="main-content-block">
 						<h1>Discussion</h1>
 						<p>
-							This study demonstrates the feasibility and value of generating Sentence 2 embeddings directly from 
-							Sentence 1 embeddings based on specific linguistic transformations. By focusing on how embeddings 
-							encode and manipulate semantic and syntactic relationships, our approach highlights the generative 
-							potential of embedding models. This capability not only advances theoretical insights into how 
-							embeddings represent linguistic properties but also provides practical tools for fine-grained control 
-							and transparency in NLP systems.
+							This work represents a significant step forward in the study of sentence embeddings by 
+							advancing the understanding and generation of embeddings for linguistic transformations. 
+							Current research in natural language processing (NLP) often emphasizes static embeddings 
+							or probing methods that reveal latent properties, yet fails to address how dynamic linguistic 
+							relationships are encoded or manipulated. Our generative approach fills this critical gap by 
+							focusing on producing embeddings for Sentence 2 directly from Sentence 1, based on specific 
+							linguistic transformations. This enables a deeper exploration of how semantic and syntactic 
+							changes are represented within high-dimensional spaces, fitting seamlessly into the growing 
+							body of research on interpretability and embedding manipulation.
+						</p>
+						<p>
+							Understanding and generating embeddings for linguistic transformations are vital for real-world 
+							applications where adaptability and precision are crucial. Tasks like controlled text generation, 
+							paraphrasing, and personalization in NLP systems benefit directly from the ability to encode 
+							linguistic properties dynamically. Furthermore, these insights contribute to explainable AI by 
+							offering transparency into how models handle and manipulate semantic relationships, bridging the 
+							gap between theoretical research and practical applications.
+						</p>
+						<p>
+							Our main contributions to this field include:
+						</p>
+						<ul>
+							<li><i>Embedding generation methods</i>: We developed and compared several approaches to generating 
+								Sentence 2 embeddings, such as mean shift, sampling, regression, and contrastive loss-based techniques. 
+								These methods provide diverse tools for analyzing and manipulating embeddings.
+							</li>
+							<li>
+								<i>Evaluation framework</i>: We designed an evaluation process that compares generated embeddings to ground-truth embeddings using cosine similarity, offering a clear measure of alignment and performance across methods.
+							</li>
+						</ul>
+						<p>
+							The implications of this work are broad, spanning both theoretical and practical domains. 
+							Theoretically, it highlights the importance of embedding dynamics in understanding linguistic 
+							transformations, paving the way for further advancements in interpretability and embedding design. 
+							Practically, the ability to generate and evaluate embeddings equips NLP systems with fine-grained 
+							control over linguistic properties, enhancing their robustness and adaptability in real-world applications. 
+							These findings also lay the groundwork for future studies on combining linguistic properties, adapting 
+							embeddings for specific tasks, and extending evaluation methods to include task-specific metrics.
+						</p>
+						<p>
+							By addressing the underexplored area of generative embeddings and their evaluation, this work contributes 
+							to a richer understanding of how sentence embeddings operate and interact with linguistic transformations. 
+							This not only strengthens the theoretical foundation of embedding research but also provides actionable 
+							insights for building more interpretable and effective NLP systems in a rapidly evolving landscape.
 						</p>
 						<h2>Limitations</h2>
     <p>
         While this study provides valuable insights into generating embeddings for linguistic transformations, it also open avenues for future work:
     </p>
-	<ol>
+	<ul>
 		<li><i>Robustness to linguistic variability</i>: Our evaluation focused on distinct, predefined linguistic properties. 
 			However, the robustness of our methods to more nuanced or combined properties — such as the addition of modifiers like adjectives, for example — remains untested. 
 			Additionally, the sentences analyzed in this study are relatively simple and focus on one linguistic 
@@ -1036,7 +1074,7 @@
 		<li><i>Generator model architecture</i>: While our current generator model is sufficient for capturing key insights, more sophisticated architectures, such as transformers or variational autoencoders, may improve the quality of generated embeddings. 
 			However, given the primary focus of this work on embedding alignment and interpretability, the current architectures and evaluation methods provide a sufficient foundation for our conclusions.
 		</li>
-	</ol>
+	</ul>
  
 		    </div>
 		    <!-- <div class="margin-right-block">
