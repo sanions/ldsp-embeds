@@ -606,7 +606,7 @@
 							</p>
 							<p>
 								\[
-								w_d = \text{Sigmoid}(5 \cdot (\text{EDI}[d] - 0.5))
+								\text{EDI}_d = \text{Sigmoid}(5 \cdot (\text{EDI}[d] - 0.5))
 								\]
 							</p>
 							<p>
@@ -625,7 +625,7 @@
 							</p>
 							<p>
 								\[
-								\mathcal{L} = \frac{1}{D} \sum_{d=1}^D \left( 1 - \text{EDI}_d \right) \cdot |e_1[d] - e_2[d]| \cdot (1 - \text{CosineSimilarity}(e_1, e_2))
+								\mathcal{L} = \frac{1}{D} \sum_{d=1}^D \left( 1 - \text{EDI}_d \right) \cdot |e_1[d] - e_2[d]| \cdot (1 - \text{sim}(e_1, e_2))
 								\]
 							</p>
 							<p>
@@ -636,7 +636,7 @@
 								<li>\( e_1[d] \): The \( d \)-th dimension of the original embedding (Sentence 1).</li>
 								<li>\( e_2[d] \): The \( d \)-th dimension of the transformed embedding (Sentence 2).</li>
 								<li>\( \text{EDI}_d \): The scaled EDI score for the \( d \)-th dimension, derived using the chosen scaling method.</li>
-								<li>\( \text{CosineSimilarity}(e_1, e_2) \): The cosine similarity between the original and transformed embeddings, i.e., cosine distance between two vectors the cosine distance between two vectors.</li>
+								<li>\( \text{sim}(e_1, e_2) \): The <i>cosine similarity</i> between the original and transformed embeddings, i.e., cosine distance between two vectors the cosine distance between two vectors.</li>
 							</ul>
 							<p>
 								By combining the weighted dimension-wise changes and cosine similarity, this loss function encourages transformations that preserve 
@@ -690,7 +690,7 @@
 								</li>
 								<li><b>Cosine similarity:</b> Measures the cosine distance between two vectors:
 									\[
-									\text{dist}(x, y) = 1 - \text{CosineSimilarity}(x, y)
+									\text{dist}(x, y) = 1 - \text{sim}(x, y)
 									\]
 								</li>
 							</ul>
