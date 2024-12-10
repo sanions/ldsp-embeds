@@ -256,14 +256,14 @@
               <b style="font-size:16px">Outline</b><br><br>
               <a href="#intro">Introduction</a><br><br>
               <!-- <a href="#does_x_do_y">Does X do Y?</a><br><br> -->
-			  <a href="#lit-review">Literature review</a><br><br>
+			  <a href="#related-work">Related work</a><br><br>
 			  <a href="#data">Data</a><br><br>
 			  <a href="#experiments">Experiments</a><br><br>
 			  <!-- <a href="#mean-shift">Mean-shift</a><br><br> -->
 			  <a href="#training">Training</a><br><br>
 			  <a href="#eval">Evaluation</a><br><br>
 			  <a href="#results">Results</a><br><br>
-              <a href="#implications_and_limitations">Implications and limitations</a><br><br>
+              <a href="#discussion">Discussion</a><br><br>
           </div>
 				</div>
 		    <div class="main-content-block">
@@ -299,8 +299,8 @@
 		<div class="content-margin-container">
 				<div class="margin-left-block">
 				</div>
-			<div class="main-content-block" id="lit-review">
-			<h1>Literature review</h1>
+			<div class="main-content-block" id="related-work">
+			<h1>Related work</h1>
 			<p>
 				The development of sentence embeddings, particularly through transformer-based models such as BERT 
 				(<a href="#ref_1">[1]</a>), has significantly advanced natural language processing (NLP). These embeddings enable models 
@@ -311,7 +311,7 @@
 				embedding methods, situating our work within the identified research gaps.
 			</p>
 	
-			<h3>1. Interpretable Embeddings</h3>
+			<h3>Interpretable Embeddings</h3>
 			<p>
 				Efforts to improve the interpretability of embeddings have focused on creating sparse or semantically aligned 
 				representations. Early work by Murphy et al. (<a href="#ref_2">[2]</a>) utilized non-negative matrix factorization 
@@ -335,7 +335,7 @@
 				linguistic transformations, such as tense shifts or paraphrasing.
 			</p>
 	
-			<h3>2. Understanding Representations in Existing Models</h3>
+			<h3>Understanding Representations in Existing Models</h3>
 			<p>
 				Probing tasks have been widely adopted to analyze how linguistic properties are encoded in embeddings. Conneau et al. 
 				(<a href="#ref_8">[6]</a>) introduced a probing framework to evaluate sentence embeddings on ten linguistic properties, 
@@ -354,7 +354,7 @@
 				These methods offer promising tools for interpreting embeddings but do not explicitly address transformations between embeddings.
 			</p>
 	
-			<h3>3. Generative Approaches and Embedding Transformations</h3>
+			<h3>Generative Approaches and Embedding Transformations</h3>
 			<p>
 				Probing embeddings through generative methods has gained traction as an active means of analysis. Kerscher and Eger 
 				(<a href="#ref_12">[10]</a>) introduced Vec2Sent, a framework for generating sentences from embeddings to probe their semantic fidelity. 
@@ -1003,12 +1003,79 @@
 	</div> -->
 </div>
 
-		<div class="content-margin-container" id="implications_and_limitations">
+		<div class="content-margin-container" id="discussion">
 				<div class="margin-left-block">
 				</div>
 		    <div class="main-content-block">
-						<h1>Implications and limitations</h1>
-						Let's end with some discussion of the implications and limitations.
+						<h1>Discussion</h1>
+						<p>
+							This work represents a significant step forward in the study of sentence embeddings by 
+							advancing the understanding and generation of embeddings for linguistic transformations. 
+							Current research in natural language processing (NLP) often emphasizes static embeddings 
+							or probing methods that reveal latent properties, yet fails to address how dynamic linguistic 
+							relationships are encoded or manipulated. Our generative approach fills this critical gap by 
+							focusing on producing embeddings for Sentence 2 directly from Sentence 1, based on specific 
+							linguistic transformations. This enables a deeper exploration of how semantic and syntactic 
+							changes are represented within high-dimensional spaces, fitting seamlessly into the growing 
+							body of research on interpretability and embedding manipulation.
+						</p>
+						<p>
+							Understanding and generating embeddings for linguistic transformations are vital for real-world 
+							applications where adaptability and precision are crucial. Tasks like controlled text generation, 
+							paraphrasing, and personalization in NLP systems benefit directly from the ability to encode 
+							linguistic properties dynamically. Furthermore, these insights contribute to explainable AI by 
+							offering transparency into how models handle and manipulate semantic relationships, bridging the 
+							gap between theoretical research and practical applications.
+						</p>
+						<p>
+							Our main contributions to this field include:
+						</p>
+						<ul>
+							<li><i>Embedding generation methods</i>: We developed and compared several approaches to generating 
+								Sentence 2 embeddings, such as mean shift, sampling, regression, and contrastive loss-based techniques. 
+								These methods provide diverse tools for analyzing and manipulating embeddings.
+							</li>
+							<li>
+								<i>Evaluation framework</i>: We designed an evaluation process that compares generated embeddings to ground-truth embeddings using cosine similarity, offering a clear measure of alignment and performance across methods.
+							</li>
+						</ul>
+						<p>
+							The implications of this work are broad, spanning both theoretical and practical domains. 
+							Theoretically, it highlights the importance of embedding dynamics in understanding linguistic 
+							transformations, paving the way for further advancements in interpretability and embedding design. 
+							Practically, the ability to generate and evaluate embeddings equips NLP systems with fine-grained 
+							control over linguistic properties, enhancing their robustness and adaptability in real-world applications. 
+							These findings also lay the groundwork for future studies on combining linguistic properties, adapting 
+							embeddings for specific tasks, and extending evaluation methods to include task-specific metrics.
+						</p>
+						<p>
+							By addressing the underexplored area of generative embeddings and their evaluation, this work contributes 
+							to a richer understanding of how sentence embeddings operate and interact with linguistic transformations. 
+							This not only strengthens the theoretical foundation of embedding research but also provides actionable 
+							insights for building more interpretable and effective NLP systems in a rapidly evolving landscape.
+						</p>
+						<h2>Limitations</h2>
+    <p>
+        While this study provides valuable insights into generating embeddings for linguistic transformations, it also open avenues for future work:
+    </p>
+	<ul>
+		<li><i>Robustness to linguistic variability</i>: Our evaluation focused on distinct, predefined linguistic properties. 
+			However, the robustness of our methods to more nuanced or combined properties — such as the addition of modifiers like adjectives, for example — remains untested. 
+			Additionally, the sentences analyzed in this study are relatively simple and focus on one linguistic 
+			property at a time. Exploring embeddings generated for more complex sentences with multiple intertwined properties 
+			could reveal additional strengths or limitations of our approach.
+		</li>
+		<br>
+		<li><i>Task-agnostic evaluation</i>: While our evaluation methods focus on alignment with ground-truth embeddings, 
+			they do not address performance in downstream tasks, such as classification, machine translation, or sentiment analysis. 
+			This task-agnostic approach ensures broad applicability, but understanding task-specific utility would provide a 
+			more comprehensive evaluation of these methods.</li>
+			<br>
+		<li><i>Generator model architecture</i>: While our current generator model is sufficient for capturing key insights, more sophisticated architectures, such as transformers or variational autoencoders, may improve the quality of generated embeddings. 
+			However, given the primary focus of this work on embedding alignment and interpretability, the current architectures and evaluation methods provide a sufficient foundation for our conclusions.
+		</li>
+	</ul>
+ 
 		    </div>
 		    <!-- <div class="margin-right-block">
 		    </div> -->
