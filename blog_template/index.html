@@ -1116,11 +1116,14 @@
             <b>Performance of specific methods:</b> 
             <ul>
                 <li><b>Regression-based generation</b> consistently outperforms simpler methods (e.g., sampling or mean-shift) across most linguistic properties, highlighting its ability to capture linear relationships in embedding transformations.</li>
-                <li><b>Contrastive methods</b> (e.g., Contrastive Cosine Loss, Contrastive MSE Loss) perform well for <i>semantic transformations</i> like synonymy and negation, showcasing robustness in preserving semantic fidelity while penalizing divergence from unrelated embeddings.</li>
+                <li><b>Contrastive methods</b> (e.g., Contrastive Cosine Loss, Contrastive MSE Loss, etc.) perform well for <i>semantic transformations</i> like synonymy and negation, showcasing robustness in preserving semantic fidelity while penalizing divergence from unrelated embeddings.</li>
                 <li><b>Mean-shift</b> demonstrates moderate performance for properties involving small, uniform changes (e.g., definiteness) but struggles with more complex transformations.</li>
             </ul>
         </li>
     </ul>
+
+	<img src="images/mse_table.jpeg" width="70%" id="figure1">
+	<br>
     
     <h2>Linguistic property-specific insights</h2>
     <ul>
