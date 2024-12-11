@@ -267,19 +267,19 @@
 			<table class="header" align=left>
 				<tr>
 					<td colspan=4>
-						<span style="font-size: 32px; font-family: 'Courier New', Courier, monospace; /* Adds fallbacks */">A Grand Unified Theory of Deep Learning</span>
+						<span style="font-size: 32px; font-family: 'Courier New', Courier, monospace; /* Adds fallbacks */">From Purring to Hissing Cats: Generating Embeddings Using Linguistic Divergence</span>
 					</td>
 				</tr>
 				<tr>
 						<td align=left>
-								<span style="font-size:17px"><a href="your_website">Your name</a></span>
+								<span style="font-size:17px; color: blue">Saniya Karwa</span>
 								<br>
-								<span style="font-size:17px"><a href="your_website">Your email</a></span>
+								<span style="font-size:17px; color: blue">saniya@mit.edu</span>
 						</td>
 						<td align=left>
-								<span style="font-size:17px"><a href="your_partner's_website">Your partner's name</a></span>
+								<span style="font-size:17px; color: blue">Asmi Kumar</span>
 								<br>
-								<span style="font-size:17px"><a href="your_partner's_website">Your partner's email</a></span>
+								<span style="font-size:17px; color: blue">asmi@mit.edu</span>
 						</td>
 				<tr>
 					<td colspan=4 align=left><span style="font-size:18px">Final project for 6.7960, MIT</span></td>
@@ -491,7 +491,6 @@
 			
 			<h2>Linguistic properties</h2>
 			<p>
-				The linguistic properties tested were chosen to explore various semantic and syntactic relationships. 
 				Below is a summary of each property from the LDSP dataset:
 			</p>
 			<table border="1" align=center cellspacing="0" cellpadding="10" width="50%" id="table1">
@@ -632,7 +631,10 @@
 				</div>
 		    <div class="main-content-block" id="experiments">
             <h1>Experiments</h1>
-			The task of generating Sentence 2 embeddings based on Sentence 1 embeddings involves modeling the shifts observed in embedding dimensions as they encode linguistic transformations. Two approaches are employed in this project: mean-shift and regression-based transformations. These methods rely on training data (80% of the dataset, 10% validation chunks) to identify patterns and apply those transformations to the test data (remaining 20%). <a href="#figure1">Figure 1</a> details the overall methods diagrams, including the steps to each experiment.
+			The task of generating Sentence 2 embeddings based on Sentence 1 embeddings involves modeling the shifts observed 
+			in embedding dimensions as they encode linguistic transformations. Our methods rely on training data (80% of the dataset with 10% 
+			validation chunks) to identify patterns and apply those transformations to the test data (remaining 20%). <a href="#figure1">Figure 1</a> 
+			shows the overall method, detailing the pre-processing steps for our experiments. The steps of our experiments are outlined below. 
 			 
 			<div class="sub-content-block" id="sampling">
 				<h2>Sampling</h2>
@@ -753,11 +755,11 @@
 							</p>
 							<p>
 								\[
-								E_2[i, d] = f_d(E_1[i, d]) + \epsilon
+								E_2[i, d] = f_d(E_1[i, d]) 
 								\]
 							</p>
 							<p>
-								where \( f_d(x) = w_d x + b_d \) is a linear function parameterized by the weight \( w_d \) and bias \( b_d \), and \( \epsilon \) is the residual error.
+								where \( f_d(x) = w_d x + b_d \) is a linear function parameterized by the weight \( w_d \) and bias \( b_d \).
 							</p>
 							<p>
 								The parameters \( w_d \) and \( b_d \) are learned by minimizing the mean squared error (MSE) over the training set:
@@ -788,7 +790,7 @@
 				<div class="sub-content-block" id="edi-cosine-loss">
 					<h2>EDI + Cosine loss</h2>
 					<p>
-						The EDI + Cosine loss method introduces a weighted transformation loss that selectively penalizes changes to embedding dimensions based on 
+						The EDI + Cosine loss method introduces a custom weighted transformation loss that selectively penalizes changes to embedding dimensions based on 
 						their EDI scores. By combining a dimension-specific weighting mechanism with cosine similarity, this method 
 						ensures that embedding transformations preserve linguistic meaning while penalizing unnecessary deviations.
 					</p>
@@ -801,7 +803,7 @@
 								that encode meaningful transformations. Dimensions with low EDI scores, on the other hand, are penalized more heavily to prevent unnecessary changes.
 							</p>
 							<p>
-								The EDI scores are scaled using a sigmoid function, defined as:
+								The EDI scores are scaled to amplify the distinction between high and low scores, making small values significantly smaller and large values substantially larger, using a sigmoid function, defined as:
 							</p>
 							<p>
 								\[
@@ -824,7 +826,7 @@
 							</p>
 							<p>
 								\[
-								\mathcal{L} = \frac{1}{D} \sum_{d=1}^D \left( 1 - \text{EDI}_d \right) \cdot |e_1[d] - e_2[d]| \cdot (1 - \text{sim}(e_1, e_2))
+								\mathcal{L}_{\text{transformation}} = \frac{1}{D} \sum_{d=1}^D \left( 1 - \text{EDI}_d \right) \cdot |e_1[d] - e_2[d]| \cdot (1 - \text{sim}(e_1, e_2))
 								\]
 							</p>
 							<p>
@@ -853,10 +855,9 @@
 				<div class="sub-content-block" id="contrastive-loss">
 					<h2>Contrastive loss methods</h2>
 					<p>
-						The contrastive loss methods introduce a custom objective function that evaluates embedding transformations by comparing them against both positive and negative pairs. 
+						The contrastive loss methods add an additional custom objective function that evaluates embedding transformations by comparing them against both positive and negative pairs. 
 						The goal is to minimize the distance between the transformed embedding and the original embedding (positive pair) while maximizing the distance between 
-						the transformed embedding and a randomly sampled negative embedding (negative pair). These methods encourage meaningful transformations that preserve 
-						semantic consistency while separating embeddings from unrelated contexts.
+						the transformed embedding and a randomly sampled negative embedding (negative pair). 
 					</p>
 					<ol>
 						<li>
@@ -880,7 +881,7 @@
 								<li>\( \text{dist}(x, y) \): A distance function that measures the similarity or dissimilarity between two embeddings.</li>
 							</ul>
 						
-							<p>The distance function \( \text{dist}(x, y) \) can be one of the following:</p>
+							<p>We experiment with two variations of the distance function \( \text{dist}(x, y) \):</p>
 							<ul>
 								<li><b>Mean squared error (MSE):</b> Measures the squared Euclidean distance:
 									\[
@@ -897,7 +898,7 @@
 						<li>
 							<h3>Combined loss</h3>
 							<p>
-								For robust embedding transformations, the contrastive loss can be combined with the transformation loss as follows:
+								The contrastive loss is combined with the transformation loss as follows:
 							</p>
 							<p>
 								\[
@@ -946,7 +947,7 @@
 		<h1>Training</h1>
 		<p>
 			In the <a href="#experiments">Experiments</a> section, we proposed 
-			multiple methods to generate Sentence 2 embeddings from Sentence 1 embeddings. Each of these methods (mean shift, regression, sampling, contrastive losses) 
+			multiple methods to generate Sentence 2 embeddings from Sentence 1 embeddings. Each of these methods (mean shift, regression, sampling, EDI + cosine loss, and contrastive losses) 
 			hypothesizes a different mechanism to encode linguistic transformations. The EDI-weighted generator is used to test and compare these methods in a unified framework 
 			by learning transformations directly influenced by embedding dimensionality.
 		</p>
@@ -981,7 +982,8 @@
 	
 		<h2>Custom objective function</h2>
 		<p>
-			The training process uses the <b>EDI-weighted transformation loss</b>, which combines an EDI-weighted dimension-wise loss and a cosine similarity objective. 
+			The training process uses a weighted combination of the <b>EDI-weighted transformation loss</b> and the <b>contrastive loss (cosine distance or MSE-based)</b>, which combines 
+			an EDI-weighted dimension-wise loss and a cosine similarity objective. 
 			This objective function ensures that the generator:
 		</p>
 		<ul>
@@ -994,20 +996,12 @@
 		</p>
 		<p>
 			\[
-			\mathcal{L} = \underbrace{\frac{1}{D} \sum_{d=1}^D \left(1 - \text{EDI}_d\right) \cdot \left| e_{1,d} - e_{2,d}' \right|}_{\text{EDI-weighted dimension loss}}
-			+ \lambda \cdot \left(1 - \text{sim}(\mathbf{e}_2', \mathbf{e}_2)\right),
+			\mathcal{L} = \lambda_1 \cdot \mathcal{L}_{\text{transformation}} + \lambda_2 \cdot \mathcal{L}_{\text{contrastive}},
 			\]
 		</p>
 		<p>
-			where:
+			where \( \mathcal{L}_{\text{transformation}} \) and \( \mathcal{L}_{\text{contrastive}} \) are as defined above.
 		</p>
-		<ul>
-			<li>\( \text{EDI}_d \): EDI score for dimension \( d \).</li>
-			<li>\( e_{1,d} \): Dimension \( d \) of the original Sentence 1 embedding.</li>
-			<li>\( e_{2,d}' \): Dimension \( d \) of the predicted Sentence 2 embedding.</li>
-			<li>\( \text{sim}(\mathbf{e}_2', \mathbf{e}_2) \): Cosine similarity between the predicted and ground-truth embeddings.</li>
-			<li>\( \lambda \): Weighting factor for the cosine similarity loss term.</li>
-		</ul>
 	
 		<h2>Training procedure</h2>
 		<p>
@@ -1034,8 +1028,9 @@
 		<div class="main-content-block">
 					<h1>Evaluation</h1>
 					<p>
-						To assess the effectiveness of embedding generation methods, we evaluated the generated Sentence 2 embeddings against the ground-truth Sentence 2 embeddings 
-						and baseline Sentence 1 embeddings using <b>cosine similarity</b> and <b>Euclidean distance</b>. These metrics provide a consistent measure of alignment for all methods.
+						To assess the effectiveness of embedding generation methods, we evaluated the generated Sentence 2 embeddings 
+						against the ground-truth Sentence 2 embeddings 
+						using <b>cosine similarity</b> and <b>Euclidean distance</b>. These metrics provide a consistent measure of alignment for all methods.
 					</p>
 				
 					<p>
@@ -1051,8 +1046,7 @@
 						<li>Contrastive Cosine Loss</li>
 					</ul>
 					<p>
-						For each method, similarities were calculated between the generated and ground-truth embeddings. These values were then analyzed to determine 
-						how effectively each method captured linguistic transformations.
+						For each method, cosine similarities and Euclidean distances were calculated between the generated and ground-truth embeddings.
 					</p>
 		</div>
 		<!-- <div class="margin-right-block">
@@ -1065,7 +1059,7 @@
 	<div class="main-content-block">
 				<h1>Results</h1>
 				<p>
-					Cosine similarity and Mean Squared Error (MSE) provide complementary perspectives for evaluating embedding generation techniques, 
+					Cosine similarity and Euclidean distance provide complementary perspectives for evaluating embedding generation techniques, 
 					with their utility varying depending on the linguistic property under consideration.
 				</p>
 				<ul>
@@ -1112,6 +1106,16 @@
 						Figure 4. Boxplots displaying cosine similarity and Euclidean distance scores across linguistic properties
 					</div>
 				</div>
+
+	
+We used the Mean Squared Error (MSE) between the ground truth embeddings and the generated embeddings, averaged across all dimensions and test samples, as an additional evaluation metric for comparison.
+<br>
+<br>
+<img src="images/mse_table.jpeg" width="70%" id="figure1">
+<p style="text-align: center; font-size: 14px">Table 2. 95% confidence intervals of MSE scores across linguistic properties and experiments.</p>
+
+<br>
+
     <h2>General trends across methods</h2>
     <ul>
         <li>
@@ -1125,15 +1129,15 @@
             <b>Performance of specific methods:</b> 
             <ul>
                 <li><b>Regression-based generation</b> consistently outperforms simpler methods (e.g., sampling or mean-shift) across most linguistic properties, highlighting its ability to capture linear relationships in embedding transformations.</li>
-                <li><b>Contrastive methods</b> (e.g., Contrastive Cosine Loss, Contrastive MSE Loss, etc.) perform well for <i>semantic transformations</i> like synonymy and negation, showcasing robustness in preserving semantic fidelity while penalizing divergence from unrelated embeddings.</li>
+				<li><b>EDI + cosine loss</b> performs well for <i>semantic transformations</i> like synonymy and polarity, showcasing robustness in preserving semantic fidelity while penalizing divergence in insignificant embedding dimensions, as determined by the EDI scores.</li>
+				<li><b>Contrastive methods</b> (e.g., Contrastive Cosine Loss, Contrastive MSE Loss, etc.) also demonstrate strong performance on <i>semantic transformations</i> by penalizing closeness to unrelated embeddings and ensuring closer alignment with Sentence 1 embeddings.</li>
                 <li><b>Mean-shift</b> demonstrates moderate performance for properties involving small, uniform changes (e.g., definiteness) but struggles with more complex transformations.</li>
             </ul>
         </li>
     </ul>
 
-	<img src="images/mse_table.jpeg" width="70%" id="figure1">
-	<p style="text-align: center; font-size: 14px">Table 2. 95% confidence intervals of MSE scores across linguistic properties and experiments.</p>
-	<br>
+	
+	
     
     <h2>Linguistic property-specific insights</h2>
     <ul>
@@ -1161,14 +1165,8 @@
         </li>
     </ul>
     
-    <h2>Method-specific observations</h2>
-    <ul>
-        <li><b>Regression Methods:</b> These demonstrate strong alignment with ground-truth embeddings across a wide range of linguistic properties, making them a versatile option for embedding generation.</li>
-        <li><b>Contrastive Loss:</b> These methods exhibit robustness across both semantic and structural transformations, achieving consistently high cosine similarity and low variance, particularly for complex properties like synonymy and polarity shifts.</li>
-        <li><b>Mean-shift:</b> While effective for uniform shifts (e.g., definiteness), this simpler method struggles with more complex linguistic transformations.</li>
-    </ul>
-    
-	Our primary insight is that <i>contrastive loss</i> and <i>regression</i> methods consistently outperform simpler methods, demonstrating their ability to handle both semantic and structural linguistic properties effectively.
+   
+	Our primary insight is that <i>EDI + cosine loss</i> and <i>regression</i> methods consistently outperform other methods, demonstrating their ability to handle both semantic and structural linguistic properties effectively.
 
 	</div>
 	<!-- <div class="margin-right-block">
