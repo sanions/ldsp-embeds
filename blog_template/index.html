@@ -447,7 +447,7 @@
 			<p>
 				The <b>Linguistically Distinct Sentence Pairs (LDSP)</b> dataset forms the foundation for our study, providing a diverse set of linguistic transformations 
 				critical for understanding how embeddings encode semantic and syntactic relationships. The LDSP dataset, introduced in prior work [LINKED HERE], contains sentence pairs 
-				that differ along specific linguistic properties shown in the Table 1 [REF TABLE]. These transformations are designed to isolate and test the 
+				that differ along specific linguistic properties shown in the <a href="#table1">Table 1</a>. These transformations are designed to isolate and test the 
 				embedding dimensions most responsive to each property.
 			</p>
 			<p>
@@ -532,6 +532,7 @@
 				</tbody>
 				
 			</table>
+			<p style="text-align: center; font-size: 14px">Table 1. Linguistic property descriptions.</p>
 			
 			
 			<br>
@@ -1066,14 +1067,13 @@
 					</li>
 					<br>
 					<li>
-						<b>MSE:</b> Measures the absolute difference between the generated embedding and the ground-truth embedding, emphasizing magnitude preservation. 
-						It is particularly useful for <i>structural transformations</i>, such as <b>tense</b> or <b>voice</b>, where specific patterns of embedding changes correlate strongly with the transformation. 
-						Low MSE indicates quantitative alignment with the ground truth.
+						<b>Euclidean distance</b>: Measures the absolute difference between the generated embedding and the ground-truth embedding, emphasizing magnitude preservation. 
+						It is particularly useful for <i>structural transformations</i>, such as <b>tense</b> or <b>voice</b>, where specific patterns of embedding changes correlate strongly with the transformation. Low Euclidean distance indicates quantitative alignment with the ground truth.
 					</li>
 				</ul>
 				<p>
 					By combining these metrics, we gain a nuanced understanding of embedding performance. 
-					Cosine similarity highlights semantic fidelity, while MSE ensures structural accuracy.
+					Cosine similarity highlights semantic fidelity, while Euclidean distance targets structural accuracy.
 				</p>
 				<div class="image-container" id="figure4">
 					<div class="image-wrapper" data-coordinates="
@@ -1123,6 +1123,7 @@
     </ul>
 
 	<img src="images/mse_table.jpeg" width="70%" id="figure1">
+	<p style="text-align: center; font-size: 14px">Table 2. 95% confidence intervals of MSE scores across linguistic properties and experiments.</p>
 	<br>
     
     <h2>Linguistic property-specific insights</h2>
