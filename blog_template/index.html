@@ -58,7 +58,7 @@
 	*/
 
 	.main-content-block {
-		width: 70%; /* Change this percentage as needed */
+		width: 80%; /* Change this percentage as needed */
     max-width: 1400px; /* Optional: Maximum width */
 		background-color: #fff;
 		border-left: 1px solid #DDD;
@@ -76,8 +76,8 @@
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
 	}
 	
-	/*
-	.margin-left-block {
+	
+	/* .margin-left-block {
 			font-size: 14px;
 			width: 12%;
 			position: relative;
@@ -89,8 +89,8 @@
 
 	.margin-left-block {
 			font-size: 14px;
-			width: 15%; /* Change this percentage as needed */
-			max-width: 130px; /* Optional: Maximum width */
+			width: 25%;
+			max-width: 130px;
 			position: relative;
 			margin-left: 10px;
 			text-align: left;
@@ -98,15 +98,15 @@
 			padding: 5px;
 	}
 
-	.margin-right-block {
+	/* .margin-right-block {
 			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;#"Avenir";
 			font-size: 14px;
-			width: 25%; /* Change this percentage as needed */
-			max-width: 256px; /* Optional: Maximum width */
+			width: 15%; 
+			max-width: 128px;
 			position: relative;
 			text-align: left;
-			padding: 10px;  /* Optional: Adds padding inside the caption */
-	}
+			padding: 10px; 
+	} */
 
 	img {
 			max-width: 100%; /* Make sure it fits inside the container */
@@ -252,38 +252,51 @@
 
 </style>
 
-	  <title>The Platonic Representation Hypothesis</title>
-      <meta property="og:title" content="The Platonic Representation Hypothesis" />
+	  <title>6.7960 Final Project</title>
+      <meta property="og:title" content="6.7960 Final Project" />
 			<meta charset="UTF-8">
   </head>
 
   <body>
 
-		<div class="content-margin-container">
-				<div class="margin-left-block">
-				</div>
-		    <div class="main-content-block">
-						<table class="header" align=left>
-								<tr>
-									<td colspan=4>
-										<span style="font-size: 32px; font-family: 'Courier New', Courier, monospace; /* Adds fallbacks */">A Grand Unified Theory of Deep Learning</span>
-									</td>
-								</tr>
-								<tr>
-										<td align=left>
-												<span style="font-size:17px"><a href="your_website">Your name</a></span>
-										</td>
-										<td align=left>
-												<span style="font-size:17px"><a href="your_partner's_website">Your partner's name</a></span>
-										</td>
-								<tr>
-									<td colspan=4 align=left><span style="font-size:18px">Final project for 6.7960, MIT</span></td>
-								</tr>
-						</table>
-					</div>
-					<div class="margin-right-block">
-					</div>
+		<div class="content-margin-container" id="intro">
+			<div class="margin-left-block">
+			</div>
+		<div class="main-content-block">
+			<br>
+			<table class="header" align=left>
+				<tr>
+					<td colspan=4>
+						<span style="font-size: 32px; font-family: 'Courier New', Courier, monospace; /* Adds fallbacks */">A Grand Unified Theory of Deep Learning</span>
+					</td>
+				</tr>
+				<tr>
+						<td align=left>
+								<span style="font-size:17px"><a href="your_website">Your name</a></span>
+								<br>
+								<span style="font-size:17px"><a href="your_website">Your email</a></span>
+						</td>
+						<td align=left>
+								<span style="font-size:17px"><a href="your_partner's_website">Your partner's name</a></span>
+								<br>
+								<span style="font-size:17px"><a href="your_partner's_website">Your partner's email</a></span>
+						</td>
+				<tr>
+					<td colspan=4 align=left><span style="font-size:18px">Final project for 6.7960, MIT</span></td>
+				</tr>
+		</table>
+		
 		</div>
+		<!-- <div class="margin-right-block">
+					Margin note that clarifies some detail #main-content-block for intro section.
+		</div> -->
+		<br>
+		
+	</div>
+	<!-- <br> -->
+	
+	<!-- STRIP!!! -->
+	<!-- <div style="height: 20px; width: 100%; color: blue; border-top: 1px #dddddd; border-bottom: 1px #dddddd;"></div> -->
 
 		<div class="content-margin-container" id="intro">
 				<div class="margin-left-block">
@@ -308,11 +321,20 @@
 			<br>
             <img src="images/methods_diagram.jpeg" width="85%" id="figure1">
 			<br>
+			<p style="text-align: center; font-size: 14px">Figure 1. Methods diagram; see <a href="#data">Data</a> and <a href="#experiments">Experiments</a> for more information.</p>
+
+			<!-- <div class="container">
+				<img src="images/methods_diagram.jpeg" width="85%" id="figure1">
+				<div class="caption">
+					Figure 1. Methods diagram: Add your description or explanation here.
+				</div>
+			</div> -->
+			<br>
 			<br>
 		    </div>
-			<div class="margin-right-block">
+			<!-- <div class="margin-right-block">
 				Figure 1. Methods diagram; see <a href="#data">Data</a> and <a href="#experiments">Experiments</a> for more information.
-			</div>
+			</div> -->
 		    <!-- <div class="margin-right-block">
 						Caption for the image.
 		    </div> -->
@@ -508,15 +530,17 @@
 						<td>Addition of "not" to a sentence, negating the meaning.</td>
 					</tr>
 				</tbody>
+				
 			</table>
+			
 			
 			<br>
 			<p>
 				These linguistic properties were selected to provide a comprehensive view of both semantic and syntactic relationships in embedding spaces.
 				Additionally, the inclusion of the <i>control</i> category ensures that results are contextualized against unrelated sentences, offering a baseline for comparison.
-				Our interactive graphic in [FIGURE 1] shows examples of Sentence 1 and Sentence 2 according to their linguistic relationship.
+				Our interactive graphic in <a href="#figure2">Figure 2</a> shows examples of Sentence 1 and Sentence 2 according to their linguistic relationship.
 			</p>
-			<div class="image-container">
+			<div class="image-container" id="figure2">
 				<div class="image-wrapper" data-coordinates="
 				752,182,1167,259,image1.jpg;
 				752,262,1167,339,image2.jpg;
@@ -540,9 +564,12 @@
 				<img src="images/linguistic_prop/linguistic_prop.010.jpeg" alt="Image 9">
 				<img src="images/linguistic_prop/linguistic_prop.011.jpeg" alt="Image 10">
 				</div>
+				<div class="margin-right-block">
+					Figure 2. Linguistic property examples.
+				</div>
 			</div>
 			
-			[FIGURE 2] illustrates the embedding dimensions with high EDI scores.
+			<a href="#figure3">Figure 3</a> illustrates the embedding dimensions with high EDI scores.
 			On the left, a table of our linguistic 
 			properties is displayed. 
 			On the right, we plot the embedding dimensions where EDI scores exceed the 
@@ -552,7 +579,7 @@
 			linguistic changes.
 		
 
-			<div class="image-container">
+			<div class="image-container" id="figure3">
 				<div class="image-wrapper" data-coordinates="
 				70,182,485,259,image1.jpg;
 				70,262,485,339,image2.jpg;
@@ -575,12 +602,20 @@
 				<img src="images/edi_hover/edi_hover.008.jpeg" alt="Image 8">
 				<img src="images/edi_hover/edi_hover.009.jpeg" alt="Image 9">
 				<img src="images/edi_hover/edi_hover.010.jpeg" alt="Image 10">
+				<!-- <div class="margin-right-block">
+					Figure 2. Methods diagram; see <a href="#data">Data</a> and <a href="#experiments">Experiments</a> for more information.
+				</div> -->
+				</div>
+				<div class="margin-right-block">
+					Figure 3. Dimensions with high EDI scores.
 				</div>
 			</div>
 
 			</div>
+			
 
 		</div>
+		
 
 		<div class="content-margin-container">
 				<div class="margin-left-block">
@@ -680,11 +715,10 @@
 								To generate the embedding for Sentence 2 during testing, the calculated shifts \( \Delta \) are added to the corresponding
 								dimensions of the Sentence 1 embedding:
 							</p>
-							<p class="hover-highlight">
+							<p>
 								\[
 								e_2'[d] = e_1[d] + \Delta_d \quad \forall d \in \{1, \dots, D\}
 								\]
-								<span class="highlight-text">This adjusts Sentence 1 embeddings with the mean shifts.</span>
 							</p>
 						</li>
 					</ol>
@@ -1041,7 +1075,7 @@
 					By combining these metrics, we gain a nuanced understanding of embedding performance. 
 					Cosine similarity highlights semantic fidelity, while MSE ensures structural accuracy.
 				</p>
-				<div class="image-container">
+				<div class="image-container" id="figure4">
 					<div class="image-wrapper" data-coordinates="
 					70,182,485,259,image1.jpg;
 					70,262,485,339,image2.jpg;
@@ -1065,6 +1099,9 @@
 					<img src="images/eval_plots_hover/eval_plots_hover.010.jpeg" alt="Image 9">
 					<img src="images/eval_plots_hover/eval_plots_hover.011.jpeg" alt="Image 10">
 					</div>
+					<div class="margin-right-block">
+						Figure 4. Boxplots displaying cosine similarity and Euclidean distance scores across linguistic properties
+					</div>
 				</div>
     <h2>General trends across methods</h2>
     <ul>
@@ -1076,7 +1113,7 @@
         </li>
 		<br>
         <li>
-            <b>Performance of Specific Methods:</b> 
+            <b>Performance of specific methods:</b> 
             <ul>
                 <li><b>Regression-based generation</b> consistently outperforms simpler methods (e.g., sampling or mean-shift) across most linguistic properties, highlighting its ability to capture linear relationships in embedding transformations.</li>
                 <li><b>Contrastive methods</b> (e.g., Contrastive Cosine Loss, Contrastive MSE Loss) perform well for <i>semantic transformations</i> like synonymy and negation, showcasing robustness in preserving semantic fidelity while penalizing divergence from unrelated embeddings.</li>
@@ -1187,12 +1224,12 @@
 			property at a time. Exploring embeddings generated for more complex sentences with multiple intertwined properties 
 			could reveal additional strengths or limitations of our approach.
 		</li>
-		<br>
+		<!-- <br> -->
 		<li><i>Task-agnostic evaluation</i>: While our evaluation methods focus on alignment with ground-truth embeddings, 
 			they do not address performance in downstream tasks, such as classification, machine translation, or sentiment analysis. 
 			This task-agnostic approach ensures broad applicability, but understanding task-specific utility would provide a 
 			more comprehensive evaluation of these methods.</li>
-			<br>
+			<!-- <br> -->
 		<li><i>Generator model architecture</i>: While our current generator model is sufficient for capturing key insights, more sophisticated architectures, such as transformers or variational autoencoders, may improve the quality of generated embeddings. 
 			However, given the primary focus of this work on embedding alignment and interpretability, the current architectures and evaluation methods provide a sufficient foundation for our conclusions.
 		</li>

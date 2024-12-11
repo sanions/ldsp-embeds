@@ -1,9 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Ensures proper alignment */
+    width: 100%;
+    max-width: 1200px; /* Adjust width as needed */
+    margin: 0 auto; /* Center container */
+}
+
 .image-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	/* padding: 20px; */
   }
+
+  .caption {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+	justify-content: center;
+	align-items: flex-start;
+    color: #000; /* Black text */
+    text-align: left; /* Center the text inside the caption */
+    max-width: 15%; /* Adjust width of the caption box */
+}
  
   .image-wrapper {
 	display: flex;
@@ -35,3 +54,13 @@
   .image-wrapper img.active {
 	opacity: 1;
   }
+
+  .margin-right-block {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    width: 25%; /* Adjust as needed */
+    max-width: 256px;
+    padding: 10px;
+    text-align: left;
+    color: #000; /* Change for text visibility */
+}
