@@ -345,16 +345,27 @@
 				</div>
 		    <div class="main-content-block">
 						<h1>Introduction</h1>
-						Sentence embeddings, derived from transformer-based models like BERT, encode semantic and syntactic properties into high-dimensional vectors. While these embeddings have revolutionized NLP by enabling tasks like sentiment analysis and paraphrase detection, their interpretability remains a major challenge. Existing research focuses on probing static embeddings to reveal latent properties, but less is understood about how linguistic relationships—such as tense shifts, negation, or synonymy—are dynamically encoded and manipulated in embedding spaces.
+						Sentence embeddings, derived from transformer-based models like BERT, encode semantic and syntactic properties into high-dimensional vectors. While these embeddings have revolutionized NLP by enabling tasks like sentiment analysis and text summarization, their interpretability remains a major challenge. Existing research focuses on probing static embeddings to reveal latent properties, but less is understood about how linguistic relationships—such as tense shifts, negation, or synonymy—are dynamically encoded and manipulated in embedding spaces.
 						<br>
 						<br>
-						Our work addresses this gap by focusing on the generation of embeddings for Sentence 2 from the embedding of Sentence 1, where Sentence 2 represents a linguistically transformed version of Sentence 1. This generative approach allows us to analyze how specific linguistic relationships are encoded as shifts in embedding dimensions and evaluate how well these transformations align with ground-truth embeddings. We move beyond passive probing to actively generating embeddings for  relational transformations, offering deeper insights into the inner workings of these models.
+						Our work addresses this gap by focusing on generating embeddings for a linguistically transformed version of a sentence, starting from the embedding of the original sentence. This generative approach enables us to analyze how specific linguistic relationships are captured as shifts in embedding dimensions and assess how closely these transformations align with ground-truth embeddings. 
+						We move beyond passive probing to actively generating embeddings for  relational transformations.
 						<br>
 						<br>
-						This project contributes new knowledge to NLP and deep learning by uncovering the mechanisms underlying relational encoding in embedding spaces. Specifically, we investigate which dimensions encode linguistic relationships, how effectively embeddings can approximate transformations, and whether embedding spaces can be directly manipulated to reflect controlled changes. These findings bridge the gap between interpretability and generative capabilities, providing both theoretical insights and practical tools for embedding manipulation.
+						This project contributes new knowledge to NLP and deep learning by studying the mechanisms underlying relational 
+						linguistic encoding in embedding spaces. Specifically, we investigate which dimensions encode linguistic relationships, 
+						how effectively embeddings can approximate transformations, and whether embedding spaces can be directly manipulated to 
+						reflect controlled changes. Our work augments interpretability research with generative capabilities, 
+						providing both theoretical and practical insights for embedding manipulation.
 						<br>
 						<br>
-						The generative approach expands the scope of embedding analysis by revealing how embeddings dynamically encode linguistic properties. This has implications for interpretable AI, enabling transparent and interpretable manipulations of embeddings to reflect specific linguistic changes. Additionally, generating embeddings for transformations introduces fine-grained control in NLP systems, with applications in controlled text generation, robust paraphrasing, and personalized language tasks. By addressing the underexplored dynamic nature of embeddings, our work provides a foundation for building more robust, interpretable, and actionable embedding-based systems.						
+						Our generative approach expands the scope of embedding analysis by revealing how embeddings 
+						dynamically encode linguistic properties. This has implications for explainable AI (xAI), 
+						enabling transparent and interpretable manipulations of embeddings to reflect specific linguistic changes. 
+						Additionally, generating embeddings for transformations introduces fine-grained control in NLP systems, 
+						with applications in controlled text generation and personalized language tasks. 
+						By addressing the underexplored dynamic nature of embeddings, our work provides a foundation for building 
+						more robust, interpretable, and actionable embedding-based systems.						
 		    </div>
 		    <!-- <div class="margin-right-block">
 						Margin note that clarifies some detail #main-content-block for intro section.
@@ -368,67 +379,66 @@
 			<h1>Related work</h1>
 			<p>
 				The development of sentence embeddings, particularly through transformer-based models such as BERT 
-				(<a href="#ref_1">[1]</a>), has significantly advanced natural language processing (NLP). These embeddings enable models 
-				to capture rich semantic and syntactic features, powering diverse tasks such as sentiment analysis, 
-				paraphrase detection, and machine translation. However, the interpretability of these embeddings remains a 
+				(<a href="#ref_1">[1]</a>), has significantly advanced NLP. These embeddings enable models 
+				to capture rich semantic and syntactic features. However, the interpretability of these embeddings remains a 
 				persistent challenge, particularly in understanding how embeddings encode dynamic linguistic transformations. 
 				This section reviews advancements in interpretable embeddings, representation analysis, and generative 
 				embedding methods, situating our work within the identified research gaps.
 			</p>
 	
-			<h3>Interpretable Embeddings</h3>
+			<h3>Interpretable embeddings</h3>
 			<p>
 				Efforts to improve the interpretability of embeddings have focused on creating sparse or semantically aligned 
 				representations. Early work by Murphy et al. (<a href="#ref_2">[2]</a>) utilized non-negative matrix factorization 
 				(NMF) to generate interpretable embeddings from word co-occurrence matrices, ensuring dimensions corresponded 
-				to distinct semantic features. Building on this, Murphy et al. (<a href="#ref_2">[2]</a>) 
+				to distinct semantic features. Building on this, Sun et al. (<a href="#ref_3">[3]</a>) 
 				modified the GloVe loss function to enforce sparsity and non-negativity, enhancing the interpretability of embeddings 
 				while preserving their effectiveness for downstream tasks.
 			</p>
 			<p>
-				Sparse representations have gained prominence as a means of improving interpretability. Faruqui et al. (<a href="#ref_5">[3]</a>) 
+				Sparse representations have gained prominence as a means of improving interpretability. Faruqui et al. (<a href="#ref_5">[4]</a>) 
 				proposed Sparse Overcomplete Word Vectors (SPOWV), which employed dictionary learning to produce sparse and semantically 
-				meaningful embeddings. Similarly, Subramanian et al. (<a href="#ref_6">[4]</a>) introduced SPINE (SParse Interpretable Neural Embeddings), 
+				meaningful embeddings. Similarly, Subramanian et al. (<a href="#ref_6">[5]</a>) introduced SPINE (SParse Interpretable Neural Embeddings), 
 				leveraging k-sparse denoising autoencoders to create embeddings with explicit semantic alignment. These methods make embeddings more interpretable, 
 				with individual dimensions corresponding to specific linguistic features. However, their focus is primarily on word embeddings and does not generalize 
 				well to sentence-level representations.
 			</p>
 			<p>
-				Another avenue involves fine-grained semantic embeddings. Panigrahi et al. (<a href="#ref_7">[5]</a>) introduced Word2Sense, 
+				Another avenue involves fine-grained semantic embeddings. Panigrahi et al. (<a href="#ref_7">[6]</a>) introduced Word2Sense, 
 				using Latent Dirichlet Allocation (LDA) to align embedding dimensions with word senses, enabling nuanced semantic analysis. 
 				While these methods succeed in creating interpretable static embeddings, they do not address how embeddings respond to dynamic 
 				linguistic transformations, such as tense shifts or paraphrasing.
 			</p>
 	
-			<h3>Understanding Representations in Existing Models</h3>
+			<h3>Understanding representations in existing models</h3>
 			<p>
 				Probing tasks have been widely adopted to analyze how linguistic properties are encoded in embeddings. Conneau et al. 
-				(<a href="#ref_8">[6]</a>) introduced a probing framework to evaluate sentence embeddings on ten linguistic properties, 
+				(<a href="#ref_8">[7]</a>) introduced a probing framework to evaluate sentence embeddings on ten linguistic properties, 
 				including tense, agreement, and semantic roles. This approach provided valuable insights into embeddings' static capacities 
 				but left open questions about how embeddings dynamically encode transformations.
 			</p>
 			<p>
-				Hewitt and Manning (<a href="#ref_9">[7]</a>) extended this analysis to syntactic structures, demonstrating that syntactic 
-				trees can be approximated through linear transformations of embedding spaces. Similarly, Senel et al. (<a href="#ref_10">[8]</a>) 
+				Hewitt and Manning (<a href="#ref_9">[8]</a>) extended this analysis to syntactic structures, demonstrating that syntactic 
+				trees can be approximated through linear transformations of embedding spaces. Similarly, Senel et al. (<a href="#ref_10">[9]</a>) 
 				showed that specific embedding dimensions align with semantic categories, revealing how embeddings reflect relational semantics. 
 				While informative, these studies remain focused on static representations, overlooking the dynamic nature of linguistic transformations.
 			</p>
 			<p>
-				Recent approaches have explored deeper conceptual insights into embeddings. Simhi and Markovitch (<a href="#ref_11">[9]</a>) 
+				Recent approaches have explored deeper conceptual insights into embeddings. Simhi and Markovitch (<a href="#ref_11">[10]</a>) 
 				proposed transforming latent embedding spaces into interpretable conceptual spaces, enabling dynamic granularity in analyzing embedding dimensions. 
 				These methods offer promising tools for interpreting embeddings but do not explicitly address transformations between embeddings.
 			</p>
 	
-			<h3>Generative Approaches and Embedding Transformations</h3>
+			<h3>Generative approaches and embedding transformations</h3>
 			<!-- <a href="#figure1">Figure 1</a> -->
 			<p>
 				Probing embeddings through generative methods has gained traction as an active means of analysis. Kerscher and Eger 
-				(<a href="#ref_12">[10]</a>) introduced Vec2Sent, a framework for generating sentences from embeddings to probe their semantic fidelity. 
+				(<a href="#ref_12">[11]</a>) introduced Vec2Sent, a framework for generating sentences from embeddings to probe their semantic fidelity. 
 				While useful for analyzing embeddings' static properties, this method does not investigate transformations at the embedding level, 
 				such as generating embeddings for paraphrased sentences.
 			</p>
 			<p>
-				Transformations in embedding spaces have been explored in task-specific contexts. Huang et al. (<a href="#ref_13">[11]</a>) 
+				Transformations in embedding spaces have been explored in task-specific contexts. Huang et al. (<a href="#ref_13">[12]</a>) 
 				introduced a compositional framework for interpretable sentence embeddings, demonstrating how transformations between embeddings 
 				correspond to semantic operations. Their method highlights the potential for analyzing relational transformations in embeddings 
 				but is limited to specific compositional operations.
@@ -446,12 +456,12 @@
 			<h1>Data</h1>
 			<p>
 				The <b>Linguistically Distinct Sentence Pairs (LDSP)</b> dataset forms the foundation for our study, providing a diverse set of linguistic transformations 
-				critical for understanding how embeddings encode semantic and syntactic relationships. The LDSP dataset, introduced in prior work [LINKED HERE], contains sentence pairs 
-				that differ along specific linguistic properties shown in the <a href="#table1">Table 1</a>. These transformations are designed to isolate and test the 
+				critical for understanding how embeddings encode semantic and syntactic relationships. The LDSP dataset, introduced in prior work (<a href="#ref_14">[13]</a>), contains sentence pairs 
+				that differ along specific linguistic properties shown in <a href="#table1">Table 1</a>. These transformations are designed to isolate and test the 
 				embedding dimensions most responsive to each property.
 			</p>
 			<p>
-				To evaluate the responsiveness of embedding dimensions to these linguistic properties, we utilized the <b>Embedding Dimension Impact (EDI)</b> metric, 
+				To evaluate the responsiveness of embedding dimensions to these linguistic properties, we utilized the <b>Embedding Dimension Impact (EDI)</b> metric (<a href="#ref_14">[13]</a>), 
 				a measure that quantifies the importance of each embedding dimension for encoding a specific linguistic transformation. The EDI score is computed as:
 			</p>
 			<p>
@@ -477,7 +487,6 @@
 			<p>
 				The LDSP dataset includes 1000 sentence pairs for each of the 10 linguistic properties we investigate.
 				The dataset was generated using Google's <code>gemini-1.5-flash</code> model API. 
-				While maintaining reliability and cost-efficiency, the model produced consistent, high-quality outputs across a variety of linguistic contexts. 
 			</p>
 			
 			<h2>Linguistic properties</h2>
@@ -1061,7 +1070,7 @@
 				</p>
 				<ul>
 					<li>
-						<b>Cosine Similarity:</b> Evaluates the angular alignment between the generated embedding and the ground-truth embedding, focusing on direction rather than magnitude. 
+						<b>Cosine similarity:</b> Evaluates the angular alignment between the generated embedding and the ground-truth embedding, focusing on direction rather than magnitude. 
 						It is particularly helpful for transformations involving <i>semantic shifts</i>, such as <b>synonymy</b> or <b>negation</b>, where preserving meaning is critical. 
 						High cosine similarity indicates that the generated embedding maintains the semantic relationships of the ground truth.
 					</li>
@@ -1251,18 +1260,19 @@
 						<div class='citation' id="references" style="height:auto"><br>
 							<span style="font-size:16px">References:</span><br><br>
 							<a id="ref_1"></a>[1] Devlin, J., Chang, M.W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers) (pp. 4171-4186). Association for Computational Linguistics. <a href="https://arxiv.org/abs/1810.04805">[link]</a><br><br>
-							<a id="ref_2"></a>[2] Murphy, B., Talukdar, P. P., & Mitchell, T. (2012, December). Learning effective and interpretable semantic models using non-negative sparse embedding. In International Conference on Computational Linguistics (COLING 2012), Mumbai, India (pp. 1933-1949). Association for Computational Linguistics.<a href="https://aclanthology.org/C12-1118.pdf">[link]</a><br><br>
-							<!-- <a id="ref_3"></a>[3] Sun, X., Rao, D., & Goldberg, Y. (2016). Sparse Representations in NLP: Recent Advances. ACL 2016. <a href="https://aclanthology.org/P16-1001/">[link]</a><br><br> -->
+							<a id="ref_2"></a>[2] Murphy, B., Talukdar, P. P., & Mitchell, T. (2012, December). Learning effective and interpretable semantic models using non-negative sparse embedding. In International Conference on Computational Linguistics (COLING 2012), Mumbai, India (pp. 1933-1949). Association for Computational Linguistics. <a href="https://aclanthology.org/C12-1118.pdf">[link]</a><br><br>
+							<a id="ref_3"></a>[3] Sun, F., Guo, J., Lan, Y., Xu, J., & Cheng, X. (2016, July). Sparse word embeddings using l1 regularized online learning. In Twenty-Fifth International Joint Conference on Artificial Intelligence. <a href="https://www.ijcai.org/Proceedings/16/Papers/414.pdf">[link]</a><br><br>
 							<!-- <a id="ref_4"></a>[4] Han, J., Lu, Z., & Xu, Y. (2012). Non-Negative Sparse Embeddings for Language Models. EMNLP 2012. <a href="https://aclanthology.org/C12-1118.pdf">[link]</a><br><br> -->
-							<a id="ref_5"></a>[3] Faruqui, M., Tsvetkov, Y., Yogatama, D., Dyer, C., & Smith, N. (2015). Sparse overcomplete word vector representations. arXiv preprint arXiv:1506.02004. <a href="https://arxiv.org/abs/1506.02004">[link]</a><br><br>
-							<a id="ref_6"></a>[4] Subramanian, A., Pruthi, D., Jhamtani, H., Berg-Kirkpatrick, T., & Hovy, E. (2018, April). SPINE: SParse interpretable neural embeddings. In Proceedings of the AAAI conference on artificial intelligence (Vol. 32, No. 1). <a href="https://arxiv.org/abs/1711.08792">[link]</a><br><br>
-							<a id="ref_7"></a>[5] Panigrahi, A., Simhadri, H. V., & Bhattacharyya, C. (2019, July). Word2Sense: Sparse interpretable word embeddings. In Proceedings of the 57th annual meeting of the Association for Computational Linguistics (pp. 5692-5705). <a href="http://dx.doi.org/10.18653/v1/P19-1570">[link]</a><br><br>
-							<a id="ref_8"></a>[6] Conneau, A., Kiela, D., Schwenk, H., Barrault, L., & Bordes, A. (2017). Supervised learning of universal sentence representations from natural language inference data. arXiv preprint arXiv:1705.02364. <a href="https://aclanthology.org/D17-1070/">[link]</a><br><br>
-							<a id="ref_9"></a>[7] Hewitt, J., & Manning, C. D. (2019, June). A structural probe for finding syntax in word representations. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers) (pp. 4129-4138). <a href="https://aclanthology.org/N19-1419/">[link]</a><br><br>
-							<a id="ref_10"></a>[8] Şenel, L. K., Utlu, I., Yücesoy, V., Koc, A., & Cukur, T. (2018). Semantic structure and interpretability of word embeddings. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 26(10), 1769-1779. <a href="https://arxiv.org/abs/1711.00331">[link]</a><br><br>
-							<a id="ref_11"></a>[9] Simhi, A., & Markovitch, S. (2022). Interpreting embedding spaces by conceptualization. arXiv preprint arXiv:2209.00445. <a href="https://aclanthology.org/2023.emnlp-main.106/">[link]</a><br><br>
-							<a id="ref_12"></a>[10] Kerscher, M., & Eger, S. (2020). Vec2Sent: probing sentence embeddings with natural language generation. arXiv:2011.00592. <a href="https://aclanthology.org/2020.coling-main.152/">[link]</a><br><br>
-							<a id="ref_13"></a>[11] Huang, J. Y., Yao, W., Song, K., Zhang, H., Chen, M., & Yu, D. (2023). Bridging Continuous and Discrete Spaces: Interpretable Sentence Representation Learning via Compositional Operations. arXiv:2305.14599. <a href="https://arxiv.org/abs/2305.14599">[link]</a><br><br>
+							<a id="ref_5"></a>[4] Faruqui, M., Tsvetkov, Y., Yogatama, D., Dyer, C., & Smith, N. (2015). Sparse overcomplete word vector representations. arXiv preprint arXiv:1506.02004. <a href="https://arxiv.org/abs/1506.02004">[link]</a><br><br>
+							<a id="ref_6"></a>[5] Subramanian, A., Pruthi, D., Jhamtani, H., Berg-Kirkpatrick, T., & Hovy, E. (2018, April). SPINE: SParse interpretable neural embeddings. In Proceedings of the AAAI conference on artificial intelligence (Vol. 32, No. 1). <a href="https://arxiv.org/abs/1711.08792">[link]</a><br><br>
+							<a id="ref_7"></a>[6] Panigrahi, A., Simhadri, H. V., & Bhattacharyya, C. (2019, July). Word2Sense: Sparse interpretable word embeddings. In Proceedings of the 57th annual meeting of the Association for Computational Linguistics (pp. 5692-5705). <a href="http://dx.doi.org/10.18653/v1/P19-1570">[link]</a><br><br>
+							<a id="ref_8"></a>[7] Conneau, A., Kiela, D., Schwenk, H., Barrault, L., & Bordes, A. (2017). Supervised learning of universal sentence representations from natural language inference data. arXiv preprint arXiv:1705.02364. <a href="https://aclanthology.org/D17-1070/">[link]</a><br><br>
+							<a id="ref_9"></a>[8] Hewitt, J., & Manning, C. D. (2019, June). A structural probe for finding syntax in word representations. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers) (pp. 4129-4138). <a href="https://aclanthology.org/N19-1419/">[link]</a><br><br>
+							<a id="ref_10"></a>[9] Şenel, L. K., Utlu, I., Yücesoy, V., Koc, A., & Cukur, T. (2018). Semantic structure and interpretability of word embeddings. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 26(10), 1769-1779. <a href="https://arxiv.org/abs/1711.00331">[link]</a><br><br>
+							<a id="ref_11"></a>[10] Simhi, A., & Markovitch, S. (2022). Interpreting embedding spaces by conceptualization. arXiv preprint arXiv:2209.00445. <a href="https://aclanthology.org/2023.emnlp-main.106/">[link]</a><br><br>
+							<a id="ref_12"></a>[11] Kerscher, M., & Eger, S. (2020). Vec2Sent: probing sentence embeddings with natural language generation. arXiv:2011.00592. <a href="https://aclanthology.org/2020.coling-main.152/">[link]</a><br><br>
+							<a id="ref_13"></a>[12] Huang, J. Y., Yao, W., Song, K., Zhang, H., Chen, M., & Yu, D. (2023). Bridging Continuous and Discrete Spaces: Interpretable Sentence Representation Learning via Compositional Operations. arXiv:2305.14599. <a href="https://arxiv.org/abs/2305.14599">[link]</a><br><br>
+							<a id="ref_14"></a>[13] <a href="https://www.dropbox.com/scl/fi/7jwfuxlgukunlvhgmejxy/disentangling_linguistic_properties.pdf?rlkey=igyt34s0tnhw80lltvlxul7ls&st=46qr9zgy&dl=0">Disentangling Linguistic Features with Dimension-Wise Analysis of Vector Embeddings</a><br><br>
 						</div>
 		    </div>
 		    <!-- <div class="margin-right-block">
